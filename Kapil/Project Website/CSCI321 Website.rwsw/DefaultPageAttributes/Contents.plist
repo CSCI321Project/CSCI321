@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SandwichFillings</key>
+	<array>
+		<dict>
+			<key>Dictionary</key>
+			<dict>
+				<key>ColourStyles</key>
+				<dict>
+					<key>Carabine</key>
+					<dict/>
+					<key>Focus</key>
+					<dict>
+						<key>%colour_body_bg%</key>
+						<string>#16A98F</string>
+						<key>%colour_links_active%</key>
+						<string>#333333</string>
+						<key>%colour_links_static%</key>
+						<string>#16A98F</string>
+						<key>%colour_links_visited%</key>
+						<string>#10806B</string>
+					</dict>
+				</dict>
+				<key>CreditRapidWeaver</key>
+				<true/>
+				<key>DefaultLinkTarget</key>
+				<string>self</string>
+				<key>FilenameExtension</key>
+				<string>html</string>
+				<key>HasCustomThemeStyle</key>
+				<true/>
+				<key>ImageFormat</key>
+				<string>Original</string>
+				<key>ImageQuality</key>
+				<string>High</string>
+				<key>IndexFilename</key>
+				<string></string>
+				<key>OutputFormat</key>
+				<string>Default</string>
+				<key>OutputXMLDeclaration</key>
+				<false/>
+				<key>SidebarEnabled</key>
+				<integer>1</integer>
+				<key>TextEncoding</key>
+				<string>utf-8</string>
+				<key>ThemeStyles</key>
+				<dict>
+					<key>Carabine</key>
+					<array>
+						<string>Background Texture.Noise</string>
+						<string>Color.Oxley Green</string>
+						<string>Font.San Serif</string>
+						<string>Footer Texture.Noise</string>
+						<string>Header Texture.Dark Lines</string>
+						<string>Logo.Left</string>
+						<string>Sidebar.None</string>
+						<string>Site Size.1000</string>
+						<string>Slider.No Slider</string>
+						<string>Title Font.Serif</string>
+					</array>
+					<key>Focus</key>
+					<array>
+						<string>Colours.Body Background</string>
+						<string>Miscellaneous .Last Updated Stamp</string>
+						<string>Sidebar.Hide</string>
+						<string>Width.780px (default)</string>
+					</array>
+				</dict>
+			</dict>
+			<key>Files</key>
+			<array/>
+			<key>Subsandwiches</key>
+			<array/>
+		</dict>
+	</array>
+	<key>Type</key>
+	<string>Page Attributes</string>
+</dict>
+</plist>

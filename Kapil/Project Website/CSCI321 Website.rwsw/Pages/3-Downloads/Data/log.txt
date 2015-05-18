@@ -1,0 +1,888 @@
+########  Init  ########
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 12:27:22 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5465/log-2dOadu.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5465/log-2dOadu.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A55D54C3-CA00-483F-A233-D1FCB974E7BB/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A55D54C3-CA00-483F-A233-D1FCB974E7BB/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A55D54C3-CA00-483F-A233-D1FCB974E7BB/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A55D54C3-CA00-483F-A233-D1FCB974E7BB/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/7AF40469-0C23-45D3-853B-8FDC1554DB6B/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/7AF40469-0C23-45D3-853B-8FDC1554DB6B/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A55D54C3-CA00-483F-A233-D1FCB974E7BB/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 12:30:06 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5465/log-uh2LIG.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5465/log-uh2LIG.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A55D54C3-CA00-483F-A233-D1FCB974E7BB/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A55D54C3-CA00-483F-A233-D1FCB974E7BB/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A55D54C3-CA00-483F-A233-D1FCB974E7BB/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A55D54C3-CA00-483F-A233-D1FCB974E7BB/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3AFA6AFE-CEF7-4744-91B2-AEB4E4B698E8/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3AFA6AFE-CEF7-4744-91B2-AEB4E4B698E8/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A55D54C3-CA00-483F-A233-D1FCB974E7BB/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 12:30:57 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: --------------------------------- open ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 12:31:28 +1000
+-[YHSandwich initWithRMSandwich:version:build:]: ------------------------------------------------------------------------
+########  copy files to yhSandwich  ########
+-[YHSandwich setFile:forKey:]: 
+    url: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/3-Downloads/Data/log.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/3-Downloads/Data/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/54E38E20-7FD1-49D1-BA5E-957EAA34B92F/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/54E38E20-7FD1-49D1-BA5E-957EAA34B92F/log.txt
+########  copy dictionary to yhSandwich  ########
+########  unarchive stacks data from sandwich  ########
+-[YHSandwich initWithRMSandwich:version:build:]: file saved with Stacks build #1206 opened with build #1206
+########  copy subsandwiches to yhSandwich  ########
+########  done creating yhSandwich  ########
+########  yhSandwich prune  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/54E38E20-7FD1-49D1-BA5E-957EAA34B92F/log.txt
+-[YHStacksPlugin initWithSandwich:]: done initing stacks page
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/54E38E20-7FD1-49D1-BA5E-957EAA34B92F/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:07:19 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5862/log-JphDQF.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5862/log-JphDQF.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/54E38E20-7FD1-49D1-BA5E-957EAA34B92F/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/54E38E20-7FD1-49D1-BA5E-957EAA34B92F/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/54E38E20-7FD1-49D1-BA5E-957EAA34B92F/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/54E38E20-7FD1-49D1-BA5E-957EAA34B92F/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/BCBD03E7-DC3D-4143-92FC-998BECA3C16B/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/BCBD03E7-DC3D-4143-92FC-998BECA3C16B/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/54E38E20-7FD1-49D1-BA5E-957EAA34B92F/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:07:25 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5862/log-oiSX14.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5862/log-oiSX14.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/54E38E20-7FD1-49D1-BA5E-957EAA34B92F/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/54E38E20-7FD1-49D1-BA5E-957EAA34B92F/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/54E38E20-7FD1-49D1-BA5E-957EAA34B92F/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/54E38E20-7FD1-49D1-BA5E-957EAA34B92F/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/708C682A-94F6-4FBC-ABBE-978CB9FDEB05/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/708C682A-94F6-4FBC-ABBE-978CB9FDEB05/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/54E38E20-7FD1-49D1-BA5E-957EAA34B92F/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:07:32 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: --------------------------------- open ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:10:00 +1000
+-[YHSandwich initWithRMSandwich:version:build:]: ------------------------------------------------------------------------
+########  copy files to yhSandwich  ########
+-[YHSandwich setFile:forKey:]: 
+    url: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/3-Downloads/Data/log.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/3-Downloads/Data/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9AC56312-BF44-4CB6-A315-75942C3B0E2E/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9AC56312-BF44-4CB6-A315-75942C3B0E2E/log.txt
+########  copy dictionary to yhSandwich  ########
+########  unarchive stacks data from sandwich  ########
+-[YHSandwich initWithRMSandwich:version:build:]: file saved with Stacks build #1206 opened with build #1206
+########  copy subsandwiches to yhSandwich  ########
+########  done creating yhSandwich  ########
+########  yhSandwich prune  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9AC56312-BF44-4CB6-A315-75942C3B0E2E/log.txt
+-[YHStacksPlugin initWithSandwich:]: done initing stacks page
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9AC56312-BF44-4CB6-A315-75942C3B0E2E/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:11:30 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5933/log-t2kXRK.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5933/log-t2kXRK.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9AC56312-BF44-4CB6-A315-75942C3B0E2E/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9AC56312-BF44-4CB6-A315-75942C3B0E2E/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9AC56312-BF44-4CB6-A315-75942C3B0E2E/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9AC56312-BF44-4CB6-A315-75942C3B0E2E/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/C1A4939C-6BE4-419D-8B0B-0EA823D258B1/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/C1A4939C-6BE4-419D-8B0B-0EA823D258B1/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9AC56312-BF44-4CB6-A315-75942C3B0E2E/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:11:40 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5933/log-pC2HqQ.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5933/log-pC2HqQ.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9AC56312-BF44-4CB6-A315-75942C3B0E2E/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9AC56312-BF44-4CB6-A315-75942C3B0E2E/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9AC56312-BF44-4CB6-A315-75942C3B0E2E/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9AC56312-BF44-4CB6-A315-75942C3B0E2E/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/7A39373A-0BAB-4B66-90FE-7F6A52065445/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/7A39373A-0BAB-4B66-90FE-7F6A52065445/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9AC56312-BF44-4CB6-A315-75942C3B0E2E/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:14:30 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: --------------------------------- open ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:24:29 +1000
+-[YHSandwich initWithRMSandwich:version:build:]: ------------------------------------------------------------------------
+########  copy files to yhSandwich  ########
+-[YHSandwich setFile:forKey:]: 
+    url: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/4-Downloads/Data/log.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/4-Downloads/Data/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/log.txt
+########  copy dictionary to yhSandwich  ########
+########  unarchive stacks data from sandwich  ########
+-[YHSandwich initWithRMSandwich:version:build:]: file saved with Stacks build #1206 opened with build #1206
+########  copy subsandwiches to yhSandwich  ########
+########  done creating yhSandwich  ########
+########  yhSandwich prune  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/log.txt
+-[YHStacksPlugin initWithSandwich:]: done initing stacks page
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:32:38 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-6002/log-XBv0dH.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-6002/log-XBv0dH.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4BEB6AF8-79B5-4476-B401-91565B7CAB04/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4BEB6AF8-79B5-4476-B401-91565B7CAB04/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:32:55 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-6002/log-ljG2UZ.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-6002/log-ljG2UZ.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C788B30-D8E4-4194-B921-C9C1C9169694/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C788B30-D8E4-4194-B921-C9C1C9169694/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:36:47 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-6002/log-AOV3IO.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-6002/log-AOV3IO.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C477753-AD64-4DAF-A3FB-535EC08604A1/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C477753-AD64-4DAF-A3FB-535EC08604A1/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3E4F6653-422B-4583-97D2-55FC38DA8C8D/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:37:45 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: --------------------------------- open ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 15:56:13 +1000
+-[YHSandwich initWithRMSandwich:version:build:]: ------------------------------------------------------------------------
+########  copy files to yhSandwich  ########
+-[YHSandwich setFile:forKey:]: 
+    url: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/3-Downloads/Data/log.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/3-Downloads/Data/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+########  copy dictionary to yhSandwich  ########
+########  unarchive stacks data from sandwich  ########
+-[YHSandwich initWithRMSandwich:version:build:]: file saved with Stacks build #1206 opened with build #1206
+########  copy subsandwiches to yhSandwich  ########
+########  done creating yhSandwich  ########
+########  yhSandwich prune  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHStacksPlugin initWithSandwich:]: done initing stacks page
+########  Add (163)  ########
+########  Add (168)  ########
+########  Add (170)  ########
+########  Remove (170)  ########
+########  Add (172)  ########
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:18:05 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-y95n35.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-y95n35.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/D8901D0B-41E8-4EB8-96C8-C4662BF21316/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/D8901D0B-41E8-4EB8-96C8-C4662BF21316/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:21:11 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-v8uj0j.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-v8uj0j.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/53CCB9B7-E666-4AE6-A225-0D9ED85945D5/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/53CCB9B7-E666-4AE6-A225-0D9ED85945D5/log.txt
+########  Copy  ########
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:35:00 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-pV1g5E.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-pV1g5E.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/0BB91CD9-04B2-44AD-88A9-37D06937FA28/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/0BB91CD9-04B2-44AD-88A9-37D06937FA28/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:41:54 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-YItb9X.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-YItb9X.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3C49EC59-B741-4EA7-9439-3D6601D2894A/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3C49EC59-B741-4EA7-9439-3D6601D2894A/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:43:29 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-wgklnY.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-wgklnY.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9D9D552A-83E5-46D2-BD4D-C41BFA3F53D9/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9D9D552A-83E5-46D2-BD4D-C41BFA3F53D9/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:46:05 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-jGI8lL.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-jGI8lL.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/16F1AB81-F873-4D7A-8A3C-802AFEBE2DA5/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/16F1AB81-F873-4D7A-8A3C-802AFEBE2DA5/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:46:32 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-xZCvJt.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-xZCvJt.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/B4D49AFD-0B7F-49C4-A062-6FCAA3D2B84C/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/B4D49AFD-0B7F-49C4-A062-6FCAA3D2B84C/log.txt
+########  Add (212)  ########
+########  Add (214)  ########
+########  Move (168)  ########
+########  Move (172)  ########
+########  Add (217)  ########
+########  Move (212)  ########
+########  Move (214)  ########
+########  Remove (163)  ########
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:50:51 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-7IdudQ.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-7IdudQ.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/250989D5-9934-4989-ACA2-6950D76FB430/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/250989D5-9934-4989-ACA2-6950D76FB430/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8DC429C4-6F2A-4CFD-801B-7805B2D46208/log.txt
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 17:08:52 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------

@@ -1,0 +1,1824 @@
+########  Init  ########
+########  Add (1)  ########
+########  Add (3)  ########
+########  Add (27)  ########
+########  Add (29)  ########
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(28)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x1eca2f40>
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sat, 16 May 2015 23:57:57 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5014/log-e9jzfu.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5014/log-e9jzfu.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/091398F8-EEAD-4C0D-96BA-78ABEF86DCA8/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/091398F8-EEAD-4C0D-96BA-78ABEF86DCA8/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/091398F8-EEAD-4C0D-96BA-78ABEF86DCA8/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/091398F8-EEAD-4C0D-96BA-78ABEF86DCA8/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3245D3B3-AF2E-49DD-95A7-1C6F3463FE5C/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3245D3B3-AF2E-49DD-95A7-1C6F3463FE5C/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/091398F8-EEAD-4C0D-96BA-78ABEF86DCA8/log.txt
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(28)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x272b5ab0>
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sat, 16 May 2015 23:59:53 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: --------------------------------- open ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 11:09:14 +1000
+-[YHSandwich initWithRMSandwich:version:build:]: ------------------------------------------------------------------------
+########  copy files to yhSandwich  ########
+-[YHSandwich setFile:forKey:]: 
+    url: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/2-Untitled-Page/Data/log.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/2-Untitled-Page/Data/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+########  copy dictionary to yhSandwich  ########
+########  unarchive stacks data from sandwich  ########
+-[YHSandwich initWithRMSandwich:version:build:]: file saved with Stacks build #1206 opened with build #1206
+########  copy subsandwiches to yhSandwich  ########
+########  done creating yhSandwich  ########
+########  yhSandwich prune  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+-[YHStacksPlugin initWithSandwich:]: done initing stacks page
+########  Remove (13)  ########
+########  Remove (16)  ########
+########  Add (52)  ########
+########  Undo Add  ########
+########  Remove (52)  ########
+########  Add (65)  ########
+########  Add (67)  ########
+########  Add (69)  ########
+########  Add (71)  ########
+########  Remove (11)  ########
+########  Remove (22)  ########
+########  Add (73)  ########
+########  Remove (29)  ########
+########  Remove (73)  ########
+########  Undo Remove  ########
+########  Add (73)  ########
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(28)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x1d65b7c0>
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 12:15:14 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5465/log-8B1oRM.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5465/log-8B1oRM.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/747A95B8-706E-4E58-BFAC-93D1F3112843/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/747A95B8-706E-4E58-BFAC-93D1F3112843/log.txt
+########  Move (9)  ########
+########  Move (73)  ########
+########  Move (9)  ########
+########  Remove (6)  ########
+########  Move (9)  ########
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(28)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x1f19df0>
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 12:16:03 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5465/log-0HxPO5.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5465/log-0HxPO5.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/2BBD7CCE-9DAC-4774-9C07-84ACC88970E4/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/2BBD7CCE-9DAC-4774-9C07-84ACC88970E4/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(28)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x1da3e7e0>
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 12:27:22 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5465/log-JqIq3Z.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5465/log-JqIq3Z.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/C3DB5E7F-ACFC-4C37-895E-5B2C49F346F9/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/C3DB5E7F-ACFC-4C37-895E-5B2C49F346F9/log.txt
+########  Remove (27)  ########
+########  Add (143)  ########
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(144)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x2cbd9380>
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 12:30:06 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5465/log-Kb5IJF.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5465/log-Kb5IJF.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/C9F0CD87-6383-45EB-B53C-7BAA7EA27B7E/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/C9F0CD87-6383-45EB-B53C-7BAA7EA27B7E/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4ACF7CAD-AB22-482C-A6B3-4B8F27CD6D81/log.txt
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(144)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x2cbfb130>
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 12:30:57 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: --------------------------------- open ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 12:31:28 +1000
+-[YHSandwich initWithRMSandwich:version:build:]: ------------------------------------------------------------------------
+########  copy files to yhSandwich  ########
+-[YHSandwich setFile:forKey:]: 
+    url: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/1-Home/Data/log.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/1-Home/Data/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4A38F869-5451-42B4-9FEA-4C99CD3EB410/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4A38F869-5451-42B4-9FEA-4C99CD3EB410/log.txt
+########  copy dictionary to yhSandwich  ########
+########  unarchive stacks data from sandwich  ########
+-[YHSandwich initWithRMSandwich:version:build:]: file saved with Stacks build #1206 opened with build #1206
+########  copy subsandwiches to yhSandwich  ########
+########  done creating yhSandwich  ########
+########  yhSandwich prune  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4A38F869-5451-42B4-9FEA-4C99CD3EB410/log.txt
+-[YHStacksPlugin initWithSandwich:]: done initing stacks page
+########  Remove (9)  ########
+########  Remove (4)  ########
+########  Undo Remove  ########
+########  Add (4)  ########
+########  Add (164)  ########
+########  Remove (164)  ########
+########  Undo Remove  ########
+########  Add (164)  ########
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4A38F869-5451-42B4-9FEA-4C99CD3EB410/log.txt
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x22acb630>
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:07:19 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5862/log-SlKUL4.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5862/log-SlKUL4.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4A38F869-5451-42B4-9FEA-4C99CD3EB410/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4A38F869-5451-42B4-9FEA-4C99CD3EB410/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4A38F869-5451-42B4-9FEA-4C99CD3EB410/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4A38F869-5451-42B4-9FEA-4C99CD3EB410/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/427F5A37-245A-4E18-936B-B575B9379315/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/427F5A37-245A-4E18-936B-B575B9379315/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4A38F869-5451-42B4-9FEA-4C99CD3EB410/log.txt
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x2c2d02a0>
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:07:25 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5862/log-kxo0Pj.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5862/log-kxo0Pj.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4A38F869-5451-42B4-9FEA-4C99CD3EB410/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4A38F869-5451-42B4-9FEA-4C99CD3EB410/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4A38F869-5451-42B4-9FEA-4C99CD3EB410/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4A38F869-5451-42B4-9FEA-4C99CD3EB410/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/C58DDFB8-2333-4188-BC1E-1F92A69DC97A/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/C58DDFB8-2333-4188-BC1E-1F92A69DC97A/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/4A38F869-5451-42B4-9FEA-4C99CD3EB410/log.txt
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x2a3aeef0>
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:07:32 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: --------------------------------- open ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:10:00 +1000
+-[YHSandwich initWithRMSandwich:version:build:]: ------------------------------------------------------------------------
+########  copy files to yhSandwich  ########
+-[YHSandwich setFile:forKey:]: 
+    url: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/1-Home/Data/log.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/1-Home/Data/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/5ECCD97F-A665-48C0-82DA-33F56ED0A465/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/5ECCD97F-A665-48C0-82DA-33F56ED0A465/log.txt
+########  copy dictionary to yhSandwich  ########
+########  unarchive stacks data from sandwich  ########
+-[YHSandwich initWithRMSandwich:version:build:]: file saved with Stacks build #1206 opened with build #1206
+########  copy subsandwiches to yhSandwich  ########
+########  done creating yhSandwich  ########
+########  yhSandwich prune  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/5ECCD97F-A665-48C0-82DA-33F56ED0A465/log.txt
+-[YHStacksPlugin initWithSandwich:]: done initing stacks page
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/5ECCD97F-A665-48C0-82DA-33F56ED0A465/log.txt
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x11d73570>
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:11:30 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5933/log-QcJTyV.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5933/log-QcJTyV.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/5ECCD97F-A665-48C0-82DA-33F56ED0A465/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/5ECCD97F-A665-48C0-82DA-33F56ED0A465/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/5ECCD97F-A665-48C0-82DA-33F56ED0A465/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/5ECCD97F-A665-48C0-82DA-33F56ED0A465/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/F6CFE090-BE45-4914-AE35-D33DB947F854/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/F6CFE090-BE45-4914-AE35-D33DB947F854/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/5ECCD97F-A665-48C0-82DA-33F56ED0A465/log.txt
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x1a210540>
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:11:40 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5933/log-bnE6ue.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-5933/log-bnE6ue.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/5ECCD97F-A665-48C0-82DA-33F56ED0A465/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/5ECCD97F-A665-48C0-82DA-33F56ED0A465/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/5ECCD97F-A665-48C0-82DA-33F56ED0A465/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/5ECCD97F-A665-48C0-82DA-33F56ED0A465/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/C1ED97B8-0FF6-421F-B0C2-807129B6B204/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/C1ED97B8-0FF6-421F-B0C2-807129B6B204/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/5ECCD97F-A665-48C0-82DA-33F56ED0A465/log.txt
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x11db6100>
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:14:30 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: --------------------------------- open ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:24:29 +1000
+-[YHSandwich initWithRMSandwich:version:build:]: ------------------------------------------------------------------------
+########  copy files to yhSandwich  ########
+-[YHSandwich setFile:forKey:]: 
+    url: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/1-Home/Data/log.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/1-Home/Data/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/log.txt
+########  copy dictionary to yhSandwich  ########
+########  unarchive stacks data from sandwich  ########
+-[YHSandwich initWithRMSandwich:version:build:]: file saved with Stacks build #1206 opened with build #1206
+########  copy subsandwiches to yhSandwich  ########
+########  done creating yhSandwich  ########
+########  yhSandwich prune  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/log.txt
+-[YHStacksPlugin initWithSandwich:]: done initing stacks page
+-[YHSandwich addCustomImage:]: 
+    url: file:///Users/kapilharesh/Desktop/IMG_7213.jpg
+-[YHSandwich addImage:]: 
+    url: file:///Users/kapilharesh/Desktop/IMG_7213.jpg
+-[YHSandwich addImage:forKey:]: 
+    url: file:///Users/kapilharesh/Desktop/IMG_7213.jpg
+    key: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich setFile:forKey:]: 
+    url: file:///Users/kapilharesh/Desktop/IMG_7213.jpg
+    key: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Desktop/IMG_7213.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/
+    new name:1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich addImage:]: return: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich addCustomImage:]: return: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: 
+    url: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: 
+    url: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: 
+    url: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: 
+    url: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: 
+    url: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: 
+    url: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: 
+    url: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: 
+    url: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: 
+    url: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: 
+    url: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: 
+    url: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForUrl:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich addImage:]: 
+    url: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Deliverable%201/Stock%20pictures%20for%20presentation/1427731055_sportcar-512.png
+-[YHSandwich addImage:forKey:]: 
+    url: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Deliverable%201/Stock%20pictures%20for%20presentation/1427731055_sportcar-512.png
+    key: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich setFile:forKey:]: 
+    url: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Deliverable%201/Stock%20pictures%20for%20presentation/1427731055_sportcar-512.png
+    key: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Deliverable%201/Stock%20pictures%20for%20presentation/1427731055_sportcar-512.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/
+    new name:2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich addImage:]: return: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-AMqaAZ/stacks_image_165.png
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x15541160>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:32:38 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-6002/log-TkAB9m.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-6002/log-TkAB9m.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/DBB7F3C0-ACD3-4210-83B1-BD6DF51CAA3B/
+    new name:2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/DBB7F3C0-ACD3-4210-83B1-BD6DF51CAA3B/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/DBB7F3C0-ACD3-4210-83B1-BD6DF51CAA3B/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/DBB7F3C0-ACD3-4210-83B1-BD6DF51CAA3B/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/DBB7F3C0-ACD3-4210-83B1-BD6DF51CAA3B/
+    new name:1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/DBB7F3C0-ACD3-4210-83B1-BD6DF51CAA3B/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-AMqaAZ/stacks_image_165.png
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x16bb6540>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:32:55 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-6002/log-SvUsmP.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-6002/log-SvUsmP.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/87385702-0001-4234-8F5B-19DBA357F5D5/
+    new name:2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/87385702-0001-4234-8F5B-19DBA357F5D5/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/87385702-0001-4234-8F5B-19DBA357F5D5/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/87385702-0001-4234-8F5B-19DBA357F5D5/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/87385702-0001-4234-8F5B-19DBA357F5D5/
+    new name:1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/87385702-0001-4234-8F5B-19DBA357F5D5/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-AMqaAZ/stacks_image_165.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-AMqaAZ/stacks_image_165.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-AMqaAZ/stacks_image_165.png
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0xf1936b0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:36:47 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-6002/log-sTtGGl.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-6002/log-sTtGGl.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/D397C24A-BF6F-4416-9AD3-0D630AF6EB4C/
+    new name:2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/D397C24A-BF6F-4416-9AD3-0D630AF6EB4C/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/D397C24A-BF6F-4416-9AD3-0D630AF6EB4C/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/D397C24A-BF6F-4416-9AD3-0D630AF6EB4C/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/D397C24A-BF6F-4416-9AD3-0D630AF6EB4C/
+    new name:1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/D397C24A-BF6F-4416-9AD3-0D630AF6EB4C/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-AMqaAZ/stacks_image_165.png
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/1BF9049F-F685-4EF1-A487-730390746A11/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x1ae551a0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Sun, 17 May 2015 13:37:45 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: --------------------------------- open ---------------------------------
+-[YHSandwich initWithRMSandwich:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 15:56:13 +1000
+-[YHSandwich initWithRMSandwich:version:build:]: ------------------------------------------------------------------------
+########  copy files to yhSandwich  ########
+-[YHSandwich setFile:forKey:]: 
+    url: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/1-Home/Data/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+    key: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/1-Home/Data/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/
+    new name:2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich setFile:forKey:]: 
+    url: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/1-Home/Data/log.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/1-Home/Data/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich setFile:forKey:]: 
+    url: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/1-Home/Data/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+    key: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Dropbox/UOW/UOW%20February%202015/Project/CSCI321%20Project/Kapil/Project%20Website/CSCI321%20Website.rwsw/Pages/1-Home/Data/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/
+    new name:1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+########  copy dictionary to yhSandwich  ########
+########  unarchive stacks data from sandwich  ########
+-[YHSandwich initWithRMSandwich:version:build:]: file saved with Stacks build #1206 opened with build #1206
+########  copy subsandwiches to yhSandwich  ########
+########  done creating yhSandwich  ########
+########  yhSandwich prune  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich removeFileForKey:]: 
+    key: 1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg
+-[YHSandwich pruneUnusedImages]: Image was pruned: '1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg'
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHStacksPlugin initWithSandwich:]: done initing stacks page
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-X5o5YK/stacks_image_165.png
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x191d7160>
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:18:05 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-KPMQQq.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-KPMQQq.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/862DA235-95E8-4909-9845-CE39F73DFEB9/
+    new name:2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/862DA235-95E8-4909-9845-CE39F73DFEB9/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/862DA235-95E8-4909-9845-CE39F73DFEB9/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/862DA235-95E8-4909-9845-CE39F73DFEB9/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x1df4b290>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:21:11 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-UtTj5a.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-UtTj5a.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/0766CDE9-FC12-4D23-8F92-D89FC94B3733/
+    new name:2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/0766CDE9-FC12-4D23-8F92-D89FC94B3733/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/0766CDE9-FC12-4D23-8F92-D89FC94B3733/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/0766CDE9-FC12-4D23-8F92-D89FC94B3733/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x1e12b7c0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:35:00 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-ym2StF.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-ym2StF.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/0E737E62-82D5-4BBB-B48E-037F850BED53/
+    new name:2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/0E737E62-82D5-4BBB-B48E-037F850BED53/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/0E737E62-82D5-4BBB-B48E-037F850BED53/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/0E737E62-82D5-4BBB-B48E-037F850BED53/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x1692b6f0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:41:54 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-bnvENW.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-bnvENW.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9B3C8744-2E46-4844-8999-AF72269A7B16/
+    new name:2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9B3C8744-2E46-4844-8999-AF72269A7B16/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9B3C8744-2E46-4844-8999-AF72269A7B16/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9B3C8744-2E46-4844-8999-AF72269A7B16/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x208599e0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:43:29 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-o9jSyQ.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-o9jSyQ.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/2F7235EE-D08A-4C6F-B091-A66B8AEA0024/
+    new name:2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/2F7235EE-D08A-4C6F-B091-A66B8AEA0024/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/2F7235EE-D08A-4C6F-B091-A66B8AEA0024/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/2F7235EE-D08A-4C6F-B091-A66B8AEA0024/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x23072110>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:46:05 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-R7pndM.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-R7pndM.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/50923737-C374-42AD-98F8-537D566C8E41/
+    new name:2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/50923737-C374-42AD-98F8-537D566C8E41/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/50923737-C374-42AD-98F8-537D566C8E41/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/50923737-C374-42AD-98F8-537D566C8E41/log.txt
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x1df4f8c0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:46:32 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-pmg54X.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-pmg54X.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/F49B4162-A98C-4E31-AC04-081A6A1F8CDD/
+    new name:2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/F49B4162-A98C-4E31-AC04-081A6A1F8CDD/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/F49B4162-A98C-4E31-AC04-081A6A1F8CDD/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/F49B4162-A98C-4E31-AC04-081A6A1F8CDD/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-X5o5YK/stacks_image_165.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-X5o5YK/stacks_image_165.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-X5o5YK/stacks_image_165.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x230a10d0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:50:51 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-iikjRE.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-iikjRE.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "1F174BC5-37F1-4DC7-BE6E-3767E8DCF9BE.jpg",
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/7DEE111E-F6F3-47A6-A34D-32A9682C0FAD/
+    new name:2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/7DEE111E-F6F3-47A6-A34D-32A9682C0FAD/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/7DEE111E-F6F3-47A6-A34D-32A9682C0FAD/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/7DEE111E-F6F3-47A6-A34D-32A9682C0FAD/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-X5o5YK/stacks_image_165.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-X5o5YK/stacks_image_165.png
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-X5o5YK/stacks_image_165.png
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/44B5E985-F552-4FD0-8A0A-886CB4343161/2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(165)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x255e960>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 2455B3E1-E7B3-4573-9C33-58D0A557A4F5.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 17:08:52 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------

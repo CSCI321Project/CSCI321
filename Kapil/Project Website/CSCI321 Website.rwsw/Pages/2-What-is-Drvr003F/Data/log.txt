@@ -1,0 +1,1022 @@
+ 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: 
+    filename: 4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(152)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x208439d0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(154)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x208439d0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(156)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x208439d0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:43:29 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-VWdOxI.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-VWdOxI.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/EFE893DD-811C-45D6-A989-BABCE8F3E58D/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/EFE893DD-811C-45D6-A989-BABCE8F3E58D/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/EFE893DD-811C-45D6-A989-BABCE8F3E58D/
+    new name:9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/EFE893DD-811C-45D6-A989-BABCE8F3E58D/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/EFE893DD-811C-45D6-A989-BABCE8F3E58D/
+    new name:107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/EFE893DD-811C-45D6-A989-BABCE8F3E58D/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/EFE893DD-811C-45D6-A989-BABCE8F3E58D/
+    new name:38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/EFE893DD-811C-45D6-A989-BABCE8F3E58D/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: 
+    filename: 4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/EFE893DD-811C-45D6-A989-BABCE8F3E58D/
+    new name:4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/EFE893DD-811C-45D6-A989-BABCE8F3E58D/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/EFE893DD-811C-45D6-A989-BABCE8F3E58D/
+    new name:4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/EFE893DD-811C-45D6-A989-BABCE8F3E58D/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/EFE893DD-811C-45D6-A989-BABCE8F3E58D/
+    new name:4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/EFE893DD-811C-45D6-A989-BABCE8F3E58D/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: 
+    filename: 4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(152)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x1df716d0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(154)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x1df716d0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(156)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x1df716d0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:46:05 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-iHQpwm.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-iHQpwm.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9672B987-BDA7-4537-A902-4A01DA74F6F0/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9672B987-BDA7-4537-A902-4A01DA74F6F0/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9672B987-BDA7-4537-A902-4A01DA74F6F0/
+    new name:9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9672B987-BDA7-4537-A902-4A01DA74F6F0/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9672B987-BDA7-4537-A902-4A01DA74F6F0/
+    new name:107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9672B987-BDA7-4537-A902-4A01DA74F6F0/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9672B987-BDA7-4537-A902-4A01DA74F6F0/
+    new name:38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9672B987-BDA7-4537-A902-4A01DA74F6F0/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: 
+    filename: 4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9672B987-BDA7-4537-A902-4A01DA74F6F0/
+    new name:4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9672B987-BDA7-4537-A902-4A01DA74F6F0/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9672B987-BDA7-4537-A902-4A01DA74F6F0/
+    new name:4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9672B987-BDA7-4537-A902-4A01DA74F6F0/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9672B987-BDA7-4537-A902-4A01DA74F6F0/
+    new name:4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/9672B987-BDA7-4537-A902-4A01DA74F6F0/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: 
+    filename: 4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(152)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x2143cb80>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(154)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x2143cb80>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(156)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x2143cb80>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:46:32 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-EOkgar.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-EOkgar.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C5D1A3B-56FD-4932-B14C-F9B8833738B7/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C5D1A3B-56FD-4932-B14C-F9B8833738B7/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C5D1A3B-56FD-4932-B14C-F9B8833738B7/
+    new name:9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C5D1A3B-56FD-4932-B14C-F9B8833738B7/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C5D1A3B-56FD-4932-B14C-F9B8833738B7/
+    new name:107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C5D1A3B-56FD-4932-B14C-F9B8833738B7/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C5D1A3B-56FD-4932-B14C-F9B8833738B7/
+    new name:38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C5D1A3B-56FD-4932-B14C-F9B8833738B7/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: 
+    filename: 4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C5D1A3B-56FD-4932-B14C-F9B8833738B7/
+    new name:4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C5D1A3B-56FD-4932-B14C-F9B8833738B7/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C5D1A3B-56FD-4932-B14C-F9B8833738B7/
+    new name:4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C5D1A3B-56FD-4932-B14C-F9B8833738B7/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C5D1A3B-56FD-4932-B14C-F9B8833738B7/
+    new name:4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/8C5D1A3B-56FD-4932-B14C-F9B8833738B7/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_152.jpg
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_154.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_156.png
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_152.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_154.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_156.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_152.jpg
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_154.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_156.png
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_152.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_154.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_156.png
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_152.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_154.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_156.png
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: 
+    filename: 4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(152)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x230d4ef0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(154)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x230d4ef0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(156)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x230d4ef0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 16:50:51 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
+-[YHSandwich setFile:forKey:]: 
+    url: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-qND3ZU.txt
+    key: log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/com.realmacsoftware.rapidweaverpro-696/log-qND3ZU.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: about to remove item
+-[YHSandwich copy:to:withName:]: finished remove item
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3656A9C4-A374-479C-AF00-7B1CC50BC302/
+    new name:log.txt
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3656A9C4-A374-479C-AF00-7B1CC50BC302/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3656A9C4-A374-479C-AF00-7B1CC50BC302/
+    new name:9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3656A9C4-A374-479C-AF00-7B1CC50BC302/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3656A9C4-A374-479C-AF00-7B1CC50BC302/
+    new name:107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3656A9C4-A374-479C-AF00-7B1CC50BC302/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3656A9C4-A374-479C-AF00-7B1CC50BC302/
+    new name:38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3656A9C4-A374-479C-AF00-7B1CC50BC302/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: 
+    filename: 4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3656A9C4-A374-479C-AF00-7B1CC50BC302/
+    new name:4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3656A9C4-A374-479C-AF00-7B1CC50BC302/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3656A9C4-A374-479C-AF00-7B1CC50BC302/
+    new name:4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3656A9C4-A374-479C-AF00-7B1CC50BC302/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+########  yhSandwich copy  ########
+-[YHSandwich copy:to:withName:]: 
+    source: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+    destination dir:file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3656A9C4-A374-479C-AF00-7B1CC50BC302/
+    new name:4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich copy:to:withName:]: pre-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: about to copy item
+-[YHSandwich copy:to:withName:]: finished copy item
+-[YHSandwich copy:to:withName:]: post-copy listing: (
+    "107576A6-A72E-439E-B2E1-629597F61AF3.png",
+    "38BB3776-27B6-4438-8C83-63433226ED33.png",
+    "4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg",
+    "4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg",
+    "4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg",
+    "9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png",
+    "log.txt"
+)
+-[YHSandwich copy:to:withName:]: return destination: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/3656A9C4-A374-479C-AF00-7B1CC50BC302/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_152.jpg
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_154.png
+-[YHNodeImage imageTempPath]: Image temp path: /var/folders/6g/6zdv_s8s1txcrb5s92yk_p5w0000gn/T/stacks-YHjUeJ/stacks_image_156.png
+########  creating rmSandwich for save  ########
+########  yhSandwich check integrity  ########
+-[YHSandwich urlForFilename:]: 
+    filename: log.txt
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/log.txt
+-[YHSandwich urlForFilename:]: 
+    filename: 9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/9FEEDC2A-B85B-4AFA-BF41-2781CAB097E5.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: 
+    filename: 4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E12FE06-8634-4163-97D8-B02A0F99D5E2.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4BB82220-6812-4586-BEF4-D76CEC9E11F6.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHSandwich urlForFilename:]: 
+    filename: 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHSandwich urlForFilename:]: 
+    filename: 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich urlForFilename:]: return: file:///Users/kapilharesh/Library/Caches/com.yourhead.YHStacksKit-32/A5075CFB-B6B9-4C79-B52D-A91EEEAEDA2C/107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(152)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x230760f0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 4E94350A-BB37-4823-91EC-70A3ED3572D4.jpg
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(154)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x230760f0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 38BB3776-27B6-4438-8C83-63433226ED33.png
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : Image(156)
+
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : coder : <NSKeyedArchiver: 0x230760f0>
+-[YHNodeImage encodeWithCoder:]: image node : encode with coder : image name : 107576A6-A72E-439E-B2E1-629597F61AF3.png
+-[YHSandwich RMSandwichWithType:version:build:]: ------------------------------------------------------------------------
+-[YHSandwich RMSandwichWithType:version:build:]: - - Stacks v2.6.11 (1206) - Mon, 18 May 2015 17:08:52 +1000
+-[YHSandwich RMSandwichWithType:version:build:]: --------------------------------- save ---------------------------------
