@@ -1,0 +1,34 @@
+battery - sending power, stop sending power
+engine - engine on, engine off
+fuel pump - pump fuel, Turn On, Turn Off
+fuel tank - sends fuel, Empty, Not Empty
+Front Wheels - Rotate Wheels, Stop Wheels ( Rotated via Front Axle)
+Dashboard - Dashboard Off, Dashboard On,Display, Remove Display
+Rear Wheels - Rotate Wheels, Stop Wheels ( Rotated via Rear Axle), Turn left, Turn Right.
+Radiotor - Turn On, Turn Off
+Coolant Tank - Turn On, Turn Off
+Temperature Gauge - Turn On, Turn Off, High Temp, Normal Temp
+Audio System - Turn On, Turn Off
+Message System - Turn On, Turn Off
+Cruise Control - Turn On, Turn Off
+Headlights - Turn On, Turn Off
+Rear Foglights - Turn On , Turn Off (ON only  If Headlights are on)
+Front Foglights - same as rear headlights
+Front Indicator Lights - Turn OFF, Turn On
+Rear Indicator ligts - Turn OFF, Turn On
+HighBeams - Highbeams - Turn On/OFF ( chech headlights first if on)
+Wiper - Turn On, Turn OFF.(Based on Battery Sending Power)
+Steering - Turn On , Turn OFF ( when program starts)
+Steering Rod - Turn On, TUrn OFF ( When Program starts).
+Steering Rack - Turn On, Turn Off(When program starts).
+Brake Pump - Turn On, Turn Off
+FootBrakes - Turn On, Turn Off
+HandBrakes - Turn On, Turn Off
+Parking Brakes Turn ON/OFF ( when handbrakes are ON/OFF)
+Attachments - No attachments, towbox attached, trailer attached
+Front Motor - Turn On, Turn Off
+Hybrid Battery - On/Off
+Petrol Engine - On/Off
+Motor - On/ Off
+Front Driveshaft - On/Off
+Fuel Stack -On/Off
