@@ -1,0 +1,34 @@
+//Extra notes that i have made when working on state diagrams - Wee
+
+Changes i made to Elle's state diagrams as below.
+**Alot of changes made wgere made so that they start from an INITIAL state. OFF/IDLE.
+1. Audio - added engine off
+2. Battery - added engine turned on
+3. Coolant tank - modified to only change from idle to pumping state
+4. Engine - modified
+5. Modified the dashboard state diagrams
+6. Front wheels - if you are in the left state, if you turn right, your wheels
+will go to the straight position first before going all the way to the right.
+Rotating or not, it will be determined by the speed values of the car
+7. Modified fuel pump to pump. 
+8. ADDED front wheel drive train and rear wheel drivetrain. This is to differentiate the 
+different drivetrain of the car. Removed rear_wheel state diagram. So in the class diagram
+it should just be wheels powered by engine bool variable. 
+9. Maybe in terms of implementation we initialize all the values at the start of simulation?
+We start the car with no states, one of the example values that needs initialzing is the 
+powered by engine variable. maybe? 
+10. Dashboard class would encapsulate EngineTemp, CurrentSpeed, and FuelLevel classes. 
+All these different classes have functionalities where they query the right component
+for the data they need. Remove temperature gauge from state diagram.
+11. Highbeams can be inherited from an abstract class that has just on/off values. 
+12. A few use cases needs modification when im done with the state diagrams. 
+13. A few examples of abstract classes that we can have:
+left - right - straight
+pumping - idle
+on - off
+14. The behaviour for a motor will be like an engine for the electric cars, hydrogen cars
+and hybrid cars. The engine behaves differently here.
+15. If a fuel stack is on means it is taking fuel from the hydrogen tank. 
+15. We should not use the term "Axle". Drive shaft is for transfer of power from the engine.
+For the steering system, we use steering wheels, steering rod and the steering rack.
+16. Added rear defroster and hazard lights into text file "state-diagram-stuffs".

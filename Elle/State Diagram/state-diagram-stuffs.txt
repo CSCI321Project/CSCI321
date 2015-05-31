@@ -1,0 +1,36 @@
+battery - sending power, stop sending power
+engine - engine on, engine off //done
+fuel pump - pump fuel, Turn On, Turn Off //done 
+fuel tank - sends fuel, Empty, Not Empty //done
+Front Wheels - Rotate Wheels, Stop Wheels ( Rotated via Front Axle) //done
+Dashboard - Dashboard Off, Dashboard On,Display, Remove Display //done
+Rear Wheel drive train - either powered by engine or not //done
+Radiator - Turn On, Turn Off //done
+Coolant Tank - Turn On, Turn Off //done
+Audio System - Turn On, Turn Off //done
+hazard lights - on/off //done
+Cruise Control - Turn On, Turn Off //done
+Headlights - Turn On, Turn Off //done
+Rear Foglights - Turn On , Turn Off (ON only  If Headlights are on) //done
+Front Foglights - same as rear headlights //done
+Front Indicator Lights - Turn OFF, Turn On
+Rear Indicator ligts - Turn OFF, Turn On
+HighBeams - Highbeams - Turn On/OFF ( chech headlights first if on) //done
+Wiper - Turn On, Turn OFF.(Based on Battery Sending Power) //done
+Steering - left, right ( when program starts) //done
+Steering Rod - left, right ( When Program starts). //done
+Steering Rack - left, right(When program starts). //done
+Brake Pump - Turn On, Turn Off //done
+FootBrakes - Turn On, Turn Off //done
+HandBrakes - Turn On, Turn Off //done
+Parking Brakes Turn ON/OFF ( when handbrakes are ON/OFF) //done
+Attachments - No attachments, towbox attached, trailer attached //done
+Motors - Turn On, Turn Off //done
+Hybrid Battery - On/Off //done
+Hybrid Engine - On/Off //done
+Fuel Stack -On/Off //done
+Front Driveshaft - On/Off //done
+rear drive shaft - on/off //done
+defrost rear - on/off //done
+front wheel drivetrain - either powered by engine or not
+--Message System - Turn On, Turn Off
