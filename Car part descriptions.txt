@@ -1,0 +1,104 @@
+Used to channel out exhaust gas produced upon combustion of fuel. Not present in an electric car.
+Holds the license plate of a car
+A place to store items in a car. In some cars (like sports cars), this may be in the front of the car
+Turn on when the foot brake is applied
+Used to indicate change in direction of travel (ie: changing lanes)
+Acts as a rear windshield. Usually has a demister for use when the weather is foggy
+Absorbs small to medium impact bumps to prevent or reduce damage to the car's structure  in a rear end accident
+Prevents mud from being sprayed up to the body work when driving over sandy/muddy surfaces
+Used when there is a flat tyre. In some cars, it is a space saver spare, that is smaller in diameter and width than a regular tyre
+For increasing downforce to improve the stability of the rear end of the car
+On hatch back models, a rear wiper is necessary to wipe of rain water. Sedans don't need this due to the angled nature of the glass
+Help to detect obstacles at the rear of the car, to aid in parking
+Improves the visibility of the rear of the car under foggy/rainy situations
+
+A door :-)
+Improves side downforce and aerodynamics of the car, and aesthetics of the car
+To move the car :-)
+Used to mount the tyre on the car
+Windows ...
+To gain access to the car. In some cars, includes a button to lock and unlock the car as wel
+Side repeater lights that complement the operation of the front and rear indicators
+To aid in viewing obstacles at the side of the car in the blind spot of the vehicle
+Secures the fuel tank
+Act as part of the braking system to slow down the car when the foot brakes are engaged
+
+Protects the engine from rain and the weather
+Acts as an air intake to cool the radiator and to improve front aerodynamics of the car
+Holds the front license plate of the car. In some countries like the USA, this is not compulsory
+Front windshield of the car, prevents water from entering the car and improve front aerodynamics
+Light up the road at night and make the car visible
+Improve the visibility of the road ahead under dark and poor conditions
+Improve the visibility of the road ahead under rainy/foggy situations
+Helps to cool down the coolant that flows through it
+Prevents damage or significantly reduce damage to the front end of the car in a frontal impact. Also helps to reduce injury if a car is to run into a pedestrian. 
+Sprays windshield fluid from the reservoir onto the windshield to clean it
+Pushes away water that may be present on the front windshield
+Detects obstacles in front of the car that the car is about to crash into and warns the driver. In some systems, it would automatically engage the brakes. Not fitted on all cars.
+
+Detects radio signals
+A roof...
+For use to mount on storage boxes or other things (like bicycles) onto the roof of the car. Not present in all cars.
+
+To steer the car
+Used to provide an audible warning outside the car
+Holds various instrumentation of the car
+To engage the indicators
+To turn on the lights, fog lights and high beam lights
+To engage and control the wipers. Also used to engage the sprinkler to spray water from the windshield reservoir onto the windshield
+Increases the amount of fuel supplied to the engine to increase engine speed, hence making the car to go faster
+To engage the brakes of the car to slow the car down
+Only in a manual car, used to allow the user to engage a gear
+In an automatic, it is to either make the car move backwards (in R position), or move forwards (in D position), the most appropriate speed of the transmission is chosen automatically by the transmission control unit. In a manual car, used to make the car go forward (with the gears in any position between 1 - 5 (or 6 in some cars), with the most appropriate gear chosen by the driver based on vehicle speed), or reverse (by placing the shifter into R).
+Engages or disengages the parking brake
+To seat passengers
+Provide a form of restraint to the passengers of a car to prevent them from being thrown forward in a frontal impact
+For comfort of the arms
+Reduce whiplash on the neck in a rear impact
+Allows the seat position to be adjusted
+Acts as a 12V power outlet or a cigarette lighter
+Holds cups
+Allows the driver to view the traffic or obstacles behind the car
+Allows for opening or closing the windows located on the doors of the car
+Lights up the interior in dark places
+When engaged, it will cause both the indicator lights to flash simultaneously to indicate a breakdown
+Used to control the air conditioning system in the car
+Deploys in the event of a collision severe enough to potentially cause harm
+Used to reduce the amount of sun shining into the cabin
+To store small items
+Used to catch dirt from damaging the floor of the cabin
+Allows for sound output by the infotainment system
+Allows the driver to centrally control if all doors in the car should be locked or otherwise
+Used to unlock the fuel tank cover
+A place to insert the key to start the car. In some cars this may be replaced by a fob which can be twisted to start the car, or a button to start the car (provided the key fob is inside the cabin)
+Used to unlatch the hood of the car
+Used to unlatch the boot of the car
+When engaged, allows the car to cruise at a fixed speed. In cars equipped with forward collision sensors, it can interface with it to vary the cruising speed based on the speed of the car in front
+
+Used to show the vehicle speed
+Used to show the engine speed
+Shows fuel level of the car (amount of fuel remaining in the fuel tank)
+Turns on in the event of a fault in the engine or powertrain of the car
+Engages if the oil pressure of the car is low in the engine
+Turns on if the handbrake/parking brake is engaged. If it remains on despite the parking brake being disengaged, it is a sign of a fault in the braking system
+Used to indicate engine coolant temperature
+Shows the total distance the car has travelled since it left the factory
+Shows the distance travelled since last trip reset
+Turns on if there is a fault in the ABS system in the car
+Shows which gear the car is in
+Will flash in conjunction with the indicator lights outside the car when the indicators are engaged
+Turns on when the high beam headlights are turned on
+Turns on when the headlights are turned on
+Front and rear foglight turn on when engaged respectively
+Illuminates when cruise control is active
+Remains on or flashes when the seat belts of a seat being occupied isn't being used
+Engages in the event there is a loss of tyre pressure in the tyres of the car. Only on vehicles equipped with a tyre pressure monitoring system
+Illuminates if the auxillary battery is running low
+Illuminates when the glow plug is active while the engine is being warmed up in a diesel car. Engine should not be started until this light goes out. Only in diesel vehicles
+Engages when the 4WD system is forced to be active (on cars equipped with 4WD on demand system)
+Illuminates when a door/boot/hood is not closed properly
+ESC light flashes when the ESC system detects a skid and is currently correcting the car's stability. ESC OFF is illuminated if the ESC system has been turned off. ESC light remains on if there is a fault in the system
+Turns on when there is insufficient fluid in the windshield washer reservoir tank
+Illuminates when the car is being driven economically. Not available on all cars
+Illuminates when there is not much fuel left in the fuel tank
+Engages when the outside temperature is low to warn users of potential black ice (ice on the road)
