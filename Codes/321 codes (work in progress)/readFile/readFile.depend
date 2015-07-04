@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1435815704 source:c:\users\ng\desktop\321 codes\readfile\readin.cpp
+	<iostream>
+	<fstream>
+	"Car.h"
+
+1435814633 c:\users\ng\desktop\321 codes\readfile\car.h
+	<iostream>
+	<vector>
+	"CarPart.h"
+
+1435814594 c:\users\ng\desktop\321 codes\readfile\carpart.h
+	<iostream>
+	<vector>
+
+1435816374 source:c:\users\ng\desktop\321 codes\readfile\car.cpp
+	"Car.h"
+	"CarPart.h"
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	<vector>
+
+1435814616 source:c:\users\ng\desktop\321 codes\readfile\carpart.cpp
+	"CarPart.h"
+	<iostream>
+	<vector>
+
