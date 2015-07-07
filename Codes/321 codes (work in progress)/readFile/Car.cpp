@@ -228,3 +228,89 @@ void Car::zoomOut(int currPosition)
         cout << currentParts[i] << endl;
     }
 }
+
+void Car::textEditorMenu()
+{
+    int choice = 0;
+    bool check = false;
+    while (check == false)
+    {
+        cout << ">> Text Editor <<" << endl << endl;
+        cout << "How do you wish to edit today?" << endl;
+        cout << "1. Edit by batch" << endl;
+        cout << "2. Edit individually" << endl;
+        cout << "3. Exit" << endl;
+        cout << "Input: ";
+        cin >>  choice;
+
+        switch(choice)
+        {
+            case 1:
+            {
+                cout << "Editing by batch" << endl;
+
+            }
+            break;
+            case 2:
+            {
+                cout << "Editing individually" << endl;
+                editIndividually();
+            }
+            break;
+            case 3:
+            {
+                cout << "Exiting" << endl;
+                check = true;
+            }
+            break;
+            default:
+            {
+                cout << "Invalid input" << endl;
+                cout << "Please try again" << endl;
+                check = false;
+            }
+        }
+    }
+}
+
+void Car::editByBatch()
+{
+
+}
+
+void Car::editIndividually()
+{
+    int numParts = carParts.size();
+    int choice = 0;
+    bool check = false;
+
+    while (check == false)
+    {
+        cout << "Which car part do you wish to edit?" << endl;
+        for(int i = 0; i < numParts; i++)
+        {
+            cout << i + 1 << endl;
+            cout << carParts[i] << endl;
+        }
+        cout << "0. Exit" << endl;
+        cout << "Input: ";
+        cin >> choice;
+
+        if (choice > 0 && choice < numParts + 1)
+        {
+            choice -= 1;
+            cout << choice << endl;
+            //if valid choice
+        }
+        else if (choice ==  0)
+        {
+            check = true;
+        }
+        else
+        {
+            cout << "Invalid choice" << endl;
+            cout << "Please try again" << endl;
+            check = false;
+        }
+    }
+}

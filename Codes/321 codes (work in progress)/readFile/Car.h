@@ -32,6 +32,11 @@ class Car
         //then to get the parts of the same layer we use the getCurrentCarParts
         void zoomIn(int);
         void zoomOut(int);
+
+        //text editor functions
+        void textEditorMenu();
+        void editByBatch();
+        void editIndividually();
 };
 
 #endif // _CAR_

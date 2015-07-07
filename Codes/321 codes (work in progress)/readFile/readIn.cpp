@@ -9,6 +9,7 @@ int main()
     Car car("Car part descriptions.txt"); //change the input file name here
     //car.getCurrentCarParts(2);
     car.zoomOut(5);
+    car.textEditorMenu();
 
     /*
         //5 means have 6 more child nodes, the next 5 lines would be included in the vector of classes
