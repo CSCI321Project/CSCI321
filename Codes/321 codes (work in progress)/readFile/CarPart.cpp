@@ -100,6 +100,12 @@ void CarPart::addSiblings(vector<int> tempSiblings)
     siblings = tempSiblings;
 }
 
+void CarPart::addNoComponents()
+{
+    noComponents++;
+}
+
+
 //get functions
 int CarPart::getNoComponents() const
 {
@@ -119,4 +125,9 @@ vector<int> CarPart::getSiblings() const
 int CarPart::getParentID() const
 {
     return parentID;
+}
+
+string CarPart::getPartName() const
+{
+    return partName;
 }

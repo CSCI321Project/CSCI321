@@ -36,7 +36,9 @@ class Car
         //text editor functions
         void textEditorMenu();
         void editByBatch();
-        void editIndividually();
+
+        void editIndividually(); //user wants to modify one by one
+        void editSelectedPart(int); //user selected what needs to be modified and goes to this function
 };
 
 #endif // _CAR_

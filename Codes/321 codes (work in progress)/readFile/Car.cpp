@@ -247,25 +247,25 @@ void Car::textEditorMenu()
         {
             case 1:
             {
-                cout << "Editing by batch" << endl;
+                cout << ">> Editing by batch <<" << endl << endl;
 
             }
             break;
             case 2:
             {
-                cout << "Editing individually" << endl;
+                cout << ">> Editing individually <<" << endl << endl;
                 editIndividually();
             }
             break;
             case 3:
             {
-                cout << "Exiting" << endl;
+                cout << ">> Exiting << " << endl;
                 check = true;
             }
             break;
             default:
             {
-                cout << "Invalid input" << endl;
+                cout << ">> Invalid input <<" << endl;
                 cout << "Please try again" << endl;
                 check = false;
             }
@@ -281,7 +281,7 @@ void Car::editByBatch()
 void Car::editIndividually()
 {
     int numParts = carParts.size();
-    int choice = 0;
+    int choice = -1;
     bool check = false;
 
     while (check == false)
@@ -289,18 +289,19 @@ void Car::editIndividually()
         cout << "Which car part do you wish to edit?" << endl;
         for(int i = 0; i < numParts; i++)
         {
-            cout << i + 1 << endl;
-            cout << carParts[i] << endl;
+            cout << i + 1 << ". \t";
+            cout << carParts[i].getPartName() << endl;
         }
-        cout << "0. Exit" << endl;
+        //can't use swtich since we dont know how many component we might have
+        cout << "0. \tExit" << endl;
         cout << "Input: ";
         cin >> choice;
 
         if (choice > 0 && choice < numParts + 1)
         {
-            choice -= 1;
-            cout << choice << endl;
             //if valid choice
+            choice -= 1;
+            editSelectedPart(choice);
         }
         else if (choice ==  0)
         {
@@ -313,4 +314,107 @@ void Car::editIndividually()
             check = false;
         }
     }
+}
+
+void Car::editSelectedPart(int selectedPart)
+{
+    int modifyChoice = -1;
+    bool check = false; //used to make sure that user has keyed in correct choice and if he wishes to cont or not
+    while (check == false)
+    {
+        cout << endl;
+        cout << "What do you wish to modify?" << endl;
+        cout << "Current part being modified: " << carParts[selectedPart].getPartName() << endl;
+        cout << "1. Part name" << endl;
+        cout << "2. Part image" << endl;
+        cout << "3. Add a component" << endl;
+        cout << "4. Delete a component" << endl;
+        cout << "5. Modify a component" << endl;
+        cout << "0. Quit" << endl;
+        cout << "Choice: ";
+        cin >> modifyChoice;
+
+        switch(modifyChoice)
+        {
+            case 1:
+            {
+                cout << ">> Modifying part name <<" << endl;
+
+                string temp;
+                cout << "What is the new part name? " << endl;
+                cout << "Part name: ";
+                cin >> temp;
+
+                carParts[selectedPart].setPartName(temp);
+            }
+            break;
+            case 2:
+            {
+                cout << ">> Modifying part image <<" << endl;
+
+                string temp;
+                cout << "What is the new image file?" << endl;
+                cout << "File name: ";
+                cin >> temp;
+
+                carParts[selectedPart].setPartImage(temp);
+            }
+            break;
+            case 3:
+            {
+                cout << ">> Adding a component <<" << endl;
+
+                component tempComp;
+                string temp;
+                cout << "What is the name of the new component? " << endl;
+                cout << "NEw component name: ";
+                cin >> temp;
+                tempComp.componentName = temp;
+
+                cout << "What is the image file for this component?" << endl;
+                cout << "Image file: ";
+                cin >> temp;
+                tempComp.componentImage = temp;
+
+                cout << "What is the component description?" << endl;
+                cout << "Component description: ";
+                cin >> temp;
+                tempComp.componentDescription = temp;
+
+                //add 1 value for the component
+                carParts[selectedPart].addNoComponents();
+                carParts[selectedPart].addComponent(tempComp);
+            }
+            break;
+            case 4:
+            {
+                cout << ">> Deleting a component <<" << endl;
+
+                vector<component> tempComps = carParts[selectedPart].getComponent();
+
+                for(int i = 0; i < tempComps.size(); i++)
+                {
+                    cout << tempComps[i].componentName << endl;
+                }
+            }
+            break;
+            case 5:
+            {
+                cout << ">> Modifying a component <<" << endl;
+            }
+            break;
+            case 0:
+            {
+                cout << ">> Exiting <<" << endl;
+                check = true;
+            }
+            break;
+            default:
+            {
+                cout << ">> Invalid choice <<" << endl;
+                cout << "Please try again" << endl;
+            }
+        }
+    }
+    //end of first while loop
 }

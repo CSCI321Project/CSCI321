@@ -8,7 +8,7 @@ int main()
 {
     Car car("Car part descriptions.txt"); //change the input file name here
     //car.getCurrentCarParts(2);
-    car.zoomOut(5);
+    //car.zoomOut(5);
     car.textEditorMenu();
 
     /*

@@ -35,16 +35,20 @@ class CarPart
         void setPartID(int);
         void setPartName(std::string);
         void setPartImage(std::string);
-        void setNoComponents(int);
-        void addComponent(component);
+        void setNoComponents(int); //sets the number of component
+        void addComponent(component); //actually adds a component in
         void setParent(int);
         void addSiblings(std::vector<int>);
+
+        void addNoComponents(); //adds (BY 1) the value of the number of components
+        void reduceNoComponents(); //reduce by 1 the no of components
 
         //get functions
         std::vector<component> getComponent() const;
         int getNoComponents() const;
         std::vector<int> getSiblings() const;
         int getParentID() const;
+        std::string getPartName() const;
 };
 
 #endif // _CARPART_
