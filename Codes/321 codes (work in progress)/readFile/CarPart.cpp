@@ -105,6 +105,28 @@ void CarPart::addNoComponents()
     noComponents++;
 }
 
+void CarPart::clearComponentVector()
+{
+    carComponents.clear();
+
+    cout << carComponents.size() << endl;
+}
+
+//used for editing a specific component
+void CarPart::editComponentName(int position, string componentName)
+{
+    carComponents[position].componentName = componentName;
+}
+
+void CarPart::editComponentImage(int position, string componentImage)
+{
+    carComponents[position].componentImage = componentImage;
+}
+
+void CarPart::editComponentDescription(int position, string componentDescription)
+{
+    carComponents[position].componentDescription = componentDescription;
+}
 
 //get functions
 int CarPart::getNoComponents() const

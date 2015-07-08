@@ -364,10 +364,11 @@ void Car::editSelectedPart(int selectedPart)
             {
                 cout << ">> Adding a component <<" << endl;
 
-                component tempComp;
                 string temp;
+                component tempComp;
+
                 cout << "What is the name of the new component? " << endl;
-                cout << "NEw component name: ";
+                cout << "New component name: ";
                 cin >> temp;
                 tempComp.componentName = temp;
 
@@ -391,16 +392,189 @@ void Car::editSelectedPart(int selectedPart)
                 cout << ">> Deleting a component <<" << endl;
 
                 vector<component> tempComps = carParts[selectedPart].getComponent();
+                int choice = -1;
+                bool check = false;
 
-                for(int i = 0; i < tempComps.size(); i++)
+                while (check == false)
                 {
-                    cout << tempComps[i].componentName << endl;
+                    if(tempComps.size() == 0)
+                    {
+                        cout << ">> There are no components to be deleted << " << endl;
+                        check = true; //we change it to true as there is nothing to be deleted
+                    }
+                    else
+                    {
+                        int noComponent = tempComps.size();
+                        //list the components for the part of the car
+                        cout << "Which component do you want to delete? " << endl;
+                        for(int i = 0; i < noComponent; i++)
+                        {
+                            cout << i + 1 << ". \t";
+                            cout << tempComps[i].componentName << endl;
+                        }
+                        cout << "0. \tExit" << endl;
+                        cout << "Choice: ";
+                        cin >> choice;
+
+                        if (choice > 0 && choice < noComponent + 1)
+                        {
+                            //valid choice
+                            choice -= 1;
+
+                            int userChoice = -1;
+                            cout << "We are attempting to delete " << tempComps[choice].componentName << endl;
+                            cout << "Are you sure? " << endl;
+                            cout << "1. Yes" << endl;
+                            cout << "2. No" << endl;
+                            cout << "Choice: ";
+                            cin >> userChoice;
+
+                            //only check if user wants to delete or not, if yes then delete
+                            if (userChoice == 1)
+                            {
+                                carParts[selectedPart].clearComponentVector();
+
+                                for(int i = 0; i < noComponent; i++)
+                                {
+                                    //if it is the one the user has deleted, we dont write it in
+                                    if (i != choice)
+                                    {
+                                        carParts[selectedPart].addComponent(tempComps[i]);
+                                    }
+                                }
+                                //refresh the vector with the updated one
+                                tempComps.clear();
+                                tempComps = carParts[selectedPart].getComponent();
+                            }
+                        }
+                        else if (choice == 0)
+                        {
+                            check = true;
+                        }
+                        else
+                        {
+                            cout << ">> Invalid input. <<" << endl;
+                            cout << "Please try again " << endl;
+                            check = false;
+                        }
+
+                    }
+
                 }
+                //DEleting function ends here
             }
             break;
             case 5:
             {
                 cout << ">> Modifying a component <<" << endl;
+
+                vector<component> tempComps = carParts[selectedPart].getComponent();
+                int choice = -1;
+                bool check = false;
+
+                while (check == false)
+                {
+                    if(tempComps.size() == 0)
+                    {
+                        cout << ">> There are no components to be modified << " << endl;
+                        check = true; //we change it to true as there is nothing to be modified
+                    }
+                    else
+                    {
+                        int noComponent = tempComps.size();
+                        //list the components in the part of the car
+                        cout << "Which component do you want to modify? " << endl;
+                        for(int i = 0; i < noComponent; i++)
+                        {
+                            cout << i + 1 << ". \t";
+                            cout << tempComps[i].componentName << endl;
+                        }
+                        cout << "0. \tExit" << endl;
+                        cout << "Choice: ";
+                        cin >> choice;
+
+                        if (choice > 0 && choice < noComponent + 1)
+                        {
+                            //valid choice
+                            choice -= 1;
+                            int userChoice = -1;
+                            bool changesMade = false;
+
+                            cout << "What do you wish to modify for " << tempComps[choice].componentName << "?" << endl;
+                            cout << "1. Component name" << endl;
+                            cout << "2. Component image file" << endl;
+                            cout << "3. Component description" << endl;
+                            cout << "0. Exit" << endl;
+                            cout << "Choice: ";
+                            cin >> userChoice;
+
+                            switch(userChoice)
+                            {
+                                case 1:
+                                {
+                                    string temp;
+                                    cout << "What is the modified component name?" << endl;
+                                    cout << "Component name: ";
+                                    cin >> temp;
+
+                                    carParts[selectedPart].editComponentName(choice, temp);
+                                    changesMade = true;
+                                }
+                                break;
+                                case 2:
+                                {
+                                    string temp;
+                                    cout << "What is the modified image file?" << endl;
+                                    cout << "Image file: ";
+                                    cin >> temp;
+
+                                    carParts[selectedPart].editComponentImage(choice, temp);
+                                    changesMade = true;
+                                }
+                                break;
+                                case 3:
+                                {
+                                    string temp;
+                                    cout << "What is the modified component description?" << endl;
+                                    cout << "Component description: ";
+                                    cin >> temp;
+
+                                    carParts[selectedPart].editComponentDescription(choice, temp);
+                                    changesMade = true;
+                                }
+                                break;
+                                case 0:
+                                {
+                                    changesMade = false;
+                                }
+                                break;
+                                default:
+                                {
+                                    cout << ">> Invalid input << " << endl;
+                                    cout << "Please try again" << endl;
+                                }
+                            }
+
+                            //refresh the vector with the updated one if changes were made
+                            if(changesMade)
+                            {
+                                tempComps.clear();
+                                tempComps = carParts[selectedPart].getComponent();
+                            }
+                        }
+                        else if (choice == 0)
+                        {
+                            check = true;
+                        }
+                        else
+                        {
+                            cout << ">> Invalid input. <<" << endl;
+                            cout << "Please try again " << endl;
+                            check = false;
+                        }
+                    }
+                }
+                //MODIFying function ends here
             }
             break;
             case 0:

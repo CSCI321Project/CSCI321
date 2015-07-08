@@ -42,6 +42,12 @@ class CarPart
 
         void addNoComponents(); //adds (BY 1) the value of the number of components
         void reduceNoComponents(); //reduce by 1 the no of components
+        void clearComponentVector(); //used in the delete function
+
+        //used for editing a specific component
+        void editComponentName(int, std::string);
+        void editComponentImage(int, std::string);
+        void editComponentDescription(int, std::string);
 
         //get functions
         std::vector<component> getComponent() const;
@@ -50,5 +56,4 @@ class CarPart
         int getParentID() const;
         std::string getPartName() const;
 };
-
 #endif // _CARPART_
