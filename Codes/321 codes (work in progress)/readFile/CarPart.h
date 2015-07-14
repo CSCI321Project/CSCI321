@@ -9,6 +9,7 @@ struct component
     std::string componentName;
     std::string componentImage; //the image of the component to be changed to when clicked
     std::string componentDescription;
+    std::string componentVideo;
 };
 
 class CarPart
@@ -48,6 +49,7 @@ class CarPart
         void editComponentName(int, std::string);
         void editComponentImage(int, std::string);
         void editComponentDescription(int, std::string);
+        void editComponentVideo(int, std::string);
 
         //get functions
         std::vector<component> getComponent() const;
@@ -55,5 +57,8 @@ class CarPart
         std::vector<int> getSiblings() const;
         int getParentID() const;
         std::string getPartName() const;
+
+        //writing to file
+        void display();
 };
 #endif // _CARPART_

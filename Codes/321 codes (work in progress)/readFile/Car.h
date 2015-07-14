@@ -36,9 +36,15 @@ class Car
         //text editor functions
         void textEditorMenu();
         void editByBatch();
+        void editBatchPart(int); //somewhat similar to editSelectedPart but used for batch editing
 
         void editIndividually(); //user wants to modify one by one
         void editSelectedPart(int); //user selected what needs to be modified and goes to this function
+
+        //function used to write to file, same function name with carPart
+        void writeToFile();
+
+        void outputFile(std::string);
 };
 
 #endif // _CAR_

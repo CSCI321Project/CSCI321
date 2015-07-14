@@ -10,6 +10,7 @@ int main()
     //car.getCurrentCarParts(2);
     //car.zoomOut(5);
     car.textEditorMenu();
+    car.writeToFile();
 
     /*
         //5 means have 6 more child nodes, the next 5 lines would be included in the vector of classes

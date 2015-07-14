@@ -4,40 +4,35 @@
 
 using namespace std;
 
-//overloaded output operator for viewing/testing
+//overloaded output operator for writing to file
 ostream& operator<< (ostream& out, const CarPart& temp)
 {
-    out << "Part ID: " << temp.partID << endl;
-    out << "Part name: " << temp.partName << endl;
-    out << "Part image: " << temp.partImage << endl;
-    out << "Number of components: " << temp.noComponents << endl;
+    out << temp.partName << ",";
+    out << temp.partImage << ",";
+    if(temp.noComponents == 0)
+    {
+        out << temp.noComponents;
+    }
+    else
+    {
+        out << temp.noComponents << endl;
+    }
 
-    //for displaying the components of the car part
-    /*
-    if (temp.noComponents != 0)
+    if(temp.noComponents != 0)
     {
         for(int i = 0; i < temp.noComponents; i++)
         {
-            out << "Component number: " << i << endl;
-            out << "Component name: " << temp.carComponents[i].componentName << endl;
-            out << "Component image: " << temp.carComponents[i].componentImage << endl;
-            out << "Component description: " << temp.carComponents[i].componentDescription << endl;
-        }
-
-    }
-    */
-
-    //for displaying the siblings
-    cout << "Siblings: ";
-    for(int i = 0; i < temp.siblings.size(); i++)
-    {
-        if (i == temp.siblings.size() - 1)
-        {
-            cout << temp.siblings[i] << endl;
-        }
-        else
-        {
-            cout << temp.siblings[i] << ",";
+            out << temp.carComponents[i].componentName << ",";
+            out << temp.carComponents[i].componentImage << ",";
+            out << temp.carComponents[i].componentVideo << ",";
+            if(i == temp.noComponents - 1)
+            {
+                out << temp.carComponents[i].componentDescription;
+            }
+            else
+            {
+                out << temp.carComponents[i].componentDescription << endl;
+            }
         }
     }
 
@@ -128,6 +123,11 @@ void CarPart::editComponentDescription(int position, string componentDescription
     carComponents[position].componentDescription = componentDescription;
 }
 
+void CarPart::editComponentVideo(int position, string componentVideo)
+{
+    carComponents[position].componentVideo = componentVideo;
+}
+
 //get functions
 int CarPart::getNoComponents() const
 {
@@ -152,4 +152,43 @@ int CarPart::getParentID() const
 string CarPart::getPartName() const
 {
     return partName;
+}
+
+void CarPart::display()
+{
+    cout << "Part ID: " << partID << endl;
+    cout << "Part name: " << partName << endl;
+    cout << "Part image: " << partImage << endl;
+    cout << "Number of components: " << noComponents << endl;
+
+    //for displaying the components of the car part
+
+    if (noComponents != 0)
+    {
+        for(int i = 0; i < noComponents; i++)
+        {
+            cout << "Component number: " << i << endl;
+            cout << "Component name: " << carComponents[i].componentName << endl;
+            cout << "Component image: " << carComponents[i].componentImage << endl;
+            cout << "Component video: " << carComponents[i].componentVideo << endl;
+            cout << "Component description: " << carComponents[i].componentDescription << endl;
+        }
+
+    }
+
+    /*
+    //for displaying the siblings
+    cout << "Siblings: ";
+    for(int i = 0; i < siblings.size(); i++)
+    {
+        if (i == siblings.size() - 1)
+        {
+            cout << siblings[i] << endl;
+        }
+        else
+        {
+            cout << siblings[i] << ",";
+        }
+    }
+    */
 }

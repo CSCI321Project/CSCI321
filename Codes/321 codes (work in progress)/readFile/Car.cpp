@@ -75,6 +75,16 @@ Car::Car(string fileName)
                     //get the component image
                     getline(infile, tempString, ',');
                     tempComp.componentImage = tempString;
+                    //get the component video
+                    getline(infile,tempString,',');
+                    tempComp.componentVideo = tempString;
+
+                    /*
+                        Things to take note at this point is that, we must take in the video first (before this i did not
+                        take into consideration for videos), the reason is because there are commas in the description.
+                        It will f*ck up everything badly imo lol
+                    */
+
                     //get the component description
                     getline(infile, tempString, '\n');
                     tempComp.componentDescription = tempString;
@@ -83,7 +93,7 @@ Car::Car(string fileName)
                 }
             }
             carParts.push_back(tempCarPart);
-            //cout << tempCarPart << endl;
+            //cout << tempCarPart.display() << endl;
         }
 
         //we assign the family members here
@@ -105,7 +115,7 @@ Car::Car(string fileName)
                 int count = i + 1; //this count is to keep track of how many we have gone through
                 for(int j = 0; j < hierarchyNumber[i]; j++)
                 {
-                    //cout << carParts[count] << endl;
+                    //cout << carParts[count].display() << endl;
 
                     if (hierarchyNumber[count] > 0 && j == hierarchyNumber[i] - 1)
                     {
@@ -128,7 +138,7 @@ Car::Car(string fileName)
                 {
                     carParts[siblingIDs[k]].setParent(i);
                     carParts[siblingIDs[k]].addSiblings(siblingIDs);
-                    //cout << carParts[siblingIDs[k]] << endl;
+                    //cout << carParts[siblingIDs[k]].display() << endl;
                 }
             }
         }
@@ -139,8 +149,6 @@ Car::Car(string fileName)
     }
     //at this point we have read in all the part and their components OR the thing failed to open
     infile.close();
-
-
 }
 
 Car::~Car()
@@ -248,7 +256,7 @@ void Car::textEditorMenu()
             case 1:
             {
                 cout << ">> Editing by batch <<" << endl << endl;
-
+                editByBatch();
             }
             break;
             case 2:
@@ -275,7 +283,174 @@ void Car::textEditorMenu()
 
 void Car::editByBatch()
 {
+    int choice = -1;
+    cout << ">> If there is no option that you seek, use \"Edit Individually\" instead. <<" << endl;
+    cout << ">> Make a choice and get a description on what it is suppose to do and the format of the text file that is expected <<" << endl;
+    cout << endl;
 
+    cout << "How do you wish to update by batch today?" << endl;
+    cout << "1. Update by batch for ALL images AND videos for parts and ALL COMPONENTS" << endl;
+    cout << "2. Update by batch for ALL images for ALL PARTS and ALL COMPONENTS" << endl;
+    cout << "3. Update by batch for images for  THE CHOSEN PART and ITS COMPONENTS" << endl;
+    cout << "4. Update by batch for images for COMPONENTS only" << endl;
+    cout << "5. Update by batch for videos for COMPONENTS only " << endl;
+    cout << "6. Update by batch for components name for COMPONENTS only" << endl;
+    cout << "0. Exit" << endl;
+    cout << "Choice: ";
+    cin >> choice;
+
+    switch(choice)
+    {
+        case 1:
+        {
+            cout << "You are trying to do the following: " << endl;
+            cout << "1. Updating all part images" << endl;
+            cout << "2. Updating all component images" << endl;
+            cout << "3. Updating all component videos" << endl;
+
+            cout << endl;
+            cout << "The expected format for the file is detailed below: " << endl;
+        }
+        break;
+        case 2:
+        {
+            cout << "You are trying to do the following:" << endl;
+            cout << "1. Updating all part images" << endl;
+            cout << "2. Updating all component images" << endl;
+        }
+        break;
+        case 3:
+        {
+            cout << "You are trying to do the following: " << endl;
+            cout << "1. Updating the chosen part's image" << endl;
+            cout << "2. Updating the images for all components for a chosen part " << endl;
+        }
+        break;
+        case 4:
+        {
+            cout << "You are trying to do the following: " << endl;
+            cout << "1. Updating the images for all components for a chosen part" << endl;
+        }
+        break;
+        case 5:
+        {
+            cout << "You are trying to do the following: " << endl;
+            cout << "1. Updating the videos for all components for a chosen part" << endl;
+        }
+        break;
+        case 6:
+        {
+            cout << "You are trying to do the following: " << endl;
+            cout << "1. Updating the name for all components for a chosen part" << endl;
+        }
+        break;
+        case 0:
+        {
+
+        }
+        break;
+        default:
+        {
+            cout << ">> Invalid input <<" << endl;
+            cout << "Please try again" << endl;
+        }
+    }
+
+
+    bool check = false;
+    int numParts = carParts.size();
+    //int choice = -1;
+
+    while (check == false)
+    {
+        cout << "Which car part do you wish to edit?" << endl;
+        for(int i = 0; i < numParts; i++)
+        {
+            cout << i + 1 << ". \t";
+            cout << carParts[i].getPartName() << endl;
+        }
+        //can't use swtich since we dont know how many component we might have
+        cout << "0. \tExit" << endl;
+        cout << "Input: ";
+        cin >> choice;
+
+        if (choice > 0 && choice < numParts + 1)
+        {
+            //if valid choice
+            choice -= 1;
+            //editBatchPart(choice);
+        }
+        else if (choice ==  0)
+        {
+            check = true;
+        }
+        else
+        {
+            cout << "Invalid choice" << endl;
+            cout << "Please try again" << endl;
+            check = false;
+        }
+    }
+
+}
+
+/*
+void Car::editBatchPart(int selectedPart)
+{
+    int modifyChoice = -1;
+    bool check = false; //used to make sure that user has keyed in correct choice and if he wishes to cont or not
+    while (check == false)
+    {
+        cout << endl;
+        cout << "What do you wish to modify by BATCH?" << endl;
+        cout << "Current part being modified: " << carParts[selectedPart].getPartName() << endl;
+        cout << "1. Part name" << endl;
+        cout << "2. Part image" << endl;
+        cout << "3. Add a component" << endl;
+        cout << "4. Delete a component" << endl;
+        cout << "5. Modify a component" << endl;
+        cout << "0. Quit" << endl;
+        cout << "Choice: ";
+        cin >> modifyChoice;
+
+
+        vector<component> tempComps = carParts[selectedPart].getComponent();
+        int choice = -1;
+        bool check = false;
+
+        while (check == false)
+        {
+            if(tempComps.size() == 0)
+            {
+                cout << ">> There are no components to be updated by batch << " << endl;
+                check = true; //we change it to true as there is nothing to be deleted
+            }
+            else
+            {
+
+            }
+        }
+    }
+}
+*/
+
+void Car::outputFile(string fileName)
+{
+    ifstream infile;
+    infile.open(fileName.c_str());
+
+    if(infile.good())
+    {
+        while(!infile.eof())
+        {
+            string line;
+            getline(infile, line, '\n');
+
+            cout << line << endl;
+        }
+    }
+
+    infile.close();
 }
 
 void Car::editIndividually()
@@ -376,6 +551,11 @@ void Car::editSelectedPart(int selectedPart)
                 cout << "Image file: ";
                 cin >> temp;
                 tempComp.componentImage = temp;
+
+                cout << "What is the video file for this component?" << endl;
+                cout << "Video file: ";
+                cin >> temp;
+                tempComp.componentVideo = temp;
 
                 cout << "What is the component description?" << endl;
                 cout << "Component description: ";
@@ -498,12 +678,14 @@ void Car::editSelectedPart(int selectedPart)
                             //valid choice
                             choice -= 1;
                             int userChoice = -1;
+                            //changesMade variable used for reloading the latest vector when a change has been madeeeeeee
                             bool changesMade = false;
 
                             cout << "What do you wish to modify for " << tempComps[choice].componentName << "?" << endl;
                             cout << "1. Component name" << endl;
                             cout << "2. Component image file" << endl;
-                            cout << "3. Component description" << endl;
+                            cout << "3. Component video file" << endl;
+                            cout << "4. Component description" << endl;
                             cout << "0. Exit" << endl;
                             cout << "Choice: ";
                             cin >> userChoice;
@@ -533,6 +715,17 @@ void Car::editSelectedPart(int selectedPart)
                                 }
                                 break;
                                 case 3:
+                                {
+                                    string temp;
+                                    cout << "What is the modified video file?" << endl;
+                                    cout << "Video file: ";
+                                    cin >> temp;
+
+                                    carParts[selectedPart].editComponentVideo(choice, temp);
+                                    changesMade = true;
+                                }
+                                break;
+                                case 4:
                                 {
                                     string temp;
                                     cout << "What is the modified component description?" << endl;
@@ -591,4 +784,39 @@ void Car::editSelectedPart(int selectedPart)
         }
     }
     //end of first while loop
+}
+
+void Car::writeToFile()
+{
+    cout << ">> Writing to file << " << endl;
+
+    ofstream outfile;
+    outfile.open("test.txt");
+
+    outfile << hierarchyNumber.size() << endl;
+    for(int i = 0; i < hierarchyNumber.size(); i++)
+    {
+        if(i == hierarchyNumber.size() - 1)
+        {
+            outfile << hierarchyNumber[i] << endl;
+        }
+        else
+        {
+            outfile << hierarchyNumber[i] << ",";
+        }
+    }
+
+    for(int i = 0; i < carParts.size(); i++)
+    {
+        if(i == carParts.size() - 1)
+        {
+            outfile << carParts[i];
+        }
+        else
+        {
+            outfile << carParts[i] << endl;
+        }
+    }
+
+    outfile.close();
 }
