@@ -45,6 +45,7 @@ class Car
         void writeToFile();
 
         void outputFile(std::string);
+        int selectPart(int); //allows the user to select a car part
 };
 
 #endif // _CAR_

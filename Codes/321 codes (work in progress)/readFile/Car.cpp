@@ -310,6 +310,44 @@ void Car::editByBatch()
 
             cout << endl;
             cout << "The expected format for the file is detailed below: " << endl;
+            outputFile("batchFormat1.txt");
+
+            //get in file name that has the image files
+            string file;
+            cout << "Please enter file name: ";
+            cin >> file;
+
+            //read in video and image file
+            ifstream infile;
+            infile.open(file.c_str());
+
+            if(!infile.good())
+            {
+                cout << "File does not exist" << endl;
+            }
+            else
+            {
+                string temp;
+                for(int i = 0; i < carParts.size(); i++)
+                {
+                    getline(infile, temp, '\n');
+
+                    carParts[i].setPartImage(temp);
+                    int noComp = carParts[i].getNoComponents();
+
+                    if(noComp != 0)
+                    {
+                        for(int j = 0; j < noComp; j++)
+                        {
+                            getline(infile, temp, ',');
+                            carParts[i].editComponentImage(j, temp);
+                            getline(infile, temp, '\n');
+                            carParts[i].editComponentVideo(j,temp);
+                        }
+                    }
+                }
+
+            }
         }
         break;
         case 2:
@@ -317,6 +355,46 @@ void Car::editByBatch()
             cout << "You are trying to do the following:" << endl;
             cout << "1. Updating all part images" << endl;
             cout << "2. Updating all component images" << endl;
+
+            cout << endl;
+            cout << "The expected format for the file is detailed below: " << endl;
+            outputFile("batchFormat1.txt");
+
+
+            //get in file name that has the image files
+            string file;
+            cout << "Please enter file name: ";
+            cin >> file;
+
+            //read in video and image file
+            ifstream infile;
+            infile.open(file.c_str());
+
+            if(!infile.good())
+            {
+                cout << "File does not exist" << endl;
+            }
+            else
+            {
+                string temp;
+                for(int i = 0; i < carParts.size(); i++)
+                {
+                    getline(infile, temp, '\n');
+
+                    carParts[i].setPartImage(temp);
+                    int noComp = carParts[i].getNoComponents();
+
+                    if(noComp != 0)
+                    {
+                        for(int j = 0; j < noComp; j++)
+                        {
+                            getline(infile, temp, '\n');
+                            carParts[i].editComponentImage(j, temp);
+                        }
+                    }
+                }
+
+            }
         }
         break;
         case 3:
@@ -324,29 +402,48 @@ void Car::editByBatch()
             cout << "You are trying to do the following: " << endl;
             cout << "1. Updating the chosen part's image" << endl;
             cout << "2. Updating the images for all components for a chosen part " << endl;
+
+            cout << endl;
+            cout << "The expected format for the file is detailed below: " << endl;
+            outputFile("batchFormat1.txt");
+
+
+
         }
         break;
         case 4:
         {
             cout << "You are trying to do the following: " << endl;
             cout << "1. Updating the images for all components for a chosen part" << endl;
+
+            cout << endl;
+            cout << "The expected format for the file is detailed below: " << endl;
+            outputFile("batchFormat1.txt");
         }
         break;
         case 5:
         {
             cout << "You are trying to do the following: " << endl;
             cout << "1. Updating the videos for all components for a chosen part" << endl;
+
+            cout << endl;
+            cout << "The expected format for the file is detailed below: " << endl;
+            outputFile("batchFormat1.txt");
         }
         break;
         case 6:
         {
             cout << "You are trying to do the following: " << endl;
             cout << "1. Updating the name for all components for a chosen part" << endl;
+
+            cout << endl;
+            cout << "The expected format for the file is detailed below: " << endl;
+            outputFile("batchFormat1.txt");
         }
         break;
         case 0:
         {
-
+            cout << ">> Exiting <<" << endl;
         }
         break;
         default:
@@ -357,9 +454,13 @@ void Car::editByBatch()
     }
 
 
+}
+
+int Car::selectPart(int batchChoice)
+{
     bool check = false;
     int numParts = carParts.size();
-    //int choice = -1;
+    int choice = -1;
 
     while (check == false)
     {
@@ -378,7 +479,96 @@ void Car::editByBatch()
         {
             //if valid choice
             choice -= 1;
-            //editBatchPart(choice);
+
+            string file;
+            cout << "Please provide the filename: ";
+            cin >> file;
+
+            ifstream infile;
+            infile.open(file.c_str());
+
+            if(!infile.good())
+            {
+                cout << "File does not exist" << endl;
+            }
+            else
+            {
+                //depending on the batch choice made, different things need to be done
+                switch(batchChoice)
+                {
+                    //we edit the part image and the component images
+                    case 3:
+                    {
+                        string temp;
+                        getline(infile, temp, '\n');
+                        carParts[choice].setPartImage(temp);
+
+                        int noComp = carParts[choice].getNoComponents();
+
+                        if(noComp != 0)
+                        {
+                            for(int i = 0; i < noComp; i++)
+                            {
+                                getline(infile,temp,'\n');
+                                carParts[choice].editComponentName(i, temp);
+                            }
+                        }
+                    }
+                    break;
+                    //we edit only the component images
+                    case 4:
+                    {
+                        string temp;
+
+                        int noComp = carParts[choice].getNoComponents();
+
+                        if(noComp != 0)
+                        {
+                            for(int i = 0; i < noComp; i++)
+                            {
+                                getline(infile,temp,'\n');
+                                carParts[choice].editComponentName(i, temp);
+                            }
+                        }
+                    }
+                    break;
+                    //we edit only the component videos
+                    case 5:
+                    {
+                        string temp;
+                        int noComp = carParts[choice].getNoComponents();
+
+                        if(noComp != 0)
+                        {
+                            for(int i = 0; i < noComp; i++)
+                            {
+                                getline(infile,temp,'\n');
+                                carParts[choice].editComponentVideo(i, temp);
+                            }
+                        }
+                    }
+                    break;
+                    //we edit only the component names
+                    case 6:
+                    {
+                        string temp;
+                        int noComp = carParts[choice].getNoComponents();
+
+                        if(noComp != 0)
+                        {
+                            for(int i = 0; i < noComp; i++)
+                            {
+                                getline(infile,temp,'\n');
+                                carParts[choice].editComponentName(i, temp);
+                            }
+                        }
+                    }
+                    break;
+                }
+
+            }
+
+            infile.close();
         }
         else if (choice ==  0)
         {
@@ -392,6 +582,7 @@ void Car::editByBatch()
         }
     }
 
+    return choice;
 }
 
 /*
