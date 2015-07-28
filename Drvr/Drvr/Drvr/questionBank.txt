@@ -1,0 +1,13 @@
+12
+0,What are automobile radiators used for?, Keep engine cool, Emit radiation, Murder everyone in the car, Prevent snow from freezing the engine when not moving, 0
+0,What does RPM stand for?, Rounds per minute, Revolutions per minute, Rolls per minute, Rabbits per minute, 1
+0,How many kilometers should you drive before changing your brake pads?, 10000 to 25000 km, 20000 to 50000 km, 50000 to 120000 km, 30000 to 80000 km, 2
+0,What does FWD stand for?, Fast Wheel Drive, Front Wheel Drive, Fear Wheel Drive, Ferocious Wheel Drive, 1
+0,What is the ignition used for?, Start the vehicle, Set fire to the world, Set fire to yourself, Should be turned off, 0
+0,What happens when diesel is used in petrol cars?, It will explode, You will regret your decision, You will explode, The world will end, 1
+0,What is the difference between a manual and automatic vehicle?, The gear box, The design, The shape, The name, 0
+0,How often should you check your car's coolant (if you are on the road everyday)?, Once a year, Twice a month, Twice a year, Everyday, 1
+0,What do you need to do before filling up petrol at a petrol station?, Open the fuel cap, Stop the engine, Sing a song, Dance in your car, 1
+0,How different is FWD from RWD?, The name, Both named after siblings, Used by automatic cars only, The part that force is given to, 3
+1,quizPic/ignitionQuiz.jpg, What is the part shown in the image?, Exhaust, Wiper starter, Ignition switch, Emergency break, 2
+1,quizPic/roofRackQuiz.jpg, What is the part shown in the image?, Sun Roof, Wiper, Emergency Exit, Roof Rack, 3
