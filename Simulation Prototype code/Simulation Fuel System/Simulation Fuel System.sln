@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Simulation Fuel System", "Simulation Fuel System\Simulation Fuel System.vcxproj", "{87BE61A2-760D-46C1-A70F-778EF176D991}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87BE61A2-760D-46C1-A70F-778EF176D991}.Debug|Win32.ActiveCfg = Debug|Win32
+		{87BE61A2-760D-46C1-A70F-778EF176D991}.Debug|Win32.Build.0 = Debug|Win32
+		{87BE61A2-760D-46C1-A70F-778EF176D991}.Release|Win32.ActiveCfg = Release|Win32
+		{87BE61A2-760D-46C1-A70F-778EF176D991}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
