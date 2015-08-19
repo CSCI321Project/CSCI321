@@ -10,6 +10,13 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fuel.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fuel.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{87BE61A2-760D-46C1-A70F-778EF176D991}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -77,13 +84,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="MyClass.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="MyClass.cpp" />
-    <ClCompile Include="Source.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

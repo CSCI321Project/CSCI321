@@ -54,7 +54,7 @@ float fuelTank::getCapacity()
 	return currentVolume;
 }
 
-int fuelTank::getCurrentFuelLevel()
+int fuelTank::getCurrentFuelLevelPercent()
 {
 	//Calculate a percentage value of the fuel level
 	int fuelLevel = (currentVolume / capacity) * 100;
@@ -62,10 +62,23 @@ int fuelTank::getCurrentFuelLevel()
 	return fuelLevel;
 }
 
-void fuelTank::addFuel(float amountToAdd)
+float fuelTank::getCurrentFuelLevel()
+{
+	return currentVolume;
+}
+
+void fuelTank::addFuel(float amountToAdd, bool isPetrolFilled)
 {
 	//Tops off the fuel level...
 	currentVolume = currentVolume + amountToAdd;
+	isPetrol = isPetrolFilled;
+}
+
+bool fuelTank::getFuelIsPetrol()
+{
+	//Return if there is petrol or diesel
+	//If petrol this returns as true, else it will return as false
+	return isPetrol;
 }
 
 fuelPump::fuelPump()
@@ -100,4 +113,101 @@ void fuelPump::setFuelIsPetrol(bool newFuelStatus)
 {
 	//Saves a new fuel type to the fuel pump
 	isPetrol = newFuelStatus;
+}
+
+void engineManager()
+{
+	//Makes requests for fuel to the fuelPump when engine is active and based on speed - also check if there is fuel in the first place
+	float pressureToSet;
+
+	for (;;)
+	{
+		if (myEngine.engineStatus() == true)
+		{
+			//Engine is running
+			//Request for fuel based on the speed
+			//Ensure there is fuel... if there isn't, then should be that the engine cuts off now.
+			if (myTank.getCurrentFuelLevel() == 0)
+			{
+				//Fuel tank is empty
+				myEngine.stopEngine();
+				cout << endl << "Engine has run out of fuel!" << endl;
+				//Continue to the next iteration of the loop
+				continue;
+			}
+
+			//By default, there is a minimum pressure for the fuel as long as the engine is idling - that is vehicle speed is 0. If not, the pressure will be proportionate to the speed
+			if (myEngine.getSpeed() == 0)
+			{
+				//Engine is in idle
+				myFuelPump.setPressure(idlePressure);
+			}
+			else
+			{
+				//Set the fuel pressure based on the engine speed
+				pressureToSet = idlePressure + (myEngine.getSpeed / 100);
+
+				myFuelPump.setPressure(pressureToSet);
+			}
+		}
+		else
+		{
+			//Engine is not on...
+
+			//Ensure that the fuel pump pressure is set to 0
+			myFuelPump.setPressure(0);
+			//nothing else to do there.
+		}
+
+		//Sleep
+		Sleep(500); //Don't want to query it always, once every half second should be fine...
+
+	}
+}
+void fuelPumpManager()
+{
+	//Gets fuel from  the fuel tank, based on pressure update the value of the tank
+
+	float amountToReduce;
+	float newFuelLevel;
+
+	//The idea is that the fuel tank level will reduce faster as the fuel pressure increases...
+	for (;;)
+	{
+		//As long as there is fuel available, we should try to get the fuel out
+
+		//First, check and see what type of fuel we are getting
+		myFuelPump.setFuelIsPetrol(myTank.getFuelIsPetrol());
+
+		//Since we know the type of fuel at the pump, the engine can then find out the type of fuel as it needs to...
+		
+		//Reduce the amount of fuel accordingly... Right now, we shall set the amount to be reduced is 10% of the corresponding pressure...
+
+		amountToReduce = myFuelPump.getPressure() * 0.1;
+
+		//Update the fuel quantity
+
+		newFuelLevel = myTank.getCurrentFuelLevel() - amountToReduce;
+
+		//Note, should never let this become a negative. If it becomes a negative, pad it to 0
+		if (newFuelLevel <= 0)
+		{
+			newFuelLevel = 0;
+		}
+		myTank.setFuel(newFuelLevel);
+
+		//Sleep for a while
+		Sleep(500);
+
+	}
+}
+void fuelTankManager()
+{
+	//make calls to car control panel as the fuel level goes down...
+
+	//While there is still fuel, the pump will pull out the fuel from the tank
+	//nothing much to do here for now
+
+
+
 }
