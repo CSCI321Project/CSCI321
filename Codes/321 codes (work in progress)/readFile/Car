@@ -1,0 +1,119 @@
+11
+5,0,0,0,0,3,2,0,0,0,0
+corner,CarImages\default.png,0
+back,CarImages\rear\rear.png,13
+Auspuff,CarImages\rear\rearExhaust.png,test,Verwendet werden, um zu kanalisieren out bei der Verbrennung des Kraftstoffs erzeugten Abgases. Nicht in einem Elektroauto vorhanden.
+Auto-Kennzeichen,CarImages\rear\rearNumberPlate.png,componentVideo,Hält das Nummernschild eines Autos.
+Kofferraum,CarImages\rear\rearBoot.png,componentVideo,Ein Ort, um Gegenstände im Auto zu speichern. In einigen Autos, dies kann in der Vorderseite des Autos.
+Bremslichter,CarImages\rear\rearBrakeLights.png,componentVideo,Schalten Sie, wenn die Fußbremse betätigt wird.
+Anzeigeleuchten,CarImages\rear\rearIndicatorLights.png,componentVideo,Verwendet werden, um Veränderungen in Fahrtrichtung zeigen.
+Zurück Glasscheibe,CarImages\rear\rearWindscreen.png,componentVideo,Fungiert als Heckscheibe. Hat in der Regel einen Demister zur Verwendung, wenn das Wetter neblig.
+Zurück Stoßfänger,CarImages\rear\rearBumper.png,componentVideo,Absorbiert kleinen bis mittleren Aufprall Beulen zu verhindern oder Schäden an Struktur des Fahrzeugs zu reduzieren in einem hinteren Ende Unfall.
+Schmutzfänger,CarImages\rear\rearMudGuard.png,componentVideo,Schlamm zu verhindern davor bis zu der Karosserie gespritzt beim Überfahren von schlammigen Oberflächen.
+Ersatzrad,CarImages\rear\rearSpareWheel.png,componentVideo,Verwendet werden, wenn es eine Reifenpanne. In einigen Autos, es ist ein Raumwunder Ersatz, der kleiner im Durchmesser und Breite als eine reguläre Reifen.
+Autospoiler,CarImages\rear\rearSpoiler.png,componentVideo,Zur Erhöhung Abtrieb, um die Stabilität des hinteren Endes des Fahrzeugs zu verbessern.
+Zurück Scheibenwischer,CarImages\rear\rearWiper.png,componentVideo,Auf Heckklappenmodelle, ein Heckscheibenwischer ist notwendig, um von Regenwasser wischen. Sedans dies nicht benötigen aufgrund der gewinkelten Art des Glases.
+Reverse-Sensoren,CarImages\rear\rearReverseSensor.png,componentVideo,Hilfe, um Hindernisse auf der Rückseite des Autos zu erkennen, in Einparkhilfe.
+Nebelschlussleuchte,CarImages\rear\rearFogLights.png,componentVideo,Verbessern Sie die Sichtbarkeit der Rückseite des Autos unter nebligen Situationen.
+side,CarImages\side\side.png,10
+Tür,CarImages\side\sideDoors.png,componentVideo,Eine Tür
+Seitenschweller,CarImages\side\sideSkirting.png,componentVideo,Verbessert Seiten Abtrieb und Aerodynamik des Autos, und die Ästhetik des Fahrzeugs.
+Räder,CarImages\side\sideWheels.png,componentVideo, Um das Auto zu bewegen
+Felgen,CarImages\side\sideRims.png,componentVideo,Verwendet werden, um den Reifen auf der KFZ-Halterung
+Fensterscheiben,CarImages\side\sideWindowPanel.png,componentVideo,Fenster
+Türgriffe,CarImages\side\sideDoorHandle.png,componentVideo,Um Zugriff auf das Auto zu gewinnen. In einigen Autos, enthält eine Schaltfläche zum Sperren und Entsperren das Auto als auch
+Anzeigeleuchten,CarImages\side\sideIndicatorLights.png,componentVideo,Seite Repeater Lichter, die den Betrieb der vorderen und hinteren Indikatoren ergänzen
+Seitenspiegel,CarImages\side\sideSideMirror.png,componentVideo,Um in Betrachtung Hindernisse an der Seite des Autos im toten Winkel des Fahrzeugs zu unterstützen
+Tankdeckel,CarImages\side\sideFuelCap.png,componentVideo,Sichert den Kraftstofftank
+Bremsscheiben,CarImages\side\sideBrakeDiscs.png,componentVideo,Einsetzen als Teil des Bremssystems, um das Auto zu verlangsamen, wenn die Fußbremse tätig sind
+front,CarImages\front\front.png,13
+Motorhaube,CarImages\front\frontHood.png,componentVideo,Schützt den Motor vor regen und das Wetter.
+Kühlergrill,CarImages\front\frontGrille.png,componentVideo,Wirkt als Lufteinlass, um den Kühler zu kühlen und Front Aerodynamik des Autos zu verbessern.
+Autoschild,CarImages\front\frontNumberPlate.png,componentVideo,Hält das vordere Kennzeichen des Autos. In einigen Ländern wie den USA, ist dies nicht obligatorisch.
+Windschutzscheibe,CarImages\front\frontWindshield.png,componentVideo,Windschutzscheibe des Autos, verhindert, dass Wasser in das Auto und verbessern die Aerodynamik Front.
+Beleuchtung,CarImages\front\frontLights.png,componentVideo,Leuchten die Straße bei Nacht und machen das Auto sichtbar
+Höhepunkte,CarImages\front\frontHighBeam.png,componentVideo,Verbessern Sie die Sichtbarkeit der Straße vor unter dunklen und schlechten Bedingungen.
+Nebellichter,CarImages\front\frontFogLights.png,componentVideo,Verbessern Sie die Sichtbarkeit der Straße voran bei Regen / Nebel Situationen.
+Heizkörper,CarImages\front\frontRadiator.png,componentVideo,Hilft, das Kühlmittel, das durch sie fließt abkühlen.
+Frontstoßstange,CarImages\front\frontBumper.png,componentVideo,Verhindert eine Beschädigung oder Beschädigung des vorderen Endes des Fahrzeugs bei einem Frontalaufprall deutlich verringern. Hilft auch, um Verletzungen zu vermeiden, wenn ein Auto ist in einer Fußgänger laufen.
+Sprinkler,CarImages\front\frontSprinkler.png,componentVideo,Sprays Scheiben Fluid aus dem Behälter auf die Scheibe zu reinigen.
+Anzeigeleuchten,CarImages\front\frontIndicatorLights.png,componentVideo,Verwendet werden, um Veränderungen in Fahrtrichtung zeigen
+Wischer,CarImages\front\frontWiper.png,componentVideo,Wegdrückt Wasser, das auf der vorderen Windschutzscheibe vorhanden sein können.
+Kopf auf Kollisionssensoren,CarImages\front\frontCollisionSensor.png,componentVideo,Erkennt Hindernisse vor dem Auto, das Auto ist im Begriff, in abstürzen und warnt den Fahrer. In einigen Systemen, wäre es die Bremsen automatisch einrasten. Nicht bei allen Fahrzeugen eingebaut.
+top,CarImages\top\top.png,3
+Radioantenne,CarImages\top\topAntenna.png,componentVideo,Erkennt Funksignale
+Dach,CarImages\top\topRoof.png,componentVideo,Ein Dach
+Dachgepäckträger,CarImages\top\topRoofRacks.png,componentVideo,Für den Einsatz auf Lagerboxen oder andere Dinge (wie Fahrräder) auf das Dach des Autos anzubringen. Nicht in allen Autos zu präsentieren.
+interior,CarImages\interior1\interior1.png,12
+Lenkrad,CarImages\interior1\interior1Steering.png,componentVideo,Um das Auto zu lenken
+Armaturenbrett,CarImages\interior1\interior1Dashboard.png,componentVideo,Hält verschiedene Instrumentierung des Autos
+Spiegel,CarImages\interior1\interior1RearViewMirror.png,componentVideo,Erlaubt es dem Fahrer, den Verkehr oder Hindernisse hinter dem Fahrzeug anzuzeigen
+Sonnenblende,CarImages\interior1\interior1SunVisor.png,componentVideo,Verwendet werden, um die Menge der Sonne, die in die Kabine zu reduzieren
+Getriebe,CarImages\interior1\interior1Gears.png,componentVideo,Bei einem automatischen, ist es entweder nach hinten machen das Auto zu bewegen (in Position R) oder nach vorne zu bewegen (in D-Position), die am besten geeignete Geschwindigkeit der Übertragung wird automatisch von der Getriebesteuereinheit gewählt. In einem manuellen Auto, verwendet werden, um das Fahrzeug vorwärts (mit den Zahnrädern in jeder Position zwischen 1-5 (oder 6 in einigen Autos), wobei der durch den Fahrer auf der Grundlage der Fahrzeuggeschwindigkeit gewählt optimalen Gang) oder rückwärts (durch Platzieren Sie den Schalthebel in die R).
+Sitz,CarImages\interior1\interior1Seats.png,componentVideo,Um Passagiere Platz.
+Handschuhfach,CarImages\interior1\interior1GloveCompartment.png,componentVideo,Für diverse Kleinteile.
+Armlehne,CarImages\interior1\interior1ArmRest.png,componentVideo,Für Komfort der Arme.
+Getränkehalter,CarImages\interior1\interior1CupHolder.png,componentVideo,hält Tassen.
+Handbremse,CarImages\interior1\interior1HandBrake.png,componentVideo,Ein- und Ausschalten der Feststellbremse.
+Innenbeleuchtung,CarImages\interior1\interior1InteriorLights.png,componentVideo,Leuchtet der Innenraum in dunkler Umgebung.
+Klimaanlage,CarImages\interior1\interior1AirCon.png,componentVideo,Lässt Luft zu kommen.
+interiorSteering,CarImages\interior2\interior2.png,13
+Lenkrad,CarImages\interior2\interior2Steering.png,componentVideo,Um das Auto zu lenken.
+Horn,CarImages\interior2\interior2Horn.png,componentVideo,Verwendet werden, um eine hörbare Warnung außerhalb des Autos liefern.
+Airbag,CarImages\interior2\interior2AirBag.png,componentVideo,Setzt im Falle einer Kollision schwer genug, um potentiell schädigen.
+Armaturenbrett,CarImages\interior2\interior2Dashboard.png,componentVideo,Hält verschiedene Instrumentierung des Autos.
+Indicator Stiele,CarImages\interior2\interior2IndicatorStalks.png,componentVideo,Um die Indikatoren zu engagieren.
+Licht Stiele,CarImages\interior2\interior2LightStalks.png,componentVideo,Um das Licht, Nebelscheinwerfer und Fernlicht schalten.
+Wischer Stiele,CarImages\interior2\interior2WiperStalk.png,componentVideo,Sich zu engagieren und zu steuern die Scheibenwischer. Auch verwendet, um den Sprinkler zu engagieren, um Wasser aus der Windschutzscheibe Behälter auf die Windschutzscheibe zu sprühen.
+Ignition Loch,CarImages\interior2\interior2Ignition.png,componentVideo,Ein Ort, um den Schlüssel, um das Auto zu starten einfügen. In einigen Fahrzeugen kann dies von einem fob, die verdreht können, um das Auto, oder eine Schaltfläche, um das Auto zu starten starten ersetzt werden (vorausgesetzt, der Schlüsselanhänger in der Kabine).
+Radio,CarImages\interior2\interior2Radio.png,componentVideo,Ermöglicht dem Benutzer die Musik für die Wiedergabe auswählen.
+Klimaanlage Kontrollen,CarImages\interior2\interior2AirConControl.png,componentVideo,Verwendet, um die Klimaanlage im Fahrzeug steuern.
+Tempomat,CarImages\interior2\interior2CruiseControl.png,componentVideo,Bei Aktivierung kann das Fahrzeug Kreuzfahrt mit einer festen Geschwindigkeit. In Autos mit Vorwärtskollisionssensoren ausgestattet, es mit ihm Schnittstelle kann die Reisegeschwindigkeit variieren basierend auf der Geschwindigkeit des Autos vor.
+Warnlichter,CarImages\interior2\interior2HazardLight.png,componentVideo,Bei Aktivierung wird es dazu führen sowohl die Anzeige leuchtet, gleichzeitig blinken, um einen Zusammenbruch zeigen.
+Feuerzeug,CarImages\interior2\interior2Lighter.png,componentVideo,Wirkt wie ein 12V Steckdose oder den Zigarettenanzünder.
+dashboardPart1,CarImages\dashboardInfographics\dashboardInfographics.png,14
+Tachometer,CarImages\dashboardInfographics\dashboardInfographicsSpeedometer.png,componentVideo,Verwendet, um die Fahrzeuggeschwindigkeit zu zeigen.
+Drehzahlmesser,CarImages\dashboardInfographics\dashboardInfographicsRevMeter.png,componentVideo,Verwendet, um die Motordrehzahl zu zeigen.
+Kraftstoffstand,CarImages\dashboardInfographics\dashboardInfographicsFuelGauge.png,componentVideo,Zeigt den Kraftstoffpegel der Wagen (Menge des in dem Kraftstofftank verbleibenden Kraftstoff).
+Motorwarnlampe,CarImages\dashboardInfographics\dashboardInfographicsEngine.png,componentVideo,Schaltet im Falle eines Fehlers in dem Motor oder Antriebsstrang des Fahrzeugs.
+Ölkontrollanzeige,CarImages\dashboardInfographics\dashboardInfographicsOil.png,componentVideo,Eingreift, wenn der Öldruck des Fahrzeugs niedrig ist im Motor.
+Handbremse Indikator,CarImages\dashboardInfographics\dashboardInfographicsBrake.png,componentVideo,Leuchtet auf, wenn die Handbremse / Feststellbremse angezogen ist. Wenn es auf trotz der Feststellbremse ausgerückt bleibt, ist es ein Zeichen eines Fehlers in dem Bremssystem.
+Temperaturanzeige,CarImages\dashboardInfographics\dashboardInfographicsTempGauge.png,componentVideo,Verwendet werden, um Motorkühlmitteltemperatur zeigen.
+Kilometerzähler,CarImages\dashboardInfographics\dashboardInfographicsOdometer.png,componentVideo,Zeigt die Gesamtstrecke der Wagen gereist, da sie das Werk verlassen.
+Tageszähler,CarImages\dashboardInfographics\dashboardInfographicsTripCounter.png,componentVideo,Zeigt die seit der letzten Trip-Reset gereist.
+ABS-Symbol,CarImages\dashboardInfographics\dashboardInfographicsAbs.png,componentVideo,Schaltet, wenn es eine Störung im ABS-System im Auto.
+Ganganzeige,CarImages\dashboardInfographics\dashboardInfographicsGear.png,componentVideo,Shows, die das Auto in Gang.
+Indicator Symbole,CarImages\dashboardInfographics\dashboardInfographicsIndicator.png,componentVideo,Wird in Verbindung mit den Anzeigeleuchten außerhalb des Autos zu blinken, wenn die Indikatoren tätig sind.
+Fernlicht ein Licht,CarImages\dashboardInfographics\dashboardInfographicsHighbeam.png,componentVideo,Leuchtet auf, wenn das Fernlicht eingeschaltet werden.
+Scheinwerfer Licht,CarImages\dashboardInfographics\dashboardInfographicsHeadlights.png,componentVideo,Leuchtet auf, wenn die Scheinwerfer eingeschaltet sind.
+dashboardPart2,CarImages\dashboardInfographics2\dashboardInfographics2.png,13
+Nebellicht (vorne und hinten) Licht,CarImages\dashboardInfographics2\dashboardInfographics2FogLight.png,componentVideo,Nebelscheinwerfer und Nebelschlussleuchte einschalten, wenn in Eingriff.
+Tempomat Licht,CarImages\dashboardInfographics2\dashboardInfographics2Cruise.png,componentVideo,Leuchtet auf, wenn Tempomat aktiv ist.
+Sicherheitsgurt anlegen,CarImages\dashboardInfographics2\dashboardInfographics2SeatBelt.png,componentVideo,Bleibt auf oder blinkt, wenn die Sicherheitsgurte eines Sitzes besetzt nicht verwendet wird.
+Reifendruckfehlerlicht,CarImages\dashboardInfographics2\dashboardInfographics2Tyre.png,componentVideo,Greift in dem Fall gibt es einen Verlust von Reifendruck der Reifen des Fahrzeugs. Nur bei Fahrzeugen mit einem Reifendruckkontrollsystem ausgestattet.
+Niedriger Batterieladeanzeige,CarImages\dashboardInfographics2\dashboardInfographics2Battery.png,componentVideo,Leuchtet auf, wenn die Hilfsbatterie zur Neige.
+Diesel Glühkerze Licht,CarImages\dashboardInfographics2\dashboardInfographics2GlowPlug.png,componentVideo,Leuchtet auf, wenn die Glühkerze ist aktiv, während der Motor, das in einer Diesel-Pkw erwärmt. Motor darf nicht gestartet werden, bis diese erlischt. Nur in Dieselfahrzeugen.
+4WD Lock-Licht,CarImages\dashboardInfographics2\dashboardInfographics2AWDLock.png,componentVideo,Eingreift, wenn der 4WD-System ist gezwungen, aktiv zu sein (auf den Autos mit 4WD ausgestattet on Demand-System).
+Tür offen Licht,CarImages\dashboardInfographics2\dashboardInfographics2Door.png,componentVideo,Leuchtet auf, wenn eine Tür / boot / Haube ist nicht richtig geschlossen.
+ESC und ESC OFF Licht,CarImages\dashboardInfographics2\dashboardInfographics2Esc.png,componentVideo,ESC LED blinkt, wenn das ESC-System erfasst eine Rutsch und ist derzeit die Korrektur des Autos Stabilität. ESC OFF leuchtet, wenn das ESC-System ausgeschaltet wurde. ESC Licht bleibt an, wenn es einen Fehler im System.
+Low Scheibenwasch Licht,CarImages\dashboardInfographics2\dashboardInfographics2WindLiquid.png,componentVideo,Leuchtet auf, wenn es nicht genügend Flüssigkeit in der Scheibenwaschanlage Vorratsbehälter.
+ECO-Mode-Licht,CarImages\dashboardInfographics2\dashboardInfographics2Eco.png,componentVideo,Leuchtet auf, wenn das Auto ist wirtschaftlich angesteuert. Nicht bei allen Fahrzeugen verfügbar.
+Niedriger Treibstoff Licht,CarImages\dashboardInfographics2\dashboardInfographics2Fuel.png,componentVideo,Leuchtet auf, wenn es nicht viel Kraftstoff in den Kraftstofftank links.
+Ice-Warnleuchte,CarImages\dashboardInfographics2\dashboardInfographics2IceWarning.png,componentVideo,Eingreift, wenn die Außentemperatur niedrig ist, um Benutzer von möglichen Glatteiswarnung (Eis auf der Straße).
+interiorPedals,CarImages\interior3\interior3.png,11
+Beschleuniger,CarImages\interior3\interior3Accelerator.png,componentVideo,Erhöht sich die Menge an Kraftstoff, die dem Motor zugeführt, um die Motorgeschwindigkeit zu erhöhen, daher macht das Auto schneller.
+Bremsen,CarImages\interior3\interior3Brakes.png,componentVideo,Um die Bremsen des Fahrzeugs auf das Fahrzeug verlangsamen.
+Kupplung,CarImages\interior3\interior3Clutch.png,componentVideo,Nur in einem manuellen Auto, verwendet, damit der Benutzer einen Gang einzulegen.
+Bonet Hebel,CarImages\interior3\interior3HoodLever.png,componentVideo,Verwendet, um die Motorhaube des Autos zu entriegeln.
+Boot Hebel,CarImages\interior3\interior3BootLever.png,componentVideo,Verwendet, um den Kofferraum zu entriegeln.
+Tankdeckel Hebel,CarImages\interior3\interior3FuelCapLever.png,componentVideo,Verwendet werden, um die Kraftstofftankabdeckung zu entriegeln.
+Lautsprecher,CarImages\interior3\interior3Speaker.png,componentVideo,Ermöglicht die Tonausgabe von dem Infotainment-System.
+Sitzverstellung,CarImages\interior3\interior3SeatAdjuster.png,componentVideo,Ermöglicht der Sitzposition eingestellt werden.
+Zentralverriegelung,CarImages\interior3\interior3CentralLocking.png,componentVideo,Kann der Fahrer zentral steuern, wenn alle Türen im Auto gesperrt werden soll oder nicht.
+Fensterhebersteuerungen,CarImages\interior3\interior3PowerWindow.png,componentVideo,Ermöglicht zum Öffnen oder Schließen der Fenster an den Türen des Autos gelegen.
+Teppiche,CarImages\interior3\interior3Carpet.png,componentVideo,Verwendet werden, um Schmutz von Beschädigung der Boden der Kabine zu fangen.
+interiorSeats,CarImages\interior4\interior4.png,4
+Sitz,CarImages\interior4\interior4Seat.png,componentVideo,Um Passagiere Platz.
+Kopfstütze,CarImages\interior4\interior4HeadRest.png,componentVideo,Reduzieren Schleuder auf dem Hals bei einem Heckaufprall.
+Sicherheitsgurt,CarImages\interior4\interior4SeatBelt.png,componentVideo,Eine Form von Rückhalte an die Passagiere eines Fahrzeugs, damit sie nicht nach vorne bei einem Frontalaufprall geschleudert wird.
+Armlehne,CarImages\interior4\interior4ArmRest.png,componentVideo,Für Komfort der Arme.

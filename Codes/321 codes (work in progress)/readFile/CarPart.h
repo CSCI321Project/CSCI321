@@ -57,6 +57,8 @@ class CarPart
         std::vector<int> getSiblings() const;
         int getParentID() const;
         std::string getPartName() const;
+		int getPartID() const;
+        std::string getPartImage() const;
 
         //writing to file
         void display();

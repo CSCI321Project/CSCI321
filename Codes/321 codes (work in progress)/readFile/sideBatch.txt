@@ -1,0 +1,11 @@
+CarImages\side\side.png
+CarImages\side\sideDoors.png
+CarImages\side\sideSkirting.png
+CarImages\side\sideWheels.png
+CarImages\side\sideRims.png
+CarImages\side\sideWindowPanel.png
+CarImages\side\sideDoorHandle.png
+CarImages\side\sideIndicatorLights.png
+CarImages\side\sideSideMirror.png
+CarImages\side\sideFuelCap.png
+CarImages\side\sideBrakeDiscs.png

@@ -1,10 +1,56 @@
 #include "CarPart.h"
 #include <iostream>
 #include <vector>
+#include <string>
 
 using namespace std;
 
 //overloaded output operator for writing to file
+ostream& operator<< (ostream& out, const CarPart& temp)
+{
+    out << "<Car Part>" << endl;
+        out << "<Part Name>" << endl;
+            out << temp.partName << endl;
+        out << "</Part Name>" << endl;
+        out << "<Part Image>" << endl;
+            out << temp.partImage << endl;
+        out << "</Part Image>" << endl;
+
+        out << "<Components>" << endl;
+            if(temp.noComponents != 0)
+            {
+                for(int i = 0; i < temp.noComponents; i++)
+                {
+                    out << "<Component>" << endl;
+
+                        out << "<Component Name>" << endl;
+                            out << temp.carComponents[i].componentName << endl;
+                        out << "</Component Name>" << endl;
+
+                        out << "<Component Image>" << endl;
+                            out << temp.carComponents[i].componentImage << endl;
+                        out << "</Component Image>" << endl;
+
+                        out << "<Component Video>" << endl;
+                            out << temp.carComponents[i].componentVideo << endl;
+                        out << "</Component Video>" << endl;
+
+                        out << "<Component Description>" << endl;
+                            out << temp.carComponents[i].componentDescription << endl;
+                        out << "</Component Description>" << endl;
+
+                    out << "</Component>" << endl;
+                }
+            }
+
+        out << "</Components>" << endl;
+
+    out << "</Car Part>" << endl;
+
+    return out;
+}
+
+/*
 ostream& operator<< (ostream& out, const CarPart& temp)
 {
     out << temp.partName << ",";
@@ -38,7 +84,7 @@ ostream& operator<< (ostream& out, const CarPart& temp)
 
     return out;
 }
-
+*/
 
 CarPart::CarPart()
 {
@@ -154,6 +200,11 @@ string CarPart::getPartName() const
     return partName;
 }
 
+int CarPart::getPartID() const
+{
+	return partID;
+}
+
 void CarPart::display()
 {
     cout << "Part ID: " << partID << endl;
@@ -171,7 +222,7 @@ void CarPart::display()
             cout << "Component name: " << carComponents[i].componentName << endl;
             cout << "Component image: " << carComponents[i].componentImage << endl;
             cout << "Component video: " << carComponents[i].componentVideo << endl;
-            cout << "Component description: " << carComponents[i].componentDescription << endl;
+            //cout << "Component description: " << carComponents[i].componentDescription << endl;
         }
 
     }
@@ -191,4 +242,9 @@ void CarPart::display()
         }
     }
     */
+}
+
+string CarPart::getPartImage() const
+{
+    return partImage;
 }

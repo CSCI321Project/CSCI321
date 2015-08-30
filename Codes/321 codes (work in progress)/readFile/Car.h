@@ -15,8 +15,12 @@ class Car
         std::vector<int> hierarchyNumber;
         std::vector<CarPart> carParts; //this will consist of ALL the car parts
         std::vector<CarPart> currentParts; //this is the current level we are in
+
+        std::string fileReadFrom;
     public:
-        Car(std::string);
+        void loadFile(std::string);
+        void loadXML(std::string);
+		Car();
         ~Car();
 
         //we use this function to check if there is need for zooming, if not 0, means there is child
@@ -37,15 +41,24 @@ class Car
         void textEditorMenu();
         void editByBatch();
         void editBatchPart(int); //somewhat similar to editSelectedPart but used for batch editing
+        int selectPart();
 
         void editIndividually(); //user wants to modify one by one
         void editSelectedPart(int); //user selected what needs to be modified and goes to this function
 
         //function used to write to file, same function name with carPart
-        void writeToFile();
+        void writeToFile(std::string);
+        void writeToXML(std::string);
 
         void outputFile(std::string);
-        int selectPart(int); //allows the user to select a car part
+
+		//reset function, to reset to its original state
+		void resetFunc();
+
+		//count the number of records provided by the user
+		int countLines(std::string);
+
+		bool checkFileExist(std::string);
 };
 
 #endif // _CAR_

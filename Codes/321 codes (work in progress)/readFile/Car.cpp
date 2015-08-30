@@ -5,11 +5,236 @@
 #include <iostream>
 #include <stdlib.h>
 #include <vector>
+#include <string>
 
 using namespace std;
 
-Car::Car(string fileName)
+Car::Car()
 {
+
+}
+
+Car::~Car()
+{
+
+}
+
+void Car::resetFunc()
+{
+	vector<int> tempSiblings = carParts[0].getSiblings();
+	currentParts.clear();
+	if (tempSiblings.empty())
+	{
+		currentParts.push_back(carParts[0]);
+	}
+	else
+	{
+		for (int i = 0; i < tempSiblings.size(); i++)
+		{
+			currentParts.push_back(carParts[tempSiblings[i]]);
+		}
+	}
+}
+
+void Car::loadXML(string fileName)
+{
+    fileReadFrom = fileName;
+    ifstream infile;
+    infile.open(fileName.c_str());
+
+    if(!infile.good())
+    {
+        cout << "File not found" << endl;
+    }
+    else
+    {
+        string tempString = "";
+        int partNumber = 0;
+        int totalPartNumber = 0;
+
+        //clearing up the lists first
+        hierarchyNumber.clear();
+        carParts.clear();
+
+        while(infile.good())
+        {
+            getline(infile, tempString,'\n');
+
+            if(tempString == "<Car Hierarchy>")
+            {
+                while(tempString != "</Car Hierarchy>")
+                {
+                    getline(infile, tempString, '\n');
+                    if(tempString == "<Number of Parts>")
+                    {
+                        getline(infile, tempString,'\n');
+
+                        //read in the number of parts
+                        while(tempString != "</Number of Parts>")
+                        {
+                            totalPartNumber = atoi(tempString.c_str());
+                            getline(infile, tempString,'\n');
+                        }
+
+                        //now get the hierarchy
+                        getline(infile, tempString,'\n');
+                        if(tempString == "<Hierarchy>")
+                        {
+                            for(int i = 0; i < totalPartNumber; i++)
+                            {
+                                //if we dont do this checking, it will mess up the upcoming ones
+                                if(i == totalPartNumber - 1)
+                                {
+                                    getline(infile, tempString, '\n');
+                                }
+                                else
+                                {
+                                    getline(infile, tempString, ',');
+                                }
+
+                                //push the first hierarchy number in
+                                hierarchyNumber.push_back(atoi(tempString.c_str()));
+                            }
+                        }
+                    }
+                }
+            }
+            else if (tempString == "<Car Part>")
+            {
+                CarPart tempCarPart;
+                tempCarPart.setPartID(partNumber);
+
+                if(partNumber == 0)
+                {
+                    tempCarPart.setTopNode();
+                }
+
+                while(tempString != "</Car Part>")
+                {
+                    getline(infile, tempString,'\n');
+
+                    if(tempString == "<Part Name>")
+                    {
+                        getline(infile, tempString,'\n');
+                        tempCarPart.setPartName(tempString);
+                    }
+                    else if (tempString == "<Part Image>")
+                    {
+                        getline(infile, tempString, '\n');
+                        tempCarPart.setPartImage(tempString);
+                    }
+                    else if (tempString == "<Components>")
+                    {
+                        int numComponents = 0;
+                        while (tempString != "</Components>")
+                        {
+                            getline(infile, tempString, '\n');
+
+                            if(tempString == "<Component>")
+                            {
+                                component tempComp;
+                                while(tempString != "</Component>")
+                                {
+                                    getline(infile, tempString, '\n');
+
+                                    if(tempString == "<Component Name>")
+                                    {
+                                        getline(infile, tempString, '\n');
+                                        tempComp.componentName = tempString;
+                                    }
+                                    else if(tempString == "<Component Image>")
+                                    {
+                                        getline(infile, tempString, '\n');
+                                        tempComp.componentImage = tempString;
+                                    }
+                                    else if (tempString == "<Component Video>")
+                                    {
+                                        getline(infile, tempString, '\n');
+                                        tempComp.componentVideo = tempString;
+                                    }
+                                    else if (tempString == "<Component Description>")
+                                    {
+                                        getline(infile, tempString, '\n');
+                                        tempComp.componentDescription = tempString;
+                                    }
+                                }
+                                numComponents++;
+                                tempCarPart.addComponent(tempComp);
+                            }
+                        }
+                        tempCarPart.setNoComponents(numComponents);
+                        tempCarPart.display();
+                        carParts.push_back(tempCarPart);
+                    }
+                }
+                partNumber++;
+            }
+
+        }
+
+
+        //we assign the family members here
+        /*
+            values -    5,0,0,0,0,3,2,0,0,0,0
+            position -  0 1 2 3 4 5 6 7 8 9 10
+            the first value is 5, which means that the next 5 values would be considered to be child of the first node
+            if we encounter any values as we are traversing, we need to skip the values, for example, if we reach the node of value 3,
+                the child of the node 3 (at position 5) is 6, 9, and 10. We skipped 2 values in between as they are the child of node at position 6.
+                (probably needs to be phrased better)
+            if we reach the final child value of the particular node, and it has a value in it, we dont have to add on the count and just take in the value.
+
+        */
+
+        for(int i = 0; i < totalPartNumber; i++)
+        {
+            if(hierarchyNumber[i] > 0)
+            {
+                vector<int> siblingIDs;
+                int count = i + 1; //this count is to keep track of how many we have gone through
+                for(int j = 0; j < hierarchyNumber[i]; j++)
+                {
+                    //cout << carParts[count].display() << endl;
+
+                    if (hierarchyNumber[count] > 0 && j == hierarchyNumber[i] - 1)
+                    {
+                        siblingIDs.push_back(count);
+                    }
+                    else if (hierarchyNumber[count] > 0)
+                    {
+                        siblingIDs.push_back(count);
+                        count = count + hierarchyNumber[count] + 1;
+                    }
+                    else
+                    {
+                        siblingIDs.push_back(count);
+                        count++;
+                    }
+                }
+                //we add all the siblings together to individual sibling
+                //so we can access from any point to change the "current" level
+                for(int k = 0; k < siblingIDs.size(); k++)
+                {
+                    carParts[siblingIDs[k]].setParent(i);
+                    carParts[siblingIDs[k]].addSiblings(siblingIDs);
+                    carParts[siblingIDs[k]].display();
+                }
+            }
+        }
+
+        //we should set the current to the first element in the tree
+        //only 1 node at the top, the user must zoom in to view more components
+		currentParts.clear(); //I ADDED THIS LINE SO THAT WHEN WE LOAD A DIFF LANGUAGE EVERYTHING WOULD BE RESET
+        currentParts.push_back(carParts[0]);
+
+    }
+    //at this point we have read in all the part and their components OR the thing failed to open
+    infile.close();
+}
+
+
+void Car::loadFile(string fileName)
+{
+    fileReadFrom = fileName;
     ifstream infile;
     infile.open(fileName.c_str());
 
@@ -26,6 +251,7 @@ Car::Car(string fileName)
         getline(infile, tempString, '\n');
         totalPartNumber = atoi(tempString.c_str());
 
+		hierarchyNumber.clear();
         for(int i = 0; i < totalPartNumber; i++)
         {
             //if we dont do this checking, it will mess up the upcoming ones
@@ -41,6 +267,7 @@ Car::Car(string fileName)
             hierarchyNumber.push_back(atoi(tempString.c_str()));
         }
 
+		carParts.clear();
         //we read in from the file all the different parts for the system
         for(int i = 0; i < totalPartNumber; i++)
         {
@@ -145,23 +372,18 @@ Car::Car(string fileName)
 
         //we should set the current to the first element in the tree
         //only 1 node at the top, the user must zoom in to view more components
+		currentParts.clear(); //I ADDED THIS LINE SO THAT WHEN WE LOAD A DIFF LANGUAGE EVERYTHING WOULD BE RESET
         currentParts.push_back(carParts[0]);
     }
     //at this point we have read in all the part and their components OR the thing failed to open
     infile.close();
 }
 
-Car::~Car()
-{
-
-}
 
 int Car::getHierarchyNumber(int position) const
 {
     return hierarchyNumber[position];
 }
-
-
 
 vector<CarPart> Car::getCurrentCarParts() const
 {
@@ -230,11 +452,12 @@ void Car::zoomOut(int currPosition)
         }
         setCurrentCarParts(tempSiblings);
     }
-
+	/*
     for(int i = 0; i < currentParts.size(); i++)
     {
         cout << currentParts[i] << endl;
     }
+	*/
 }
 
 void Car::textEditorMenu()
@@ -247,7 +470,7 @@ void Car::textEditorMenu()
         cout << "How do you wish to edit today?" << endl;
         cout << "1. Edit by batch" << endl;
         cout << "2. Edit individually" << endl;
-        cout << "3. Exit" << endl;
+        cout << "0. Exit" << endl;
         cout << "Input: ";
         cin >>  choice;
 
@@ -265,10 +488,15 @@ void Car::textEditorMenu()
                 editIndividually();
             }
             break;
-            case 3:
+            case 0:
             {
                 cout << ">> Exiting << " << endl;
                 check = true;
+
+                //for(int i = 0; i < carParts.size(); i++)
+                //{
+                //    carParts[1].display();
+                //}
             }
             break;
             default:
@@ -279,6 +507,58 @@ void Car::textEditorMenu()
             }
         }
     }
+
+    //at this point we ask the user if he wants to update the current text file or write it to another text file
+    choice = 0;
+    check = false;
+    string fileName;
+
+    while (check == false)
+    {
+        cout << ">> Writing to file << " << endl;
+        cout << "Changes were made, how do you wish to proceed?" << endl;
+        cout << "1. Write the changes to " << fileReadFrom << "(THE ORIGINAL TEXT FILE READ FROM)"<< endl;
+        cout << "2. Write the changes to another text file" << endl;
+        cout << "3. Do not save changes made" << endl;
+        cout << "Choice: ";
+        cin >> choice;
+
+        switch (choice)
+        {
+            case 1:
+            {
+                cout << "Writing changes to file: " << fileReadFrom << endl;
+                writeToXML(fileReadFrom);
+
+                check = true;
+            }
+            break;
+            case 2:
+            {
+                cout << "Please input file name" << endl;
+                cout << "File name: ";
+                cin >> fileName;
+                writeToXML(fileName);
+                check = true;
+            }
+            break;
+            case 3:
+            {
+                cout << "Changes will not be saved" << endl;
+                check = true;
+            }
+            break;
+            default:
+            {
+                cout << ">> Invalid input <<" << endl;
+                cout << ">> Please try again <<" << endl;
+                check = false;
+            }
+
+        }
+    }
+
+
 }
 
 void Car::editByBatch()
@@ -293,8 +573,10 @@ void Car::editByBatch()
     cout << "2. Update by batch for ALL images for ALL PARTS and ALL COMPONENTS" << endl;
     cout << "3. Update by batch for images for  THE CHOSEN PART and ITS COMPONENTS" << endl;
     cout << "4. Update by batch for images for COMPONENTS only" << endl;
-    cout << "5. Update by batch for videos for COMPONENTS only " << endl;
+    cout << "5. Update by batch for videos for all components " << endl;
     cout << "6. Update by batch for components name for COMPONENTS only" << endl;
+    cout << "7. Update by batch for components name and description for ALL PARTS" << endl;
+    cout << "8. Update by batch for all images starting from a chosen point" << endl;
     cout << "0. Exit" << endl;
     cout << "Choice: ";
     cin >> choice;
@@ -310,43 +592,69 @@ void Car::editByBatch()
 
             cout << endl;
             cout << "The expected format for the file is detailed below: " << endl;
-            outputFile("batchFormat1.txt");
+            //ill update the format later
 
-            //get in file name that has the image files
-            string file;
-            cout << "Please enter file name: ";
-            cin >> file;
+            string fileName;
+            //we will first ask for the filename from the user
+            cout << "Please input the file name that will contain the information needed to update by batch" << endl;
+            cout << "File name: ";
+            cin >> fileName;
 
-            //read in video and image file
-            ifstream infile;
-            infile.open(file.c_str());
+            //we check if the file exist or not
+            bool checkExist = checkFileExist(fileName);
 
-            if(!infile.good())
+            if (checkExist)
             {
-                cout << "File does not exist" << endl;
-            }
-            else
-            {
-                string temp;
+                //we then count how many lines there are based on the what the user is editing by batch
+                //in this case is all so we actually need to know how many components in total are there
+                //we also need to take into account how many parts are there
+                int totalComponentsParts = 0;
                 for(int i = 0; i < carParts.size(); i++)
                 {
-                    getline(infile, temp, '\n');
+                    totalComponentsParts = totalComponentsParts + carParts[i].getNoComponents();
+                }
+                totalComponentsParts += carParts.size();
 
-                    carParts[i].setPartImage(temp);
-                    int noComp = carParts[i].getNoComponents();
+                //AT THIS POINT, we have already checked that the file exist, we next count the num of lines
+                //the num of lines, based on format should correspond to the number of things to be edited/updated
 
-                    if(noComp != 0)
+                if(totalComponentsParts == countLines(fileName))
+                {
+                    //we know for sure that it is correct
+                    //we then start editing
+                    string temp;
+                    ifstream infile;
+                    infile.open(fileName.c_str());
+
+                    for(int i = 0; i < carParts.size(); i++)
                     {
-                        for(int j = 0; j < noComp; j++)
+                        int componentNum = carParts[i].getNoComponents();
+
+                        getline(infile, temp, '\n');
+                        carParts[i].setPartImage(temp);
+                        for(int j = 0; j < componentNum; j++)
                         {
                             getline(infile, temp, ',');
-                            carParts[i].editComponentImage(j, temp);
+                            carParts[i].editComponentImage(j,temp);
                             getline(infile, temp, '\n');
                             carParts[i].editComponentVideo(j,temp);
                         }
                     }
-                }
 
+                    infile.close();
+
+                    cout << ">> Editing completed! << " << endl << endl;
+                }
+                else
+                {
+                    cout << "The text file does not have sufficient components!" << endl;
+                    cout << "Please check and try again!" << endl;
+                }
+            }
+            else
+            {
+                cout << "File does not exist" << endl;
+                cout << "Please try again" << endl;
             }
         }
         break;
@@ -356,44 +664,65 @@ void Car::editByBatch()
             cout << "1. Updating all part images" << endl;
             cout << "2. Updating all component images" << endl;
 
-            cout << endl;
-            cout << "The expected format for the file is detailed below: " << endl;
-            outputFile("batchFormat1.txt");
+            string fileName;
+            //we will first ask for the filename from the user
+            cout << "Please input the file name that will contain the information needed to update by batch" << endl;
+            cout << "File name: ";
+            cin >> fileName;
 
+            //we check if the file exist or not
+            bool checkExist = checkFileExist(fileName);
 
-            //get in file name that has the image files
-            string file;
-            cout << "Please enter file name: ";
-            cin >> file;
-
-            //read in video and image file
-            ifstream infile;
-            infile.open(file.c_str());
-
-            if(!infile.good())
+            if (checkExist)
             {
-                cout << "File does not exist" << endl;
+                //we then count how many lines there are based on the what the user is editing by batch
+                //in this case is all so we actually need to know how many components in total are there
+                //we also need to take into account how many parts are there
+                int totalComponentsParts = 0;
+                for(int i = 0; i < carParts.size(); i++)
+                {
+                    totalComponentsParts = totalComponentsParts + carParts[i].getNoComponents();
+                }
+                totalComponentsParts += carParts.size();
+
+                //AT THIS POINT, we have already checked that the file exist, we next count the num of lines
+                //the num of lines, based on format should correspond to the number of things to be edited/updated
+
+                if(totalComponentsParts == countLines(fileName))
+                {
+                    //we know for sure that it is correct
+                    //we then start editing
+                    string temp;
+                    ifstream infile;
+                    infile.open(fileName.c_str());
+
+                    for(int i = 0; i < carParts.size(); i++)
+                    {
+                        int componentNum = carParts[i].getNoComponents();
+
+                        getline(infile, temp, '\n');
+                        carParts[i].setPartImage(temp);
+                        for(int j = 0; j < componentNum; j++)
+                        {
+                            getline(infile, temp, '\n');
+                            carParts[i].editComponentImage(j,temp);
+                        }
+                    }
+
+                    infile.close();
+
+                    cout << ">> Editing completed! << " << endl << endl;
+                }
+                else
+                {
+                    cout << "The text file does not have sufficient components!" << endl;
+                    cout << "Please check and try again!" << endl;
+                }
             }
             else
             {
-                string temp;
-                for(int i = 0; i < carParts.size(); i++)
-                {
-                    getline(infile, temp, '\n');
-
-                    carParts[i].setPartImage(temp);
-                    int noComp = carParts[i].getNoComponents();
-
-                    if(noComp != 0)
-                    {
-                        for(int j = 0; j < noComp; j++)
-                        {
-                            getline(infile, temp, '\n');
-                            carParts[i].editComponentImage(j, temp);
-                        }
-                    }
-                }
-
+                cout << "File does not exist" << endl;
+                cout << "Please try again" << endl;
             }
         }
         break;
@@ -403,12 +732,58 @@ void Car::editByBatch()
             cout << "1. Updating the chosen part's image" << endl;
             cout << "2. Updating the images for all components for a chosen part " << endl;
 
-            cout << endl;
-            cout << "The expected format for the file is detailed below: " << endl;
-            outputFile("batchFormat1.txt");
+            int selectedPart = selectPart();
+
+            string fileName;
+            //we will first ask for the filename from the user
+            cout << "Please input the file name that will contain the information needed to update by batch" << endl;
+            cout << "File name: ";
+            cin >> fileName;
+
+            //we check if the file exist or not
+            bool checkExist = checkFileExist(fileName);
+
+            if (checkExist)
+            {
+                int totalComponentsParts = 0;
+                totalComponentsParts = totalComponentsParts + carParts[selectedPart].getNoComponents() + 1;
+
+                //AT THIS POINT, we have already checked that the file exist, we next count the num of lines
+                //the num of lines, based on format should correspond to the number of things to be edited/updated
+                if(totalComponentsParts == countLines(fileName))
+                {
+                    //we know for sure that it is correct
+                    //we then start editing
+                    string temp;
+                    ifstream infile;
+                    infile.open(fileName.c_str());
+
+                    int componentNum = carParts[selectedPart].getNoComponents();
+
+                    getline(infile, temp, '\n');
+                    carParts[selectedPart].setPartImage(temp);
+                    for(int j = 0; j < componentNum; j++)
+                    {
+                        getline(infile, temp, '\n');
+                        carParts[selectedPart].editComponentImage(j,temp);
+                    }
 
 
+                    infile.close();
 
+                    cout << ">> Editing completed! << " << endl << endl;
+                }
+                else
+                {
+                    cout << "The text file does not have sufficient components!" << endl;
+                    cout << "Please check and try again!" << endl;
+                }
+            }
+            else
+            {
+                cout << "File does not exist" << endl;
+                cout << "Please try again" << endl;
+            }
         }
         break;
         case 4:
@@ -416,19 +791,118 @@ void Car::editByBatch()
             cout << "You are trying to do the following: " << endl;
             cout << "1. Updating the images for all components for a chosen part" << endl;
 
-            cout << endl;
-            cout << "The expected format for the file is detailed below: " << endl;
-            outputFile("batchFormat1.txt");
+            int selectedPart = selectPart();
+
+            string fileName;
+            //we will first ask for the filename from the user
+            cout << "Please input the file name that will contain the information needed to update by batch" << endl;
+            cout << "File name: ";
+            cin >> fileName;
+
+            //we check if the file exist or not
+            bool checkExist = checkFileExist(fileName);
+
+            if (checkExist)
+            {
+                int totalComponentsParts = 0;
+                totalComponentsParts = totalComponentsParts + carParts[selectedPart].getNoComponents();
+
+                //AT THIS POINT, we have already checked that the file exist, we next count the num of lines
+                //the num of lines, based on format should correspond to the number of things to be edited/updated
+                if(totalComponentsParts == countLines(fileName))
+                {
+                    //we know for sure that it is correct
+                    //we then start editing
+                    string temp;
+                    ifstream infile;
+                    infile.open(fileName.c_str());
+
+                    int componentNum = carParts[selectedPart].getNoComponents();
+
+
+                    for(int j = 0; j < componentNum; j++)
+                    {
+                        getline(infile, temp, '\n');
+                        carParts[selectedPart].editComponentImage(j,temp);
+                    }
+
+
+                    infile.close();
+
+                    cout << ">> Editing completed! << " << endl << endl;
+                }
+                else
+                {
+                    cout << "The text file does not have sufficient components!" << endl;
+                    cout << "Please check and try again!" << endl;
+                }
+            }
+            else
+            {
+                cout << "File does not exist" << endl;
+                cout << "Please try again" << endl;
+            }
         }
         break;
         case 5:
         {
             cout << "You are trying to do the following: " << endl;
-            cout << "1. Updating the videos for all components for a chosen part" << endl;
+            cout << "1. Updating the videos for all components" << endl;
 
-            cout << endl;
-            cout << "The expected format for the file is detailed below: " << endl;
-            outputFile("batchFormat1.txt");
+            string fileName;
+            //we will first ask for the filename from the user
+            cout << "Please input the file name that will contain the information needed to update by batch" << endl;
+            cout << "File name: ";
+            cin >> fileName;
+
+            //we check if the file exist or not
+            bool checkExist = checkFileExist(fileName);
+
+            if (checkExist)
+            {
+                int totalComponents = 0;
+                for(int i = 0; i < carParts.size(); i++)
+                {
+                    totalComponents = totalComponents + carParts[i].getNoComponents();
+                }
+
+                //AT THIS POINT, we have already checked that the file exist, we next count the num of lines
+                //the num of lines, based on format should correspond to the number of things to be edited/updated
+                if(totalComponents == countLines(fileName))
+                {
+                    //we know for sure that it is correct
+                    //we then start editing
+                    string temp;
+                    ifstream infile;
+                    infile.open(fileName.c_str());
+
+                    for(int i = 0; i < carParts.size(); i++)
+                    {
+                        int componentNum = carParts[i].getNoComponents();
+
+                        for(int j = 0; j < componentNum; j++)
+                        {
+                            getline(infile, temp, '\n');
+                            carParts[i].editComponentVideo(j,temp);
+                        }
+
+                    }
+
+                    infile.close();
+
+                    cout << ">> Editing completed! << " << endl << endl;
+                }
+                else
+                {
+                    cout << "The text file does not have sufficient components!" << endl;
+                    cout << "Please check and try again!" << endl;
+                }
+            }
+            else
+            {
+                cout << "File does not exist" << endl;
+                cout << "Please try again" << endl;
+            }
         }
         break;
         case 6:
@@ -436,14 +910,202 @@ void Car::editByBatch()
             cout << "You are trying to do the following: " << endl;
             cout << "1. Updating the name for all components for a chosen part" << endl;
 
+            int selectedPart = selectPart();
+
+            string fileName;
+            //we will first ask for the filename from the user
+            cout << "Please input the file name that will contain the information needed to update by batch" << endl;
+            cout << "File name: ";
+            cin >> fileName;
+
+            //we check if the file exist or not
+            bool checkExist = checkFileExist(fileName);
+
+            if (checkExist)
+            {
+                int totalComponentsParts = 0;
+                totalComponentsParts = totalComponentsParts + carParts[selectedPart].getNoComponents();
+
+                //AT THIS POINT, we have already checked that the file exist, we next count the num of lines
+                //the num of lines, based on format should correspond to the number of things to be edited/updated
+                if(totalComponentsParts == countLines(fileName))
+                {
+                    //we know for sure that it is correct
+                    //we then start editing
+                    string temp;
+                    ifstream infile;
+                    infile.open(fileName.c_str());
+
+                    int componentNum = carParts[selectedPart].getNoComponents();
+
+
+                    for(int j = 0; j < componentNum; j++)
+                    {
+                        getline(infile, temp, '\n');
+                        carParts[selectedPart].editComponentName(j,temp);
+                    }
+
+
+                    infile.close();
+
+                    cout << ">> Editing completed! << " << endl << endl;
+                }
+                else
+                {
+                    cout << "The text file does not have sufficient components!" << endl;
+                    cout << "Please check and try again!" << endl;
+                }
+            }
+            else
+            {
+                cout << "File does not exist" << endl;
+                cout << "Please try again" << endl;
+            }
+        }
+        break;
+        case 7:
+        {
+            cout << "You are trying to do the following: " << endl;
+            cout << "1. Updating all component names" << endl;
+            cout << "2. Updating all component descriptions" << endl;
+
             cout << endl;
-            cout << "The expected format for the file is detailed below: " << endl;
-            outputFile("batchFormat1.txt");
+            cout << "The expected format for the file is detailed below: " << endl << endl;
+            //ill update the format later
+
+            string fileName;
+            //we will first ask for the filename from the user
+            cout << "Please input the file name that will contain the information needed to update by batch" << endl;
+            cout << "File name: ";
+            cin >> fileName;
+
+            //we check if the file exist or not
+            bool checkExist = checkFileExist(fileName);
+
+            if (checkExist)
+            {
+                int totalComponents = 0;
+                for(int i = 0; i < carParts.size(); i++)
+                {
+                    totalComponents = totalComponents + carParts[i].getNoComponents();
+                }
+
+                //AT THIS POINT, we have already checked that the file exist, we next count the num of lines
+                //the num of lines, based on format should correspond to the number of things to be edited/updated
+
+                if(totalComponents == countLines(fileName))
+                {
+                    //we know for sure that it is correct
+                    //we then start editing
+                    string temp;
+                    ifstream infile;
+                    infile.open(fileName.c_str());
+
+                    for(int i = 0; i < carParts.size(); i++)
+                    {
+                        int componentNum = carParts[i].getNoComponents();
+
+                        for(int j = 0; j < componentNum; j++)
+                        {
+                            getline(infile, temp, ',');
+                            carParts[i].editComponentName(j,temp);
+                            getline(infile, temp, '\n');
+                            carParts[i].editComponentDescription(j,temp);
+                        }
+                    }
+
+                    infile.close();
+
+                    cout << ">> Editing completed! << " << endl << endl;
+                }
+                else
+                {
+                    cout << "The text file does not have sufficient components!" << endl;
+                    cout << "Please check and try again!" << endl;
+                }
+            }
+            else
+            {
+                cout << "File does not exist" << endl;
+                cout << "Please try again" << endl;
+            }
+        }
+        break;
+        case 8:
+        {
+            cout << "You are trying to do the following: " << endl;
+            cout << "1. Updating all part images STARTING FROM A SELECTED PART OF THE CAR" << endl;
+            cout << "2. Updating all component images STARTING FROM A SELECTED PART OF THE CAR" << endl;
+
+            cout << endl;
+            cout << "The expected format for the file is detailed below: " << endl << endl;
+            //ill update the format later
+
+            cout << "Please choose which part do you want to start editing from" << endl;
+            int selectedPart = selectPart();
+            string fileName;
+            //we will first ask for the filename from the user
+            cout << "Please input the file name that will contain the information needed to update by batch" << endl;
+            cout << "File name: ";
+            cin >> fileName;
+
+            //we check if the file exist or not
+            bool checkExist = checkFileExist(fileName);
+
+            if (checkExist)
+            {
+                int totalComponentsParts = 0;
+                for(int i = selectedPart; i < carParts.size(); i++)
+                {
+                    totalComponentsParts = totalComponentsParts + carParts[i].getNoComponents();
+                }
+                totalComponentsParts = totalComponentsParts + (carParts.size() - selectedPart);
+
+                //AT THIS POINT, we have already checked that the file exist, we next count the num of lines
+                //the num of lines, based on format should correspond to the number of things to be edited/updated
+
+                if(totalComponentsParts == countLines(fileName))
+                {
+                    //we know for sure that it is correct
+                    //we then start editing
+                    string temp;
+                    ifstream infile;
+                    infile.open(fileName.c_str());
+
+                    for(int i = selectedPart; i < carParts.size(); i++)
+                    {
+                        int componentNum = carParts[i].getNoComponents();
+
+                        getline(infile, temp, '\n');
+                        carParts[i].setPartImage(temp);
+
+                        for(int j = 0; j < componentNum; j++)
+                        {
+                            getline(infile, temp, '\n');
+                            carParts[i].editComponentImage(j,temp);
+                        }
+                    }
+
+                    infile.close();
+
+                    cout << ">> Editing completed! << " << endl << endl;
+                }
+                else
+                {
+                    cout << "The text file does not have sufficient components!" << endl;
+                    cout << "Please check and try again!" << endl;
+                }
+            }
+            else
+            {
+                cout << "File does not exist" << endl;
+                cout << "Please try again" << endl;
+            }
         }
         break;
         case 0:
         {
-            cout << ">> Exiting <<" << endl;
+
         }
         break;
         default:
@@ -456,15 +1118,15 @@ void Car::editByBatch()
 
 }
 
-int Car::selectPart(int batchChoice)
+int Car::selectPart()
 {
     bool check = false;
     int numParts = carParts.size();
-    int choice = -1;
+    int selectedPart = -10;
 
     while (check == false)
     {
-        cout << "Which car part do you wish to edit?" << endl;
+        cout << "Choose a car part." << endl;
         for(int i = 0; i < numParts; i++)
         {
             cout << i + 1 << ". \t";
@@ -473,106 +1135,21 @@ int Car::selectPart(int batchChoice)
         //can't use swtich since we dont know how many component we might have
         cout << "0. \tExit" << endl;
         cout << "Input: ";
-        cin >> choice;
+        cin >> selectedPart;
 
-        if (choice > 0 && choice < numParts + 1)
+        if (selectedPart > 0 && selectedPart < numParts + 1)
         {
             //if valid choice
-            choice -= 1;
-
-            string file;
-            cout << "Please provide the filename: ";
-            cin >> file;
-
-            ifstream infile;
-            infile.open(file.c_str());
-
-            if(!infile.good())
-            {
-                cout << "File does not exist" << endl;
-            }
-            else
-            {
-                //depending on the batch choice made, different things need to be done
-                switch(batchChoice)
-                {
-                    //we edit the part image and the component images
-                    case 3:
-                    {
-                        string temp;
-                        getline(infile, temp, '\n');
-                        carParts[choice].setPartImage(temp);
-
-                        int noComp = carParts[choice].getNoComponents();
-
-                        if(noComp != 0)
-                        {
-                            for(int i = 0; i < noComp; i++)
-                            {
-                                getline(infile,temp,'\n');
-                                carParts[choice].editComponentName(i, temp);
-                            }
-                        }
-                    }
-                    break;
-                    //we edit only the component images
-                    case 4:
-                    {
-                        string temp;
-
-                        int noComp = carParts[choice].getNoComponents();
-
-                        if(noComp != 0)
-                        {
-                            for(int i = 0; i < noComp; i++)
-                            {
-                                getline(infile,temp,'\n');
-                                carParts[choice].editComponentName(i, temp);
-                            }
-                        }
-                    }
-                    break;
-                    //we edit only the component videos
-                    case 5:
-                    {
-                        string temp;
-                        int noComp = carParts[choice].getNoComponents();
-
-                        if(noComp != 0)
-                        {
-                            for(int i = 0; i < noComp; i++)
-                            {
-                                getline(infile,temp,'\n');
-                                carParts[choice].editComponentVideo(i, temp);
-                            }
-                        }
-                    }
-                    break;
-                    //we edit only the component names
-                    case 6:
-                    {
-                        string temp;
-                        int noComp = carParts[choice].getNoComponents();
-
-                        if(noComp != 0)
-                        {
-                            for(int i = 0; i < noComp; i++)
-                            {
-                                getline(infile,temp,'\n');
-                                carParts[choice].editComponentName(i, temp);
-                            }
-                        }
-                    }
-                    break;
-                }
-
-            }
-
-            infile.close();
+            selectedPart -= 1;
+            return selectedPart;
+            //editBatchPart(choice);
         }
-        else if (choice ==  0)
+        else if (selectedPart ==  0)
         {
             check = true;
+            selectedPart = -1;
+
+            return selectedPart;
         }
         else
         {
@@ -581,8 +1158,6 @@ int Car::selectPart(int batchChoice)
             check = false;
         }
     }
-
-    return choice;
 }
 
 /*
@@ -597,7 +1172,7 @@ void Car::editBatchPart(int selectedPart)
         cout << "Current part being modified: " << carParts[selectedPart].getPartName() << endl;
         cout << "1. Part name" << endl;
         cout << "2. Part image" << endl;
-        cout << "3. Add a component" << endl;
+        cout << "3. Add component" << endl;
         cout << "4. Delete a component" << endl;
         cout << "5. Modify a component" << endl;
         cout << "0. Quit" << endl;
@@ -646,39 +1221,23 @@ void Car::outputFile(string fileName)
 
 void Car::editIndividually()
 {
-    int numParts = carParts.size();
-    int choice = -1;
+    int selectedPart = -10;
     bool check = false;
 
     while (check == false)
     {
-        cout << "Which car part do you wish to edit?" << endl;
-        for(int i = 0; i < numParts; i++)
-        {
-            cout << i + 1 << ". \t";
-            cout << carParts[i].getPartName() << endl;
-        }
-        //can't use swtich since we dont know how many component we might have
-        cout << "0. \tExit" << endl;
-        cout << "Input: ";
-        cin >> choice;
+        //used to be much longer until i split up some part of the code into the selectPart function
+        selectedPart = selectPart();
 
-        if (choice > 0 && choice < numParts + 1)
+        if(selectedPart != -1)
         {
-            //if valid choice
-            choice -= 1;
-            editSelectedPart(choice);
-        }
-        else if (choice ==  0)
-        {
-            check = true;
+            editSelectedPart(selectedPart);
         }
         else
         {
-            cout << "Invalid choice" << endl;
-            cout << "Please try again" << endl;
-            check = false;
+            check = true;
         }
+
     }
 }
 
@@ -977,12 +1536,52 @@ void Car::editSelectedPart(int selectedPart)
     //end of first while loop
 }
 
-void Car::writeToFile()
+void Car::writeToXML(string fileName)
 {
-    cout << ">> Writing to file << " << endl;
-
     ofstream outfile;
-    outfile.open("test.txt");
+    outfile.open(fileName.c_str());
+
+    outfile << "<Car>" << endl;
+
+    //we need to output the hierarchy first
+    outfile << "<Car Hierarchy>" << endl;
+        outfile << "<Number of Parts>" << endl;
+            outfile << hierarchyNumber.size() << endl;
+        outfile << "</Number of Parts>" << endl;
+        outfile << "<Hierarchy>" << endl;
+            for(int i = 0; i < hierarchyNumber.size(); i++)
+            {
+                if(i == hierarchyNumber.size() - 1)
+                {
+                    outfile << hierarchyNumber[i] << endl;
+                }
+                else
+                {
+                    outfile << hierarchyNumber[i] << ",";
+                }
+            }
+        outfile << "</Hierarchy>" << endl;
+    outfile << "</Car Hierarchy>" << endl;
+
+    //now to write the parts in
+    outfile << "<Car Parts>" << endl;
+        for(int i = 0; i < carParts.size(); i++)
+        {
+            outfile << carParts[i];
+        }
+    outfile << "</Car Parts>" << endl;
+
+
+    outfile << "</Car>";
+
+    outfile.close();
+}
+
+
+void Car::writeToFile(string fileName)
+{
+    ofstream outfile;
+    outfile.open(fileName.c_str());
 
     outfile << hierarchyNumber.size() << endl;
     for(int i = 0; i < hierarchyNumber.size(); i++)
@@ -1010,4 +1609,30 @@ void Car::writeToFile()
     }
 
     outfile.close();
+}
+
+//we use this function to count how many lines are there in the file provided by the user to make sure
+//we can edit it by batch
+int Car::countLines(string fileName)
+{
+    int recordCount = 0;
+    ifstream infile;
+    infile.open(fileName.c_str());
+    while (!infile.eof())
+    {
+        string line = " ";
+        getline(infile, line, '\n');
+        if (!line.empty())
+            recordCount++;
+        infile.ignore();
+    }
+    infile.close();
+    return recordCount;
+}
+
+//source: http://stackoverflow.com/questions/12774207/fastest-way-to-check-if-a-file-exist-using-standard-c-c11-c
+bool Car::checkFileExist(string fileName)
+{
+    std::ifstream infile(fileName.c_str());
+    return infile.good();
 }

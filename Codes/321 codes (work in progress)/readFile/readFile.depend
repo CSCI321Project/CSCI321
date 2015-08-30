@@ -26,29 +26,31 @@
 	<iostream>
 	<vector>
 
-1436845402 source:c:\users\ng\documents\github\csci321\codes\321 codes (work in progress)\readfile\car.cpp
+1439792647 source:c:\users\ng\documents\github\csci321\codes\321 codes (work in progress)\readfile\car.cpp
 	"Car.h"
 	"CarPart.h"
 	<fstream>
 	<iostream>
 	<stdlib.h>
 	<vector>
+	<string>
 
-1437023982 c:\users\ng\documents\github\csci321\codes\321 codes (work in progress)\readfile\car.h
+1439781752 c:\users\ng\documents\github\csci321\codes\321 codes (work in progress)\readfile\car.h
 	<iostream>
 	<vector>
 	"CarPart.h"
 
-1436841828 c:\users\ng\documents\github\csci321\codes\321 codes (work in progress)\readfile\carpart.h
+1439353780 c:\users\ng\documents\github\csci321\codes\321 codes (work in progress)\readfile\carpart.h
 	<iostream>
 	<vector>
 
-1436845402 source:c:\users\ng\documents\github\csci321\codes\321 codes (work in progress)\readfile\carpart.cpp
+1439792626 source:c:\users\ng\documents\github\csci321\codes\321 codes (work in progress)\readfile\carpart.cpp
 	"CarPart.h"
 	<iostream>
 	<vector>
+	<string>
 
-1436841005 source:c:\users\ng\documents\github\csci321\codes\321 codes (work in progress)\readfile\readin.cpp
+1439791688 source:c:\users\ng\documents\github\csci321\codes\321 codes (work in progress)\readfile\readin.cpp
 	<iostream>
 	<fstream>
 	"Car.h"

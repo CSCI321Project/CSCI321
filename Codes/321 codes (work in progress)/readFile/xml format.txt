@@ -1,0 +1,34 @@
+<Car>
+	<Car Hierarchy>
+		<Number of Parts>
+
+		</Number of Parts>
+		<Hierarchy>
+
+		</Hierarchy>
+	</Car Hierarchy>
+	<Car Part>
+		<Part Name>
+
+		</Part Name>
+		<Part Image>
+
+		</Part Image>
+		<Components>
+			<Component>
+				<Component Name>
+
+				</Component Name>
+				<Component Image>
+
+				</Component Image>
+				<Component Video>
+
+				</Component Video>
+				<Component Description>
+
+				</Component Description>
+			</Component>
+		</Components>
+	</Car Part>
+</Car>

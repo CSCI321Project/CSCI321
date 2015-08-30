@@ -1,0 +1,106 @@
+Auspuff,Verwendet werden, um zu kanalisieren out bei der Verbrennung des Kraftstoffs erzeugten Abgases. Nicht in einem Elektroauto vorhanden.
+Auto-Kennzeichen,Hält das Nummernschild eines Autos.
+Kofferraum,Ein Ort, um Gegenstände im Auto zu speichern. In einigen Autos, dies kann in der Vorderseite des Autos.
+Bremslichter,Schalten Sie, wenn die Fußbremse betätigt wird.
+Anzeigeleuchten,Verwendet werden, um Veränderungen in Fahrtrichtung zeigen.
+Zurück Glasscheibe,Fungiert als Heckscheibe. Hat in der Regel einen Demister zur Verwendung, wenn das Wetter neblig.
+Zurück Stoßfänger,Absorbiert kleinen bis mittleren Aufprall Beulen zu verhindern oder Schäden an Struktur des Fahrzeugs zu reduzieren in einem hinteren Ende Unfall.
+Schmutzfänger,Schlamm zu verhindern davor bis zu der Karosserie gespritzt beim Überfahren von schlammigen Oberflächen.
+Ersatzrad,Verwendet werden, wenn es eine Reifenpanne. In einigen Autos, es ist ein Raumwunder Ersatz, der kleiner im Durchmesser und Breite als eine reguläre Reifen.
+Autospoiler,Zur Erhöhung Abtrieb, um die Stabilität des hinteren Endes des Fahrzeugs zu verbessern.
+Zurück Scheibenwischer,Auf Heckklappenmodelle, ein Heckscheibenwischer ist notwendig, um von Regenwasser wischen. Sedans dies nicht benötigen aufgrund der gewinkelten Art des Glases.
+Reverse-Sensoren,Hilfe, um Hindernisse auf der Rückseite des Autos zu erkennen, in Einparkhilfe.
+Nebelschlussleuchte,Verbessern Sie die Sichtbarkeit der Rückseite des Autos unter nebligen Situationen.
+Tür,Eine Tür
+Seitenschweller,Verbessert Seiten Abtrieb und Aerodynamik des Autos, und die Ästhetik des Fahrzeugs.
+Räder, Um das Auto zu bewegen
+Felgen,Verwendet werden, um den Reifen auf der KFZ-Halterung
+Fensterscheiben,Fenster
+Türgriffe,Um Zugriff auf das Auto zu gewinnen. In einigen Autos, enthält eine Schaltfläche zum Sperren und Entsperren das Auto als auch
+Anzeigeleuchten,Seite Repeater Lichter, die den Betrieb der vorderen und hinteren Indikatoren ergänzen
+Seitenspiegel,Um in Betrachtung Hindernisse an der Seite des Autos im toten Winkel des Fahrzeugs zu unterstützen
+Tankdeckel,Sichert den Kraftstofftank
+Bremsscheiben,Einsetzen als Teil des Bremssystems, um das Auto zu verlangsamen, wenn die Fußbremse tätig sind
+Motorhaube,Schützt den Motor vor regen und das Wetter.
+Kühlergrill,Wirkt als Lufteinlass, um den Kühler zu kühlen und Front Aerodynamik des Autos zu verbessern.
+Autoschild,Hält das vordere Kennzeichen des Autos. In einigen Ländern wie den USA, ist dies nicht obligatorisch.
+Windschutzscheibe,Windschutzscheibe des Autos, verhindert, dass Wasser in das Auto und verbessern die Aerodynamik Front.
+Beleuchtung,Leuchten die Straße bei Nacht und machen das Auto sichtbar
+Höhepunkte,Verbessern Sie die Sichtbarkeit der Straße vor unter dunklen und schlechten Bedingungen.
+Nebellichter,Verbessern Sie die Sichtbarkeit der Straße voran bei Regen / Nebel Situationen.
+Heizkörper,Hilft, das Kühlmittel, das durch sie fließt abkühlen.
+Frontstoßstange,Verhindert eine Beschädigung oder Beschädigung des vorderen Endes des Fahrzeugs bei einem Frontalaufprall deutlich verringern. Hilft auch, um Verletzungen zu vermeiden, wenn ein Auto ist in einer Fußgänger laufen.
+Sprinkler,Sprays Scheiben Fluid aus dem Behälter auf die Scheibe zu reinigen.
+Anzeigeleuchten,Verwendet werden, um Veränderungen in Fahrtrichtung zeigen
+Wischer,Wegdrückt Wasser, das auf der vorderen Windschutzscheibe vorhanden sein können.
+Kopf auf Kollisionssensoren,Erkennt Hindernisse vor dem Auto, das Auto ist im Begriff, in abstürzen und warnt den Fahrer. In einigen Systemen, wäre es die Bremsen automatisch einrasten. Nicht bei allen Fahrzeugen eingebaut.
+Radioantenne,Erkennt Funksignale
+Dach,Ein Dach
+Dachgepäckträger,Für den Einsatz auf Lagerboxen oder andere Dinge (wie Fahrräder) auf das Dach des Autos anzubringen. Nicht in allen Autos zu präsentieren.
+Lenkrad,Um das Auto zu lenken
+Armaturenbrett,Hält verschiedene Instrumentierung des Autos
+Spiegel,Erlaubt es dem Fahrer, den Verkehr oder Hindernisse hinter dem Fahrzeug anzuzeigen
+Sonnenblende,Verwendet werden, um die Menge der Sonne, die in die Kabine zu reduzieren
+Getriebe,Bei einem automatischen, ist es entweder nach hinten machen das Auto zu bewegen (in Position R) oder nach vorne zu bewegen (in D-Position), die am besten geeignete Geschwindigkeit der Übertragung wird automatisch von der Getriebesteuereinheit gewählt. In einem manuellen Auto, verwendet werden, um das Fahrzeug vorwärts (mit den Zahnrädern in jeder Position zwischen 1-5 (oder 6 in einigen Autos), wobei der durch den Fahrer auf der Grundlage der Fahrzeuggeschwindigkeit gewählt optimalen Gang) oder rückwärts (durch Platzieren Sie den Schalthebel in die R).
+Sitz,Um Passagiere Platz.
+Handschuhfach,Für diverse Kleinteile.
+Armlehne,Für Komfort der Arme.
+Getränkehalter,hält Tassen.
+Handbremse,Ein- und Ausschalten der Feststellbremse.
+Innenbeleuchtung,Leuchtet der Innenraum in dunkler Umgebung.
+Klimaanlage,Lässt Luft zu kommen.
+Lenkrad,Um das Auto zu lenken.
+Horn,Verwendet werden, um eine hörbare Warnung außerhalb des Autos liefern.
+Airbag,Setzt im Falle einer Kollision schwer genug, um potentiell schädigen.
+Armaturenbrett,Hält verschiedene Instrumentierung des Autos.
+Indicator Stiele,Um die Indikatoren zu engagieren.
+Licht Stiele,Um das Licht, Nebelscheinwerfer und Fernlicht schalten.
+Wischer Stiele,Sich zu engagieren und zu steuern die Scheibenwischer. Auch verwendet, um den Sprinkler zu engagieren, um Wasser aus der Windschutzscheibe Behälter auf die Windschutzscheibe zu sprühen.
+Ignition Loch,Ein Ort, um den Schlüssel, um das Auto zu starten einfügen. In einigen Fahrzeugen kann dies von einem fob, die verdreht können, um das Auto, oder eine Schaltfläche, um das Auto zu starten starten ersetzt werden (vorausgesetzt, der Schlüsselanhänger in der Kabine).
+Radio,Ermöglicht dem Benutzer die Musik für die Wiedergabe auswählen.
+Klimaanlage Kontrollen,Verwendet, um die Klimaanlage im Fahrzeug steuern.
+Tempomat,Bei Aktivierung kann das Fahrzeug Kreuzfahrt mit einer festen Geschwindigkeit. In Autos mit Vorwärtskollisionssensoren ausgestattet, es mit ihm Schnittstelle kann die Reisegeschwindigkeit variieren basierend auf der Geschwindigkeit des Autos vor.
+Warnlichter,Bei Aktivierung wird es dazu führen sowohl die Anzeige leuchtet, gleichzeitig blinken, um einen Zusammenbruch zeigen.
+Feuerzeug,Wirkt wie ein 12V Steckdose oder den Zigarettenanzünder.
+Tachometer,Verwendet, um die Fahrzeuggeschwindigkeit zu zeigen.
+Drehzahlmesser,Verwendet, um die Motordrehzahl zu zeigen.
+Kraftstoffstand,Zeigt den Kraftstoffpegel der Wagen (Menge des in dem Kraftstofftank verbleibenden Kraftstoff).
+Motorwarnlampe,Schaltet im Falle eines Fehlers in dem Motor oder Antriebsstrang des Fahrzeugs.
+Ölkontrollanzeige,Eingreift, wenn der Öldruck des Fahrzeugs niedrig ist im Motor.
+Handbremse Indikator,Leuchtet auf, wenn die Handbremse / Feststellbremse angezogen ist. Wenn es auf trotz der Feststellbremse ausgerückt bleibt, ist es ein Zeichen eines Fehlers in dem Bremssystem.
+Temperaturanzeige,Verwendet werden, um Motorkühlmitteltemperatur zeigen.
+Kilometerzähler,Zeigt die Gesamtstrecke der Wagen gereist, da sie das Werk verlassen.
+Tageszähler,Zeigt die seit der letzten Trip-Reset gereist.
+ABS-Symbol,Schaltet, wenn es eine Störung im ABS-System im Auto.
+Ganganzeige,Shows, die das Auto in Gang.
+Indicator Symbole,Wird in Verbindung mit den Anzeigeleuchten außerhalb des Autos zu blinken, wenn die Indikatoren tätig sind.
+Fernlicht ein Licht,Leuchtet auf, wenn das Fernlicht eingeschaltet werden.
+Scheinwerfer Licht,Leuchtet auf, wenn die Scheinwerfer eingeschaltet sind.
+Nebellicht (vorne und hinten) Licht,Nebelscheinwerfer und Nebelschlussleuchte einschalten, wenn in Eingriff.
+Tempomat Licht,Leuchtet auf, wenn Tempomat aktiv ist.
+Sicherheitsgurt anlegen,Bleibt auf oder blinkt, wenn die Sicherheitsgurte eines Sitzes besetzt nicht verwendet wird.
+Reifendruckfehlerlicht,Greift in dem Fall gibt es einen Verlust von Reifendruck der Reifen des Fahrzeugs. Nur bei Fahrzeugen mit einem Reifendruckkontrollsystem ausgestattet.
+Niedriger Batterieladeanzeige,Leuchtet auf, wenn die Hilfsbatterie zur Neige.
+Diesel Glühkerze Licht,Leuchtet auf, wenn die Glühkerze ist aktiv, während der Motor, das in einer Diesel-Pkw erwärmt. Motor darf nicht gestartet werden, bis diese erlischt. Nur in Dieselfahrzeugen.
+4WD Lock-Licht,Eingreift, wenn der 4WD-System ist gezwungen, aktiv zu sein (auf den Autos mit 4WD ausgestattet on Demand-System).
+Tür offen Licht,Leuchtet auf, wenn eine Tür / boot / Haube ist nicht richtig geschlossen.
+ESC und ESC OFF Licht,ESC LED blinkt, wenn das ESC-System erfasst eine Rutsch und ist derzeit die Korrektur des Autos Stabilität. ESC OFF leuchtet, wenn das ESC-System ausgeschaltet wurde. ESC Licht bleibt an, wenn es einen Fehler im System.
+Low Scheibenwasch Licht,Leuchtet auf, wenn es nicht genügend Flüssigkeit in der Scheibenwaschanlage Vorratsbehälter.
+ECO-Mode-Licht,Leuchtet auf, wenn das Auto ist wirtschaftlich angesteuert. Nicht bei allen Fahrzeugen verfügbar.
+Niedriger Treibstoff Licht,Leuchtet auf, wenn es nicht viel Kraftstoff in den Kraftstofftank links.
+Ice-Warnleuchte,Eingreift, wenn die Außentemperatur niedrig ist, um Benutzer von möglichen Glatteiswarnung (Eis auf der Straße).
+Beschleuniger,Erhöht sich die Menge an Kraftstoff, die dem Motor zugeführt, um die Motorgeschwindigkeit zu erhöhen, daher macht das Auto schneller.
+Bremsen,Um die Bremsen des Fahrzeugs auf das Fahrzeug verlangsamen.
+Kupplung,Nur in einem manuellen Auto, verwendet, damit der Benutzer einen Gang einzulegen.
+Bonet Hebel,Verwendet, um die Motorhaube des Autos zu entriegeln.
+Boot Hebel,Verwendet, um den Kofferraum zu entriegeln.
+Tankdeckel Hebel,Verwendet werden, um die Kraftstofftankabdeckung zu entriegeln.
+Lautsprecher,Ermöglicht die Tonausgabe von dem Infotainment-System.
+Sitzverstellung,Ermöglicht der Sitzposition eingestellt werden.
+Zentralverriegelung,Kann der Fahrer zentral steuern, wenn alle Türen im Auto gesperrt werden soll oder nicht.
+Fensterhebersteuerungen,Ermöglicht zum Öffnen oder Schließen der Fenster an den Türen des Autos gelegen.
+Teppiche,Verwendet werden, um Schmutz von Beschädigung der Boden der Kabine zu fangen.
+Sitz,Um Passagiere Platz.
+Kopfstütze,Reduzieren Schleuder auf dem Hals bei einem Heckaufprall.
+Sicherheitsgurt,Eine Form von Rückhalte an die Passagiere eines Fahrzeugs, damit sie nicht nach vorne bei einem Frontalaufprall geschleudert wird.
+Armlehne,Für Komfort der Arme.
