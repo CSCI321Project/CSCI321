@@ -1,5 +1,6 @@
 #pragma once
 
+
 #include <iostream>
 #include <Windows.h>
 #include <WinBase.h>
@@ -7,6 +8,8 @@
 
 #define tankCapacity 50 // macro definition of the capacity of the fuel tank, we use a macro definition here to ensure that we can easily modify this value
 #define idlePressure 0.3  //Minimum fuel pressure
+#define tempFuelStart 40
+
 class engine
 {
 private:
@@ -27,11 +30,13 @@ class fuelTank
 {
 
 private:
-	float currentVolume;
+	float currentVolume = tempFuelStart;
 	float capacity = tankCapacity;
 	bool isPetrol; //true if is petrol, false if it is diesel
 
 public:
+	fuelTank();
+	~fuelTank();
 	void setFuel(float);
 	float getCapacity();
 	int getCurrentFuelLevelPercent();
@@ -43,7 +48,7 @@ public:
 class fuelPump
 {
 private:
-	float pressure;
+	float pressure = idlePressure;
 	bool isPetrol;
 
 public:
@@ -55,13 +60,16 @@ public:
 	void setFuelIsPetrol(bool);
 };
 
+//Create instances
+engine& theEngine();
+fuelTank& theFuelTank();
+fuelPump& theFuelPump();
 //Declare an instance of an engine, fuel tank and fuel pump globally
-engine myEngine;
-fuelTank myTank;
-fuelPump myFuelPump;
+HANDLE& theOutputMutex();
+
 
 //Need to do a couple of manager functions as well
 
-void engineManager(); //Makes requests for fuel to the fuelPump when engine is active and based on speed - also check if there is fuel in the first place
-void fuelPumpManager(); //Gets fuel from  the fuel tank, based on pressure update the value of the tank
-void fuelTankManager(); //make calls to car control panel as the fuel level goes down...
+unsigned int __stdcall engineManager(void* data); //Makes requests for fuel to the fuelPump when engine is active and based on speed - also check if there is fuel in the first place
+unsigned int __stdcall  fuelPumpManager(void* data); //Gets fuel from  the fuel tank, based on pressure update the value of the tank
+unsigned int __stdcall  fuelTankManager(void* data); //make calls to car control panel as the fuel level goes down...

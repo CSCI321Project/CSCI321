@@ -1,14 +1,21 @@
-﻿Build started 7/29/2015 10:42:29 PM.
+﻿Build started 8/27/2015 9:51:20 AM.
      1>Project "C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\Simulation Fuel System\Simulation Fuel System\Simulation Fuel System.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
-         Source.cpp
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt fuel.cpp
+         fuel.cpp
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation fuel system\simulation fuel system\fuel.h(51): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation fuel system\simulation fuel system\fuel.cpp(96): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation fuel system\simulation fuel system\fuel.cpp(123): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation fuel system\simulation fuel system\fuel.cpp(191): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation fuel system\simulation fuel system\fuel.cpp(198): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation fuel system\simulation fuel system\fuel.cpp(200): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation fuel system\simulation fuel system\fuel.cpp(242): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
        Link:
-         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\Simulation Fuel System\Debug\Simulation Fuel System.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\Simulation Fuel System\Debug\Simulation Fuel System.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\Simulation Fuel System\Debug\Simulation Fuel System.lib" /MACHINE:X86 Debug\MyClass.obj
-         Debug\Source.obj
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\Simulation Fuel System\Debug\Simulation Fuel System.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\Simulation Fuel System\Debug\Simulation Fuel System.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\Simulation Fuel System\Debug\Simulation Fuel System.lib" /MACHINE:X86 Debug\fuel.obj
+         Debug\main.obj
          Simulation Fuel System.vcxproj -> C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\Simulation Fuel System\Debug\Simulation Fuel System.exe
      1>Done Building Project "C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\Simulation Fuel System\Simulation Fuel System\Simulation Fuel System.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.66
+Time Elapsed 00:00:02.52

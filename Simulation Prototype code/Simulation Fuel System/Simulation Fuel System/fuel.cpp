@@ -1,6 +1,30 @@
 #include "fuel.h"
 using namespace std;
 
+HANDLE& theOutputMutex()
+{
+	static HANDLE outputMutex;
+	return outputMutex;
+}
+
+engine& theEngine()
+{
+	static engine myEngine;
+	return myEngine;
+}
+
+fuelTank& theFuelTank()
+{
+	static fuelTank myTank;
+	return myTank;
+}
+
+fuelPump& theFuelPump()
+{
+	static fuelPump myFuelPump;
+	return myFuelPump;
+}
+
 void engine::setSpeed(int newSpeed)
 {
 	speed = newSpeed;
@@ -41,6 +65,18 @@ bool engine::stopEngine()
 	//Turn off the engine
 	active = false;
 	return false;
+}
+
+fuelTank::fuelTank()
+{
+	currentVolume = tempFuelStart;
+	capacity = tankCapacity;
+	isPetrol = true;
+}
+
+fuelTank::~fuelTank()
+{
+	//Nothing to do here
 }
 
 void fuelTank::setFuel(float newVolume)
@@ -84,8 +120,10 @@ bool fuelTank::getFuelIsPetrol()
 fuelPump::fuelPump()
 {
 	//Constructor
-	pressure = 0;
+	pressure = idlePressure;
 	isPetrol = true;
+
+	cout << endl << "Constructor has been called..." << endl;
 }
 fuelPump::~fuelPump()
 {
@@ -108,6 +146,9 @@ void fuelPump::setPressure(float newPressure)
 {
 	//Saves a new pressure for the fuel pump
 	pressure = newPressure;
+
+	getPressure();
+
 }
 void fuelPump::setFuelIsPetrol(bool newFuelStatus)
 {
@@ -115,39 +156,52 @@ void fuelPump::setFuelIsPetrol(bool newFuelStatus)
 	isPetrol = newFuelStatus;
 }
 
-void engineManager()
+unsigned int __stdcall engineManager(void* data)
 {
 	//Makes requests for fuel to the fuelPump when engine is active and based on speed - also check if there is fuel in the first place
-	float pressureToSet;
+	float pressureToSet = 0, engineFactor;
+	int engineSpeed = 0;
 
 	for (;;)
 	{
-		if (myEngine.engineStatus() == true)
+		if (theEngine().engineStatus() == true)
 		{
 			//Engine is running
 			//Request for fuel based on the speed
 			//Ensure there is fuel... if there isn't, then should be that the engine cuts off now.
-			if (myTank.getCurrentFuelLevel() == 0)
+			if (theFuelTank().getCurrentFuelLevel() == 0)
 			{
 				//Fuel tank is empty
-				myEngine.stopEngine();
+				theEngine().stopEngine();
+
+				//Encase this cout in a mutex..
+
+				WaitForSingleObject(theOutputMutex(), INFINITE);
 				cout << endl << "Engine has run out of fuel!" << endl;
+				ReleaseMutex(theOutputMutex());
+
 				//Continue to the next iteration of the loop
 				continue;
 			}
 
 			//By default, there is a minimum pressure for the fuel as long as the engine is idling - that is vehicle speed is 0. If not, the pressure will be proportionate to the speed
-			if (myEngine.getSpeed() == 0)
+			if (theEngine().getSpeed() == 0)
 			{
 				//Engine is in idle
-				myFuelPump.setPressure(idlePressure);
+				theFuelPump().setPressure(idlePressure);
+
 			}
 			else
 			{
 				//Set the fuel pressure based on the engine speed
-				pressureToSet = idlePressure + (myEngine.getSpeed / 100);
+				engineSpeed = theEngine().getSpeed();
+				pressureToSet = idlePressure;
 
-				myFuelPump.setPressure(pressureToSet);
+				engineFactor = engineSpeed / 100;
+
+				pressureToSet = pressureToSet + engineFactor;
+
+				theFuelPump().setPressure(pressureToSet);
 			}
 		}
 		else
@@ -155,7 +209,7 @@ void engineManager()
 			//Engine is not on...
 
 			//Ensure that the fuel pump pressure is set to 0
-			myFuelPump.setPressure(0);
+			theFuelPump().setPressure(0);
 			//nothing else to do there.
 		}
 
@@ -163,8 +217,9 @@ void engineManager()
 		Sleep(500); //Don't want to query it always, once every half second should be fine...
 
 	}
+	return 0;
 }
-void fuelPumpManager()
+unsigned int __stdcall fuelPumpManager(void* data)
 {
 	//Gets fuel from  the fuel tank, based on pressure update the value of the tank
 
@@ -177,37 +232,47 @@ void fuelPumpManager()
 		//As long as there is fuel available, we should try to get the fuel out
 
 		//First, check and see what type of fuel we are getting
-		myFuelPump.setFuelIsPetrol(myTank.getFuelIsPetrol());
+		theFuelPump().setFuelIsPetrol(theFuelTank().getFuelIsPetrol());
+
 
 		//Since we know the type of fuel at the pump, the engine can then find out the type of fuel as it needs to...
 		
 		//Reduce the amount of fuel accordingly... Right now, we shall set the amount to be reduced is 10% of the corresponding pressure...
 
-		amountToReduce = myFuelPump.getPressure() * 0.1;
+		amountToReduce = theFuelPump().getPressure() * 0.1;
 
 		//Update the fuel quantity
 
-		newFuelLevel = myTank.getCurrentFuelLevel() - amountToReduce;
+		newFuelLevel = theFuelTank().getCurrentFuelLevel() - amountToReduce;
+		
 
 		//Note, should never let this become a negative. If it becomes a negative, pad it to 0
 		if (newFuelLevel <= 0)
 		{
 			newFuelLevel = 0;
 		}
-		myTank.setFuel(newFuelLevel);
+		theFuelTank().setFuel(newFuelLevel);
 
+		WaitForSingleObject(theOutputMutex(), INFINITE);
+
+		cout << endl << "Pressure is " << theFuelPump().getPressure() << endl;
+		cout << endl << "Amount reduced is : " << amountToReduce << endl << "Fuel level is: " << theFuelTank().getCurrentFuelLevel() << endl;
+
+		ReleaseMutex(theOutputMutex());
 		//Sleep for a while
 		Sleep(500);
 
 	}
+	return 0;
 }
-void fuelTankManager()
+unsigned int __stdcall  fuelTankManager(void* data)
 {
 	//make calls to car control panel as the fuel level goes down...
 
 	//While there is still fuel, the pump will pull out the fuel from the tank
 	//nothing much to do here for now
 
+	return 0;
 
 
 }
