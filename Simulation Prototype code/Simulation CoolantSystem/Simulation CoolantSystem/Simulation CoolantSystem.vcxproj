@@ -80,9 +80,11 @@
   <ItemGroup>
     <ClCompile Include="Coolant.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="fuel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Coolant.h" />
+    <ClInclude Include="fuel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

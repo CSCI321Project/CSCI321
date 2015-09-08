@@ -1,9 +1,14 @@
 #include <iostream>
+#include <Windows.h>
+#include <WinBase.h>
+#include <Synchapi.h>
 
 #define defaultCurrentVol 5
 #define defaultCapacity 5
 #define defaultTemp 30
-#define defaultPressure 0
+#define defaultFlow 0
+#define tempReduction 30
+#define ambientTemperature 35
 
 //Declare our classes
 //Need to grab the engine class from engine.h
@@ -38,15 +43,15 @@ class coolantPump
 {
 	private:
 		//Private members
-		float pressure;
+		float flowAmount;
 		float temperature;
 
 	public:
 		//Public functions
 		coolantPump();
 		~coolantPump();
-		void setPressure(float);
-		float getPressure();
+		void setFlowAmt(float);
+		float getFlowAmt();
 		void setTemperature(float);
 		float getTemperature();
 
@@ -69,12 +74,25 @@ class radiator
 		float getCoolantAmount();
 		float getTemperature();
 		void setTemperature(float);
+		void setCoolDown(bool);
+		bool getCoolDown();
 		
 
 };
 //Declare instances of the objects
-coolantPump& CoolantPump();
-coolantReservoir& CoolantReservoir();
-radiator& Radiator();
+coolantPump& theCoolantPump();
+coolantReservoir& theCoolantReservoir();
+radiator& theRadiator();
+
+//Also need to declare a couple of mutexes
+HANDLE& allowCoolantTankLevelModification();
+HANDLE& allowEngineCoolantLevelModification();
+HANDLE& allowRadiatorCoolantLevelModficiation();
 
 //Actual functions to be multithreaded...
+unsigned int __stdcall coolantPumpManager(void* data);
+unsigned int __stdcall coolantReservoirManager(void* data);
+unsigned int __stdcall radiatorManager(void* data);
+
+
+
