@@ -53,7 +53,7 @@ int main()
 	theEngine().startEngine();
 
 	//Set the engine speed to 60
-	theEngine().setSpeed(90);
+	theEngine().setSpeed(60);
 
 	//Note that only around 110/120 kmh we actually hit maximum temperature of the coolant when the cooldown is false
 
