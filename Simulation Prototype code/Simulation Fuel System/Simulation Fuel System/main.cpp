@@ -45,7 +45,7 @@ int main()
 	theEngine().startEngine();
 
 	//Set the engine speed to 60
-	theEngine().setSpeed(60);
+	theEngine().setSpeed(120);
 
 	//Now need to wait for these objects to finish...
 

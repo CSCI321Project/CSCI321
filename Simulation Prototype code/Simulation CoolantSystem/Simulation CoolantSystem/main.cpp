@@ -32,7 +32,7 @@ int main()
 	 
 	 //If we want to simulate an overheat, we set cooldown to false
 	
-	// theRadiator().setCoolDown(false);
+	theRadiator().setCoolDown(false);
 
 
 	//Prepare handles
@@ -53,7 +53,7 @@ int main()
 	theEngine().startEngine();
 
 	//Set the engine speed to 60
-	theEngine().setSpeed(60);
+	theEngine().setSpeed(130);
 
 	//Note that only around 110/120 kmh we actually hit maximum temperature of the coolant when the cooldown is false
 
