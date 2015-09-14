@@ -87,7 +87,7 @@ void fuelTank::setFuel(float newVolume)
 
 float fuelTank::getCapacity()
 {
-	return currentVolume;
+	return capacity;
 }
 
 int fuelTank::getCurrentFuelLevelPercent()
@@ -160,7 +160,7 @@ unsigned int __stdcall engineManager(void* data)
 {
 	//Makes requests for fuel to the fuelPump when engine is active and based on speed - also check if there is fuel in the first place
 	float pressureToSet = 0, engineFactor;
-	int engineSpeed = 0;
+	float engineSpeed = 0;
 
 	for (;;)
 	{
@@ -181,6 +181,13 @@ unsigned int __stdcall engineManager(void* data)
 				ReleaseMutex(theOutputMutex());
 
 				//Continue to the next iteration of the loop
+				continue;
+			}
+
+			if (theFuelPump().fuelIsPetrol() == false)
+			{
+				//Stop the engine cause we are not using petrol anymore.
+				theEngine().stopEngine();
 				continue;
 			}
 
