@@ -278,7 +278,10 @@ unsigned int __stdcall  fuelTankManager(void* data)
 
 	//While there is still fuel, the pump will pull out the fuel from the tank
 	//nothing much to do here for now
+	for (;;)
+	{
 
+	}
 	return 0;
 
 

@@ -151,10 +151,19 @@ void radiator::addCoolant(float amountToAdd, float tempOfCoolantAdded)
 	//And now, just find the average heat per litre of fluid - essentially the temperature, heat per unit liquid
 	float finalTemperature = sumOfHeat / sumOfFluid;
 
-	//Finally, set our new temperatures and new volume of coolant in the there...
-	amountOfCoolant = sumOfFluid;
-	coolantTemperature = finalTemperature;
-
+	//If a 0/0 happened, we need to override that
+	if ((sumOfFluid == 0) && (sumOfHeat == 0))
+	{
+		//Set everything to 0...
+		amountOfCoolant = 0;
+		coolantTemperature = 0;
+	}
+	else
+	{
+		//Finally, set our new temperatures and new volume of coolant in the there...
+		amountOfCoolant = sumOfFluid;
+		coolantTemperature = finalTemperature;
+	}
 }
 void radiator::reduceCoolant(float amountToReduce)
 {
@@ -248,6 +257,15 @@ unsigned int __stdcall coolantPumpManager(void* data)
 unsigned int __stdcall coolantReservoirManager(void* data)
 {
 	//Nothing much really?
+	for (;;)
+	{
+		WaitForSingleObject(theOutputMutex(), INFINITE);
+
+		cout << endl << "Coolant reservoir temp : " << theCoolantReservoir().getTemperature() << endl;
+
+		ReleaseMutex(theOutputMutex());
+		Sleep(1000);
+	}
 	return 0;
 }
 unsigned int __stdcall radiatorManager(void* data)
@@ -275,7 +293,7 @@ unsigned int __stdcall radiatorManager(void* data)
 
 			//We want to cool down the coolant and not simulate an overheat
 			//Reduce the temperature of the coolant in the radiator
-			if (theRadiator().getCoolantAmount() != 0)
+			if ((theRadiator().getCoolantAmount() != 0) && (theEngine().engineStatus() == true))
 			{
 				//Only if not empty...
 

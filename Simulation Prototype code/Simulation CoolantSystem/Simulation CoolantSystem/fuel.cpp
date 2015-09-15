@@ -172,7 +172,7 @@ fuelPump::fuelPump()
 	pressure = idlePressure;
 	isPetrol = true;
 
-	cout << endl << "Constructor has been called..." << endl;
+	//cout << endl << "Constructor has been called..." << endl;
 }
 fuelPump::~fuelPump()
 {
@@ -338,8 +338,8 @@ unsigned int __stdcall engineManager(void* data)
 
 			//Now, remove the coolant and put into the radiator
 			//Only remove 80% of the coolant out...
-			theRadiator().addCoolant((theEngine().getCoolantAmount() * 0.8), theEngine().getCoolantTemp());
-			theEngine().setCoolantAmount((theEngine().getCoolantAmount()*0.2), theEngine().getCoolantTemp());
+			theRadiator().addCoolant((theEngine().getCoolantAmount() * 0.8), coolantTemp);
+			theEngine().setCoolantAmount((theEngine().getCoolantAmount()*0.2), coolantTemp);
 
 			WaitForSingleObject(theOutputMutex(), INFINITE);
 			cout << endl << "New engine coolant temp is " << theEngine().getCoolantTemp() << endl;
@@ -394,36 +394,40 @@ unsigned int __stdcall fuelPumpManager(void* data)
 	for (;;)
 	{
 		//As long as there is fuel available, we should try to get the fuel out
-
-		//First, check and see what type of fuel we are getting
-		theFuelPump().setFuelIsPetrol(theFuelTank().getFuelIsPetrol());
-
-
-		//Since we know the type of fuel at the pump, the engine can then find out the type of fuel as it needs to...
-
-		//Reduce the amount of fuel accordingly... Right now, we shall set the amount to be reduced is 10% of the corresponding pressure...
-
-		amountToReduce = theFuelPump().getPressure() * 0.1;
-
-		//Update the fuel quantity
-
-		newFuelLevel = theFuelTank().getCurrentFuelLevel() - amountToReduce;
-
-
-		//Note, should never let this become a negative. If it becomes a negative, pad it to 0
-		if (newFuelLevel <= 0)
+		if (theEngine().engineStatus() == true)
 		{
-			newFuelLevel = 0;
+			//Only when engine is on...
+			//First, check and see what type of fuel we are getting
+			theFuelPump().setFuelIsPetrol(theFuelTank().getFuelIsPetrol());
+
+
+			//Since we know the type of fuel at the pump, the engine can then find out the type of fuel as it needs to...
+
+			//Reduce the amount of fuel accordingly... Right now, we shall set the amount to be reduced is 10% of the corresponding pressure...
+
+			amountToReduce = theFuelPump().getPressure() * 0.1;
+
+			//Update the fuel quantity
+
+			newFuelLevel = theFuelTank().getCurrentFuelLevel() - amountToReduce;
+
+
+			//Note, should never let this become a negative. If it becomes a negative, pad it to 0
+			if (newFuelLevel <= 0)
+			{
+				newFuelLevel = 0;
+			}
+			theFuelTank().setFuel(newFuelLevel);
+
+			WaitForSingleObject(theOutputMutex(), INFINITE);
+
+			cout << endl << "Pressure is " << theFuelPump().getPressure() << endl;
+			cout << endl << "Amount reduced is : " << amountToReduce << endl << "Fuel level is: " << theFuelTank().getCurrentFuelLevel() << endl;
+
+			ReleaseMutex(theOutputMutex());
 		}
-		theFuelTank().setFuel(newFuelLevel);
-
-		WaitForSingleObject(theOutputMutex(), INFINITE);
-
-		cout << endl << "Pressure is " << theFuelPump().getPressure() << endl;
-		cout << endl << "Amount reduced is : " << amountToReduce << endl << "Fuel level is: " << theFuelTank().getCurrentFuelLevel() << endl;
-
-		ReleaseMutex(theOutputMutex());
 		//Sleep for a while
+
 		Sleep(500);
 
 	}

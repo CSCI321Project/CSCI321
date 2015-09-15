@@ -23,7 +23,6 @@ int main()
 
 
 	//Multithreaded code...
-
 	//Build the mutex
 	theOutputMutex() = CreateMutex(
 		NULL,              // default security attributes
@@ -45,19 +44,50 @@ int main()
 	theEngine().startEngine();
 
 	//Set the engine speed to 60
-	theEngine().setSpeed(120);
+	theEngine().setSpeed(0);
 
 	//Now need to wait for these objects to finish...
+
+	/*WaitForSingleObject(engineHandle, INFINITE);
+	WaitForSingleObject(fuelPumpHandle, INFINITE);
+	WaitForSingleObject(fuelTankHandle, INFINITE);*/
+
+	Sleep(10000);
+	theEngine().stopEngine();
+
+	cout << "Terminating " << endl;
+	//Once we are done, then close the handles
+	TerminateThread(engineHandle, 0);
+	TerminateThread(fuelPumpHandle, 0);
+	TerminateThread(fuelTankHandle, 0);
+	
+
+	CloseHandle(engineHandle);
+	CloseHandle(fuelPumpHandle);
+	CloseHandle(fuelTankHandle);
+
+	cout << endl << "Restartng..." << endl;
+	//killThread = false;
+
+	
+
+	engineHandle = (HANDLE)_beginthreadex(0, 0, &engineManager, 0, 0, 0);
+	fuelPumpHandle = (HANDLE)_beginthreadex(0, 0, &fuelPumpManager, 0, 0, 0);
+	fuelTankHandle = (HANDLE)_beginthreadex(0, 0, &fuelTankManager, 0, 0, 0);
+
+	theEngine().startEngine();
+
+	//Set the engine speed to 60
+	theEngine().setSpeed(0);
+
 
 	WaitForSingleObject(engineHandle, INFINITE);
 	WaitForSingleObject(fuelPumpHandle, INFINITE);
 	WaitForSingleObject(fuelTankHandle, INFINITE);
 
-	//Once we are done, then close the handles
 	CloseHandle(engineHandle);
 	CloseHandle(fuelPumpHandle);
 	CloseHandle(fuelTankHandle);
-
 	//Then close the mutex
 	CloseHandle(theOutputMutex());
 

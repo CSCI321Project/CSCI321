@@ -73,3 +73,5 @@ HANDLE& theOutputMutex();
 unsigned int __stdcall engineManager(void* data); //Makes requests for fuel to the fuelPump when engine is active and based on speed - also check if there is fuel in the first place
 unsigned int __stdcall  fuelPumpManager(void* data); //Gets fuel from  the fuel tank, based on pressure update the value of the tank
 unsigned int __stdcall  fuelTankManager(void* data); //make calls to car control panel as the fuel level goes down...
+
+

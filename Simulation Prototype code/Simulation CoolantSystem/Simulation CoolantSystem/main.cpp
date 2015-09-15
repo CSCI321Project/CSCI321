@@ -32,7 +32,7 @@ int main()
 	 
 	 //If we want to simulate an overheat, we set cooldown to false
 	
-	theRadiator().setCoolDown(false);
+	theRadiator().setCoolDown(true);
 
 
 	//Prepare handles
@@ -45,7 +45,7 @@ int main()
 	radiatorHandle = (HANDLE)_beginthreadex(0, 0, &radiatorManager, 0, 0, 0);
 	coolantPumpHandle = (HANDLE)_beginthreadex(0, 0, &coolantPumpManager, 0, 0, 0);
 
-
+	cout << endl << "Handles prepared" << endl;
 	//Make the fuel tank to only have 10 liters of fuel
 	theFuelTank().setFuel(10.0);
 
@@ -72,6 +72,9 @@ int main()
 	CloseHandle(engineHandle);
 	CloseHandle(fuelPumpHandle);
 	CloseHandle(fuelTankHandle);
+	CloseHandle(coolantPumpHandle);
+	CloseHandle(coolantReservoirHandle);
+	CloseHandle(radiatorHandle);
 
 	//Then close the mutex
 	CloseHandle(theOutputMutex());
