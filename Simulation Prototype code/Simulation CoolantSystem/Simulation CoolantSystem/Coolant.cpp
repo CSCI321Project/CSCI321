@@ -81,14 +81,25 @@ void coolantReservoir::returnToReservoir(float amountReturned, float temperature
 	float sumOfHeat = reservoirHeatContent + returnedFluidHeatContent;
 	float sumOfFluid = amountReturned + currentVolume;
 
-	//And now, just find the average heat per litre of fluid - essentially the temperature, heat per unit liquid
-	float finalTemperature = sumOfHeat / sumOfFluid;
-
-	//Now, we can just add the fluid back in and set the new temperature
-
 	
-	addToReservoir(amountReturned);
-	setTemperature(finalTemperature);
+
+	if ((sumOfFluid == 0) && (sumOfHeat == 0))
+	{
+		//Override a delete by 0
+
+	}
+	else
+	{
+		//Only if not a delete by 0,
+		//And now, just find the average heat per litre of fluid - essentially the temperature, heat per unit liquid
+		float finalTemperature = sumOfHeat / sumOfFluid;
+
+		//Now, we can just add the fluid back in and set the new temperature
+
+		addToReservoir(amountReturned);
+		setTemperature(finalTemperature);
+	}
+	
 }
 
 coolantPump::coolantPump()
