@@ -39,6 +39,8 @@ engine::engine()
 	engineTemperature = baseEngineTemp;
 	coolantAmount = 0;
 	coolantTemp = baseEngineTemp;
+	altitude = 0;
+	simCool = false;
 }
 
 engine::~engine()
@@ -114,6 +116,29 @@ float engine::getEngineTemperature()
 void engine::setEngineTemperature(float newTemp)
 {
 	engineTemperature = newTemp;
+}
+
+void engine::setAltitudeKilometres(float newAltitudeValue)
+{
+	altitude = newAltitudeValue;
+}
+float engine::getAltitudeKilometres()
+{
+	return altitude;
+}
+float engine::getAltitudeMetres()
+{
+	float altitudeMetres = altitude * 1000;
+	return altitudeMetres;
+}
+
+void engine::setCoolStatus(bool newCoolStatus)
+{
+	simCool = newCoolStatus;
+}
+bool engine::returnCoolStatus()
+{
+	return simCool;
 }
 
 fuelTank::fuelTank()
@@ -211,10 +236,12 @@ unsigned int __stdcall engineManager(void* data)
 	float pressureToSet = 0, engineFactor;
 	float engineSpeed = 0;
 	float engineTemp, coolantTemp, heatReduced, newTemp;
-
+	bool cool;
 
 	for (;;)
 	{
+		cool = theEngine().returnCoolStatus(); //Check to see if we are simulating cooling in this cycle.
+		
 		if (theEngine().engineStatus() == true)
 		{
 			//Engine is running
@@ -246,18 +273,24 @@ unsigned int __stdcall engineManager(void* data)
 			if (theEngine().getSpeed() == 0)
 			{
 				//Engine is in idle
-				theFuelPump().setPressure(idlePressure);
+				pressureToSet = idlePressure;
+				pressureToSet = pressureToSet + (theEngine().getAltitudeKilometres()/10);
+				theFuelPump().setPressure(pressureToSet);
 
-				//Add a fixed value to the current engine temperature...
-				engineTemp = theEngine().getEngineTemperature();
+				if (cool == true)
+				{
+					//Add a fixed value to the current engine temperature...
+					engineTemp = theEngine().getEngineTemperature();
 
-				engineTemp = engineTemp + (engineTemp * 0.1); //Increment by 10%
+					engineTemp = engineTemp + (engineTemp * 0.1); //Increment by 10%
 
-				theEngine().setEngineTemperature(engineTemp);
+					theEngine().setEngineTemperature(engineTemp);
 
-				WaitForSingleObject(theOutputMutex(), INFINITE);
-				cout << endl << "Engine temp is " << engineTemp << endl;
-				ReleaseMutex(theOutputMutex());
+					WaitForSingleObject(theOutputMutex(), INFINITE);
+					cout << endl << "Engine temp is " << engineTemp << endl;
+					ReleaseMutex(theOutputMutex());
+				}
+				
 			}
 			else
 			{
@@ -266,7 +299,7 @@ unsigned int __stdcall engineManager(void* data)
 				pressureToSet = idlePressure;
 
 				engineFactor = engineSpeed / 100;
-
+				engineFactor = engineFactor + +theEngine().getAltitudeKilometres();
 				pressureToSet = pressureToSet + engineFactor;
 
 				cout << endl << "Setting pressure to " << pressureToSet << endl;
@@ -274,24 +307,28 @@ unsigned int __stdcall engineManager(void* data)
 
 				theFuelPump().setPressure(pressureToSet);
 
-				engineTemp = theEngine().getEngineTemperature();
-
-				
-
-				//We need to set a limit to the engine temperature
-				//Say temperature should not be double a certain speed (at the speed, it wont go higher...)
-				if (theEngine().getEngineTemperature() <= (2 * engineSpeed))
+				if (cool == true)
 				{
-					//If less than double of the speed, then only add, else, dont add..
-					WaitForSingleObject(theOutputMutex(), INFINITE);
-					cout << endl << "Heating up engine... " << endl;
-					ReleaseMutex(theOutputMutex());
+					engineTemp = theEngine().getEngineTemperature();
 
 
-					engineTemp = engineTemp + (engineTemp * (engineFactor*0.25)); //Increment based on the engine factor...
 
+					//We need to set a limit to the engine temperature
+					//Say temperature should not be double a certain speed (at the speed, it wont go higher...)
+					if (theEngine().getEngineTemperature() <= (2 * engineSpeed))
+					{
+						//If less than double of the speed, then only add, else, dont add..
+						WaitForSingleObject(theOutputMutex(), INFINITE);
+						cout << endl << "Heating up engine... " << endl;
+						ReleaseMutex(theOutputMutex());
+
+
+						engineTemp = engineTemp + (engineTemp * (engineFactor*0.25)); //Increment based on the engine factor...
+
+					}
+					theEngine().setEngineTemperature(engineTemp);
 				}
-				theEngine().setEngineTemperature(engineTemp);
+				
 
 			}
 

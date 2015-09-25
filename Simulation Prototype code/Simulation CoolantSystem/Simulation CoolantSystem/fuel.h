@@ -21,6 +21,8 @@ private:
 	float coolantAmount;
 	float engineTemperature;
 	float coolantTemp;
+	float altitude; //altitude is in kilometers, please convert to meters for ths display
+	bool simCool; //false if we dont want to simulate the cooling system, else we would have this as a true
 
 public:
 	void setSpeed(int);
@@ -37,6 +39,11 @@ public:
 	void setCoolantTemp(float);
 	float getEngineTemperature();
 	void setEngineTemperature(float);
+	void setAltitudeKilometres(float); //pass in the values in kilometres
+	float getAltitudeKilometres();
+	float getAltitudeMetres();
+	void setCoolStatus(bool);
+	bool returnCoolStatus();
 };
 
 class fuelTank

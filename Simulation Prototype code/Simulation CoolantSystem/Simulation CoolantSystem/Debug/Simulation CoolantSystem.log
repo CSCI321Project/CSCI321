@@ -1,9 +1,25 @@
-﻿Build started 9/16/2015 1:01:54 AM.
+﻿Build started 9/21/2015 2:13:17 PM.
      1>Project "C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\Simulation CoolantSystem\Simulation CoolantSystem\Simulation CoolantSystem.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Coolant.cpp
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Coolant.cpp fuel.cpp main.cpp
+         main.cpp
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation coolantsystem\simulation coolantsystem\fuel.h(71): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation coolantsystem\simulation coolantsystem\main.cpp(59): warning C4305: 'argument' : truncation from 'double' to 'float'
+         fuel.cpp
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation coolantsystem\simulation coolantsystem\fuel.h(71): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation coolantsystem\simulation coolantsystem\fuel.cpp(170): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation coolantsystem\simulation coolantsystem\fuel.cpp(197): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation coolantsystem\simulation coolantsystem\fuel.cpp(276): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation coolantsystem\simulation coolantsystem\fuel.cpp(285): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation coolantsystem\simulation coolantsystem\fuel.cpp(298): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation coolantsystem\simulation coolantsystem\fuel.cpp(299): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation coolantsystem\simulation coolantsystem\fuel.cpp(326): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation coolantsystem\simulation coolantsystem\fuel.cpp(378): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation coolantsystem\simulation coolantsystem\fuel.cpp(379): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation coolantsystem\simulation coolantsystem\fuel.cpp(445): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+         Skipping... (no relevant changes detected)
          Coolant.cpp
-     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\simulation coolantsystem\simulation coolantsystem\fuel.h(64): warning C4305: 'initializing' : truncation from 'double' to 'float'
        Link:
          C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\Simulation CoolantSystem\Debug\Simulation CoolantSystem.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\Simulation CoolantSystem\Debug\Simulation CoolantSystem.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\Simulation CoolantSystem\Debug\Simulation CoolantSystem.lib" /MACHINE:X86 Debug\Coolant.obj
          Debug\main.obj
@@ -13,4 +29,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.08
+Time Elapsed 00:00:04.34

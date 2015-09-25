@@ -55,6 +55,9 @@ int main()
 	//Set the engine speed to 60
 	theEngine().setSpeed(130);
 
+	//Set the altitude
+	theEngine().setAltitudeKilometres(1.6);
+
 	//Note that only around 110/120 kmh we actually hit maximum temperature of the coolant when the cooldown is false
 
 	//Now need to wait for these objects to finish...

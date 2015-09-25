@@ -1,0 +1,28 @@
+﻿25
+0,What are automobile radiators used for?#Keep engine cool;Cool down the coolant fluid;Allow the air conditioning to work;Heat up the engine;1
+0,What does km/h stand for?#kilometres per hour;kilowatts per hour;kilo miles per hour;0
+0,Why are bumpers deformable?#Reduce injury when striking pedestrians in an accident;Reduce weight;Allows it to be shaped better;Makes it more aerodynamic;0
+0,What does FWD stand for?#Four Wheel Drive;Front Wheel Drive;Forward Wheel Drive;Five Wheel Drive;1
+
+0,When should you have your rear foglight on?#In the rain;In foggy situations;In both the rain and in foggy situation;Anytime at night;2
+0,Why shouldn’t you use your rear foglight on a clear day?#A waste of power;Causes glare and is a distraction to other drivers;Increases fuel consumption;People can already see the car, so it is pointless;1
+0,What happens when diesel is used in petrol cars?#The car will run;The car engine will catch fire;The engine will flood;The engine will not be able to be started and run;3
+0,What is the difference between a manual and automatic vehicle?#An automatic car will shift gears by itself;An automatic car has no gears;The shape of the shifter;The name;0
+0,How does a forward collision sensor work?#It predicts crashes;It looks out for obstacles and and warns if the driver is going to collide into it;It detects a collision when it occurs;It avoids collisions;1
+0,What do you need to do before filling up petrol at a petrol station?#Open the fuel cap;Stop the engine;Wait for the engine to cool down;Drain the remaining fuel;1
+0,How different is FWD from RWD?#The name;FWD sends power to the front wheels, RWD sends power to the rear wheels;RWD is used by automatic cars only;FWD is more efficient than RWD;1
+1,odometer.jpg,What is the part that says 151517 in the image?#Trip meter;Odometer;Speedometer;Fuel consumed;1
+1,quizPic/roofRackQuiz.jpg,What is the part shown in the image?#Sun Roof;Wiper;Emergency Exit;Roof Rack;3
+0,Speedometer, Indicator symbols and engine temperature are shown on the…#Radio screen;Centre console;Dashboard;Steering Wheel;2
+0,Which of the following is true about airbags?#They are primary restraint systems;An airbag can be reused once deployed;There are no airbags on the steering wheels;Airbags work with other restraint systems like the seatbelt to reduce the impact of the collision;3
+1,quizPic/spoilerQuiz.jpg,What is the part shown in the image?#Sun Roof;Exhaust Pipe;Reverse Sensors;Spoilers;3
+
+1,esc.jpg,What does this symbol represent when it is flashing?#ESC is currently off;ESC is not functioning;ESC is active and trying to regain stability of the car;The car is sliding;2
+0,What is the difference between the RPM meter and the speedometer?#RPM meter shows the number of revolutions per minute of the wheel while speedometer shows the speed of the movement of the car;Speedometer shows the vehicle speed while the RPM meter shows the engine speed;RPM shows the engine temperature while the speedometer shows the speed of the car;There is no difference;1
+0,What should you do when the ice warning light comes on?#Drive normally;Have the vehicle inspected;Drive carefully, in order to avoid black ice on the road;Check for ice on the car;2
+0,When should you turn off ESC?#When it is raining;In slippery conditions;In soft conditions like sand where we need traction by allowing the wheels to slide;To improve fuel consumption;2
+1,cel.jpg,What is this symbol called?#Service light;Check engine light;Check car light;Check fuel tank light;1
+0,What is the difference between an electric car and a fuel powered car?#Electric cars have no cooling system;Electric cars have no tailpipe;Electric cars are different to drive compared to regular cars;Electric cars don't need service;1
+0,Why do sedans don't have rear wipers?#For aerodynamics;For cost reasons;The rear glass of a sedan is already angled;For aesthetics;2
+0,What is the purpose of the side mirrors in a car?#To allow the driver to see him/herself in the mirror easily;For aerodynamics;For aesthetics;For viewing obstacles at the side of the car in the blind spot of the vehicle;3
+0,When should the hazard lights be used?#In poor conditions;At night;Anytime when the car is stationary on the road and potentially obstructing traffic;To indicate a change in direction;2
