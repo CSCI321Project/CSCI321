@@ -27,6 +27,13 @@ coolantReservoir::coolantReservoir()
 	capacity = defaultCapacity;
 
 }
+
+void coolantReservoir::reset()
+{
+	currentTemperature = defaultTemp;
+	currentVolume = defaultCurrentVol;
+	capacity = defaultCapacity;
+}
 coolantReservoir::~coolantReservoir()
 {
 	//Nothing to do in the destructor
@@ -110,6 +117,19 @@ coolantPump::coolantPump()
 	flowAmount = defaultFlow;
 	temperature = theCoolantReservoir().getTemperature();
 }
+
+void coolantPump::reset()
+{
+	//Initialise the temperature detected by the coolant pump to be whatever from the coolant reservoir
+	//pressure should be set to 0
+	flowAmount = defaultFlow;
+
+	//Just in case, reset the coolantReservoir, even if it has been reset, it's OK to reset again
+	theCoolantReservoir().reset();
+
+	temperature = theCoolantReservoir().getTemperature();
+
+}
 coolantPump::~coolantPump()
 {
 	//Nothing to do in the destructors
@@ -135,6 +155,13 @@ float coolantPump::getTemperature()
 radiator::radiator()
 {
 	//constructor for the radiator
+	coolDown = true; // we want to cool the coolant down
+	amountOfCoolant = 0; //radiator is initially empty
+	coolantTemperature = 0; // since no coolant so there isnt any temperature anyway...
+}
+
+void radiator::reset()
+{
 	coolDown = true; // we want to cool the coolant down
 	amountOfCoolant = 0; //radiator is initially empty
 	coolantTemperature = 0; // since no coolant so there isnt any temperature anyway...

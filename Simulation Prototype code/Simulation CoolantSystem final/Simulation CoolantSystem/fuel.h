@@ -46,6 +46,7 @@ public:
 	bool returnCool();
 	void setIncline(float);
 	float returnIncline();
+	void reset();
 };
 
 class fuelTank
@@ -65,6 +66,7 @@ public:
 	float getCurrentFuelLevel();
 	void addFuel(float, bool);
 	bool getFuelIsPetrol();
+	void reset();
 
 };
 class fuelPump
@@ -80,6 +82,7 @@ public:
 	bool fuelIsPetrol();
 	void setPressure(float);
 	void setFuelIsPetrol(bool);
+	void reset();
 };
 
 //Create instances

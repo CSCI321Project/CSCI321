@@ -7,6 +7,10 @@ battery::battery()
 {
 	status = true;
 }
+void battery::reset()
+{
+	status = true;
+}
 battery::~battery()
 {
 
@@ -55,6 +59,11 @@ lights::lights()
 	active = false;
 	//by default it is off
 }
+
+void lights::reset()
+{
+	active = false;
+}
 lights::~lights()
 {
 	//Nothing to do here
@@ -77,12 +86,23 @@ wipers::wipers()
 	//By default should be 0
 	speed = 0;
 }
+void wipers::reset()
+{
+	speed = 0; //default speed is 0
+}
 wipers::~wipers()
 {
 	//nothing to do here
 }
 
 radio::radio()
+{
+	//By default, set the volume to 0 and channel is channel 1 (can't have channel 0)
+	volume = 0;
+	channel = 1;
+}
+
+void radio::reset()
 {
 	//By default, set the volume to 0 and channel is channel 1 (can't have channel 0)
 	volume = 0;
@@ -118,6 +138,12 @@ int radio::getVolume()
 }
 
 rearDefrost::rearDefrost()
+{
+	//Set status to false by default
+	status = false;
+}
+
+void rearDefrost::reset()
 {
 	//Set status to false by default
 	status = false;

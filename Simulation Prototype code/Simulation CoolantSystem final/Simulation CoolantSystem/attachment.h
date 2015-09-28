@@ -11,6 +11,7 @@ public:
 	bool getStatus();
 	trailer();
 	~trailer();
+	void reset();
 };
 
 class towbox
@@ -23,6 +24,7 @@ public:
 	bool getStatus();
 	towbox();
 	~towbox();
+	void reset();
 };
 
 class towbar
@@ -40,6 +42,7 @@ public:
 	std::string getAttachedObject();
 	towbar();
 	~towbar();
+	void reset();
 
 };
 

@@ -37,6 +37,7 @@ class coolantReservoir
 		void setTemperature(float); //By the reservoir
 		float getTemperature();
 		void returnToReservoir(float, float);
+		void reset();
 };
 
 class coolantPump
@@ -54,6 +55,7 @@ class coolantPump
 		float getFlowAmt();
 		void setTemperature(float);
 		float getTemperature();
+		void reset();
 
 };
 
@@ -76,6 +78,7 @@ class radiator
 		void setTemperature(float);
 		void setCoolDown(bool);
 		bool getCoolDown();
+		void reset();
 		
 
 };

@@ -45,6 +45,12 @@ trailer::~trailer()
 	//Nothing to do here really
 }
 
+void trailer::reset()
+{
+	//By default, not attached
+	attachStatus = false;
+}
+
 void towbox::setStatus(bool newStatus)
 {
 	if ((theTowbar().getAttachedObject() == "trailer") && (theTowbar().getStatus() == true))
@@ -81,6 +87,13 @@ towbox::towbox()
 	//by default, not attched
 	attachStatus = false;
 }
+
+void towbox::reset()
+{
+	//by default, not attched
+	attachStatus = false;
+}
+
 towbox::~towbox()
 {
 	//Nothing much to do here
@@ -131,6 +144,13 @@ std::string towbar::getAttachedObject()
 	return attachment;
 }
 towbar::towbar()
+{
+	//By default nothing attached
+	attachStatus = false;
+	attachment = "";
+}
+
+void towbar::reset()
 {
 	//By default nothing attached
 	attachStatus = false;

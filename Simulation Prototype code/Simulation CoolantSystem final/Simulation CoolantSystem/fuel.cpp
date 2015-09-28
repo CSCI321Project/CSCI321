@@ -45,6 +45,17 @@ engine::engine()
 	simCool = false;
 }
 
+void engine::reset()
+{
+	active = false;
+	speed = 0;
+	engineTemperature = baseEngineTemp;
+	coolantAmount = 0;
+	coolantTemp = baseEngineTemp;
+	altitude = 0;
+	incline = 0;
+	simCool = false;
+}
 engine::~engine()
 {
 	//Nothing to do here in the destructor
@@ -163,6 +174,13 @@ fuelTank::fuelTank()
 	isPetrol = true;
 }
 
+void fuelTank::reset()
+{
+	currentVolume = tempFuelStart;
+	capacity = tankCapacity;
+	isPetrol = true;
+}
+
 fuelTank::~fuelTank()
 {
 	//Nothing to do here
@@ -214,6 +232,13 @@ fuelPump::fuelPump()
 
 	//cout << endl << "Constructor has been called..." << endl;
 }
+
+void fuelPump::reset()
+{
+	pressure = idlePressure;
+	isPetrol = true;
+}
+
 fuelPump::~fuelPump()
 {
 	//Destructor
@@ -337,6 +362,8 @@ unsigned int __stdcall engineManager(void* data)
 				engineFactor = engineFactor + (theEngine().getAltitudeKilometres() / 10);  //Consider the altitude here as well... Note that the altitude never goes below  0 anyway
 				engineFactor = engineFactor + (theEngine().returnIncline() / 10); //Consider the incline of the slope...
 
+
+				
 				//Need to also check if there are any trailer attachments as well
 				//if there is a trailer attachment, need to consider that as well
 				if (theTowbar().getStatus() == true)
@@ -347,6 +374,13 @@ unsigned int __stdcall engineManager(void* data)
 					engineFactor = engineFactor * 1.5;
 
 					//If there is no attachment, the engine factor is based on the speed only anyway so nothing for us to do on that side...
+				}
+
+				//Note if engineFactor becomes a -ve value, we need to adjust to at least 0
+
+				if (engineFactor < 0)
+				{
+					engineFactor = 0; //override and set to 0
 				}
 
 				pressureToSet = pressureToSet + engineFactor;

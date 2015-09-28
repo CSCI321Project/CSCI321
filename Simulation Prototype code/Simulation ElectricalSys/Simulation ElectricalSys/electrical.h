@@ -21,9 +21,7 @@ public:
 	~battery();
 	void setStatus(bool newStatus); //Battery is not alright if set to false, useful to simulate battery failure
 	bool returnStatus();
-	void addUser(std::string newUser);
-	void removeUser(std::string userToRemove);
-	void clearList();
+	void reset();
 };
 
 class lights //this is a general lights class we spawn various types of lights as different objects
@@ -36,6 +34,7 @@ public:
 	bool returnStatus();
 	lights();
 	~lights();
+	void reset();
 };
 
 class wipers //technically wiper motors....
@@ -48,6 +47,7 @@ public:
 	int returnWiperSpeed();
 	wipers();
 	~wipers();
+	void reset();
 };
 
 class radio{
@@ -62,7 +62,7 @@ public:
 	int getRadioChannel();
 	void setVolume(int newVolume);
 	int getVolume();
-
+	void reset();
 };
 
 class rearDefrost{
@@ -74,7 +74,7 @@ public:
 	~rearDefrost();
 	void setStatus(bool newStatus);
 	bool getStatus();
-
+	void reset();
 };
 
 //Create our class objects
