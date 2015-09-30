@@ -54,19 +54,28 @@ int main()
 	theEngine().setSpeed(0);
 
 	Sleep(5000);
-	cout << endl << "ADDING SPEED & Attachment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>" << endl;
-	theEngine().setSpeed(70);
-	theTrailer().setStatus(true);
-	theEngine().setIncline(10);
-	theEngine().setAltitudeKilometres(1.5);
-
-	Sleep(6000);
+	cout << endl << "ADDING SPEED >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>" << endl;
+	theEngine().setSpeed(60);
+	theTrailer().setStatus(false);
+	theEngine().setIncline(0.5);
+	theEngine().setAltitudeKilometres(0.5);
 	theEngine().setCool(true);
+
 	coolantReservoirHandle = (HANDLE)_beginthreadex(0, 0, &coolantReservoirManager, 0, 0, 0);
 	radiatorHandle = (HANDLE)_beginthreadex(0, 0, &radiatorManager, 0, 0, 0);
 	coolantPumpHandle = (HANDLE)_beginthreadex(0, 0, &coolantPumpManager, 0, 0, 0);
+
+	theRadiator().setCoolDown(false);
+
+	Sleep(6000);
+	
+
+	Sleep(6000);
+	theRadiator().setCoolDown(true);
 	cout << endl << "COOLING SYSTEM BEGINS" << endl;
 	//Note that only around 110/120 kmh we actually hit maximum temperature of the coolant when the cooldown is false
+	Sleep(6000);
+
 
 	//Now need to wait for these objects to finish...
 
