@@ -1,9 +1,9 @@
-﻿Build started 9/30/2015 9:53:52 PM.
+﻿Build started 10/1/2015 9:50:47 PM.
      1>Project "C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\EV and Hydrogen\EV and Hydrogen\EV and Hydrogen.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\ev and hydrogen\ev and hydrogen\main.cpp(17): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\kapil haresh\dropbox\uow\uow february 2015\project\csci321 project\simulation prototype code\ev and hydrogen\ev and hydrogen\main.cpp(43): warning C4305: 'argument' : truncation from 'double' to 'float'
        Link:
          C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\EV and Hydrogen\Debug\EV and Hydrogen.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\EV and Hydrogen\Debug\EV and Hydrogen.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kapil Haresh\Dropbox\UOW\UOW February 2015\Project\CSCI321 Project\Simulation Prototype code\EV and Hydrogen\Debug\EV and Hydrogen.lib" /MACHINE:X86 Debug\evHydro.obj
          Debug\main.obj
@@ -12,4 +12,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.24
+Time Elapsed 00:00:03.72
